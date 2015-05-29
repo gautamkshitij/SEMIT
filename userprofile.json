@@ -1,0 +1,85 @@
+{
+  "availability": [
+    {
+      "week_day": "Sunday",
+      "start_time": 100,
+      "end_time": 100
+    },
+    {
+      "week_day": "Sunday",
+      "start_time": 100,
+      "end_time": 100
+    }
+  ],
+  "joined": "2012-10-08 18:29:49",
+  "localization": {
+    "city": "asd",
+    "country": "asds"
+  },
+  "name": "Javier Blanco Martinez",
+  "projects": [
+    {
+      "last_updated": "2015-01-19 00:21:33.862000",
+      "name": "AppInventorBLEmodule",
+      "summary": "A bluetooth 4.0 Low energy GATT profile, module for APPinventor",
+      "url": "/p/appinventorblemodule/"
+    },
+    {
+      "last_updated": "2015-01-10 15:29:29.385000",
+      "name": "CrossplatformAlecuba16",
+      "summary": "CrossPlatform projects and tasks from uvic",
+      "url": "/p/crossplatformuvic/"
+    },
+    {
+      "last_updated": "2014-09-08 19:33:39.098000",
+      "name": "Energy Distribution Network Optimizer",
+      "summary": "Route Optimization(costs) on distributed energy network, parallelized.",
+      "url": "/p/masterale/"
+    },
+    {
+      "last_updated": "2014-10-15 21:05:29.675000",
+      "name": "Galaxy Quest",
+      "summary": "",
+      "url": "/p/galaxyquest/"
+    },
+    {
+      "last_updated": "2013-01-24 02:11:00.871000",
+      "name": "timetrackerjavi",
+      "summary": "",
+      "url": "/p/timetrackerjavi/"
+    }
+  ],
+  "sex": "Unknown",
+  "skills": [
+    {
+      "comment": "hello comment",
+      "level": "low",
+      "skill": {
+        "fullpath": "hello",
+        "fullname": "hasd",
+        "shortname": "",
+        "id": 123
+      }
+    },
+    {
+      "comment": "hello comment",
+      "level": "low",
+      "skill": {
+        "fullpath": "hello",
+        "fullname": "hasd",
+        "shortname": "",
+        "id": 123
+      }
+    }
+  ],
+  "skypeaccount": "helloSkype",
+  "telnumbers": [
+    "1234568",
+    "123123123"
+  ],
+  "username": "laris11",
+  "webpages": [
+    "abc.com",
+    "bbc.com"
+  ]
+}
