@@ -1,4 +1,3 @@
-
 package uic.semit.Project;
 
 import java.util.HashMap;
@@ -9,146 +8,141 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
 
 @Generated("org.jsonschema2pojo")
-public class Environment {
+public class Environment
+{
 
-    private String fullname;
-    private String fullpath;
-    private long id;
-    private String shortname;
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-    public Environment(String fullname, String fullpath, long id, String shortname)
-   	{
-   		
-   		this.fullname = fullname;
-   		this.fullpath = fullpath;
-   		this.id = id;
-   		this.shortname = shortname;
-   	}
-    /**
-     * 
-     * @return
-     *     The fullname
-     */
-    public String getFullname() {
-        return fullname;
-    }
+	private String fullname;
+	private String fullpath;
+	private long id;
+	private String shortname;
 
-    /**
-     * 
-     * @param fullname
-     *     The fullname
-     */
-    public void setFullname(String fullname) {
-        this.fullname = fullname;
-    }
+	public Environment(String fullname, String fullpath, long id,
+			String shortname)
+	{
 
-    public Environment withFullname(String fullname) {
-        this.fullname = fullname;
-        return this;
-    }
+		this.fullname = fullname;
+		this.fullpath = fullpath;
+		this.id = id;
+		this.shortname = shortname;
+	}
 
-    /**
-     * 
-     * @return
-     *     The fullpath
-     */
-    public String getFullpath() {
-        return fullpath;
-    }
+	/**
+	 * 
+	 * @return The fullname
+	 */
+	public String getFullname()
+	{
+		return fullname;
+	}
 
-    /**
-     * 
-     * @param fullpath
-     *     The fullpath
-     */
-    public void setFullpath(String fullpath) {
-        this.fullpath = fullpath;
-    }
+	/**
+	 * 
+	 * @param fullname
+	 *            The fullname
+	 */
+	public void setFullname(String fullname)
+	{
+		this.fullname = fullname;
+	}
 
-    public Environment withFullpath(String fullpath) {
-        this.fullpath = fullpath;
-        return this;
-    }
+	public Environment withFullname(String fullname)
+	{
+		this.fullname = fullname;
+		return this;
+	}
 
-    /**
-     * 
-     * @return
-     *     The id
-     */
-    public long getId() {
-        return id;
-    }
+	/**
+	 * 
+	 * @return The fullpath
+	 */
+	public String getFullpath()
+	{
+		return fullpath;
+	}
 
-    /**
-     * 
-     * @param id
-     *     The id
-     */
-    public void setId(long id) {
-        this.id = id;
-    }
+	/**
+	 * 
+	 * @param fullpath
+	 *            The fullpath
+	 */
+	public void setFullpath(String fullpath)
+	{
+		this.fullpath = fullpath;
+	}
 
-    public Environment withId(long id) {
-        this.id = id;
-        return this;
-    }
+	public Environment withFullpath(String fullpath)
+	{
+		this.fullpath = fullpath;
+		return this;
+	}
 
-    /**
-     * 
-     * @return
-     *     The shortname
-     */
-    public String getShortname() {
-        return shortname;
-    }
+	/**
+	 * 
+	 * @return The id
+	 */
+	public long getId()
+	{
+		return id;
+	}
 
-    /**
-     * 
-     * @param shortname
-     *     The shortname
-     */
-    public void setShortname(String shortname) {
-        this.shortname = shortname;
-    }
+	/**
+	 * 
+	 * @param id
+	 *            The id
+	 */
+	public void setId(long id)
+	{
+		this.id = id;
+	}
 
-    public Environment withShortname(String shortname) {
-        this.shortname = shortname;
-        return this;
-    }
+	public Environment withId(long id)
+	{
+		this.id = id;
+		return this;
+	}
 
-    @Override
-    public String toString() {
-        return ToStringBuilder.reflectionToString(this);
-    }
+	/**
+	 * 
+	 * @return The shortname
+	 */
+	public String getShortname()
+	{
+		return shortname;
+	}
 
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
+	/**
+	 * 
+	 * @param shortname
+	 *            The shortname
+	 */
+	public void setShortname(String shortname)
+	{
+		this.shortname = shortname;
+	}
 
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
-    }
+	public Environment withShortname(String shortname)
+	{
+		this.shortname = shortname;
+		return this;
+	}
 
-    public Environment withAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
-        return this;
-    }
+	@Override
+	public String toString()
+	{
+		return ToStringBuilder.reflectionToString(this);
+	}
 
-    @Override
-    public int hashCode() {
-        return new HashCodeBuilder().append(fullname).append(fullpath).append(id).append(shortname).append(additionalProperties).toHashCode();
-    }
+	@Override
+	public boolean equals(Object other)
+	{
+		if (other == this) { return true; }
+		if ((other instanceof Environment) == false) { return false; }
+		Environment rhs = ((Environment) other);
+		return new EqualsBuilder().append(fullname, rhs.fullname)
+				.append(fullpath, rhs.fullpath).append(id, rhs.id)
+				.append(shortname, rhs.shortname)
 
-    @Override
-    public boolean equals(Object other) {
-        if (other == this) {
-            return true;
-        }
-        if ((other instanceof Environment) == false) {
-            return false;
-        }
-        Environment rhs = ((Environment) other);
-        return new EqualsBuilder().append(fullname, rhs.fullname).append(fullpath, rhs.fullpath).append(id, rhs.id).append(shortname, rhs.shortname).append(additionalProperties, rhs.additionalProperties).isEquals();
-    }
+				.isEquals();
+	}
 
 }

@@ -13,7 +13,6 @@ public class Socialnetwork
 
 	private String accounturl;
 	private String socialnetwork;
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 	/**
 	 * 
@@ -79,27 +78,11 @@ public class Socialnetwork
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Socialnetwork withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
 	@Override
 	public int hashCode()
 	{
 		return new HashCodeBuilder().append(accounturl).append(socialnetwork)
-				.append(additionalProperties).toHashCode();
+				.toHashCode();
 	}
 
 	@Override
@@ -110,7 +93,7 @@ public class Socialnetwork
 		Socialnetwork rhs = ((Socialnetwork) other);
 		return new EqualsBuilder().append(accounturl, rhs.accounturl)
 				.append(socialnetwork, rhs.socialnetwork)
-				.append(additionalProperties, rhs.additionalProperties)
+
 				.isEquals();
 	}
 

@@ -13,9 +13,10 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class JsonParser
+public class JsonProjectParser
 {
-	public static void main(String[] args)
+	public Project initiliazeProject(String ProjectName)
+
 	{
 		Project p = new Project("masterale");
 		JSONParser parser = new JSONParser();
@@ -73,6 +74,14 @@ public class JsonParser
 
 			Boolean _private = (Boolean) project.get("private");
 			p.setPrivate(_private);
+
+			JSONArray labels = (JSONArray) project.get("labels");
+			List<String> labelList = new ArrayList<String>();
+			for (int i = 0; i < labels.size(); i++)
+			{
+				labelList.add((String) labels.get(i));
+			}
+			p.setLabels(labelList);
 
 			Iterator i = null;
 
@@ -151,10 +160,10 @@ public class JsonParser
 			}
 
 			JSONArray tools = (JSONArray) project.get("tools");
-			System.out.println(tools);
+
 			List<Tool> toolList = new ArrayList<Tool>();
 
-			if (toolList.size() != 0)
+			if (tools.size() != 0)
 			{
 
 				i = tools.iterator();
@@ -174,9 +183,9 @@ public class JsonParser
 						toolList.add(new Tool((String) toolsInnerObj
 								.get("label"), (String) toolsInnerObj
 								.get("mount_point"), (String) toolsInnerObj
-								.get("name"), (int) toolsInnerObj
+								.get("name"), (long) toolsInnerObj
 								.get("sourceforge_group_id")));
-						System.out.println(toolList);
+
 					}
 				}
 
@@ -406,5 +415,6 @@ public class JsonParser
 			e.printStackTrace();
 		}
 
+		return p;
 	}
 }

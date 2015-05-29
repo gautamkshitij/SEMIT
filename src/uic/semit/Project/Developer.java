@@ -14,7 +14,6 @@ public class Developer
 	private String name;
 	private String url;
 	private String username;
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 	public Developer(String name, String url, String username)
 	{
@@ -105,29 +104,6 @@ public class Developer
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Developer withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
-	@Override
-	public int hashCode()
-	{
-		return new HashCodeBuilder().append(name).append(url).append(username)
-				.append(additionalProperties).toHashCode();
-	}
-
 	@Override
 	public boolean equals(Object other)
 	{
@@ -136,7 +112,7 @@ public class Developer
 		Developer rhs = ((Developer) other);
 		return new EqualsBuilder().append(name, rhs.name).append(url, rhs.url)
 				.append(username, rhs.username)
-				.append(additionalProperties, rhs.additionalProperties)
+				
 				.isEquals();
 	}
 

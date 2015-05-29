@@ -14,7 +14,6 @@ public class Screenshot
 	private String caption;
 	private String thumbnailUrl;
 	private String url;
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 	public Screenshot(String caption, String thumbnailUrl, String url)
 	{
@@ -105,27 +104,11 @@ public class Screenshot
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Screenshot withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
 	@Override
 	public int hashCode()
 	{
 		return new HashCodeBuilder().append(caption).append(thumbnailUrl)
-				.append(url).append(additionalProperties).toHashCode();
+				.append(url).toHashCode();
 	}
 
 	@Override
@@ -136,7 +119,7 @@ public class Screenshot
 		Screenshot rhs = ((Screenshot) other);
 		return new EqualsBuilder().append(caption, rhs.caption)
 				.append(thumbnailUrl, rhs.thumbnailUrl).append(url, rhs.url)
-				.append(additionalProperties, rhs.additionalProperties)
+
 				.isEquals();
 	}
 

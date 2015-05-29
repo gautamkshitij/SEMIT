@@ -15,11 +15,10 @@ public class Audience
 	private String fullpath;
 	private long id;
 	private String shortname;
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 	public Audience(String fullname, String fullpath, long id, String shortname)
 	{
-		
+
 		this.fullname = fullname;
 		this.fullpath = fullpath;
 		this.id = id;
@@ -132,28 +131,11 @@ public class Audience
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Audience withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
 	@Override
 	public int hashCode()
 	{
 		return new HashCodeBuilder().append(fullname).append(fullpath)
-				.append(id).append(shortname).append(additionalProperties)
-				.toHashCode();
+				.append(id).append(shortname).toHashCode();
 	}
 
 	@Override
@@ -165,7 +147,7 @@ public class Audience
 		return new EqualsBuilder().append(fullname, rhs.fullname)
 				.append(fullpath, rhs.fullpath).append(id, rhs.id)
 				.append(shortname, rhs.shortname)
-				.append(additionalProperties, rhs.additionalProperties)
+
 				.isEquals();
 	}
 

@@ -31,8 +31,6 @@ public class Project
 	private String url;
 	private String videoUrl;
 
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-
 	private List<Developer> developers = new ArrayList<Developer>();
 	private List<Tool> tools = new ArrayList<Tool>();
 	private List<Screenshot> screenshots = new ArrayList<Screenshot>();
@@ -578,22 +576,6 @@ public class Project
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Project withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
 	@Override
 	public int hashCode()
 	{
@@ -604,8 +586,7 @@ public class Project
 				.append(preferredSupportUrl).append(_private)
 				.append(screenshots).append(shortDescription).append(shortname)
 				.append(socialnetworks).append(status).append(summary)
-				.append(tools).append(url).append(videoUrl)
-				.append(additionalProperties).toHashCode();
+				.append(tools).append(url).append(videoUrl).toHashCode();
 	}
 
 	@Override
@@ -631,7 +612,7 @@ public class Project
 				.append(status, rhs.status).append(summary, rhs.summary)
 				.append(tools, rhs.tools).append(url, rhs.url)
 				.append(videoUrl, rhs.videoUrl)
-				.append(additionalProperties, rhs.additionalProperties)
+
 				.isEquals();
 	}
 

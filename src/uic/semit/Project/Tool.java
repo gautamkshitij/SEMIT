@@ -14,11 +14,10 @@ public class Tool
 	private String label;
 	private String mountPoint;
 	private String name;
-	private int sourceforgeGroupId;
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+	private long sourceforgeGroupId;
 
 	public Tool(String label, String mountPoint, String name,
-			int sourceforgeGroupId)
+			long sourceforgeGroupId)
 	{
 
 		this.label = label;
@@ -106,7 +105,7 @@ public class Tool
 	 * 
 	 * @return The sourceforgeGroupId
 	 */
-	public int getSourceforgeGroupId()
+	public long getSourceforgeGroupId()
 	{
 		return sourceforgeGroupId;
 	}
@@ -116,12 +115,12 @@ public class Tool
 	 * @param sourceforgeGroupId
 	 *            The sourceforge_group_id
 	 */
-	public void setSourceforgeGroupId(int sourceforgeGroupId)
+	public void setSourceforgeGroupId(long sourceforgeGroupId)
 	{
 		this.sourceforgeGroupId = sourceforgeGroupId;
 	}
 
-	public Tool withSourceforgeGroupId(int sourceforgeGroupId)
+	public Tool withSourceforgeGroupId(long sourceforgeGroupId)
 	{
 		this.sourceforgeGroupId = sourceforgeGroupId;
 		return this;
@@ -133,28 +132,11 @@ public class Tool
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Tool withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
 	@Override
 	public int hashCode()
 	{
 		return new HashCodeBuilder().append(label).append(mountPoint)
-				.append(name).append(sourceforgeGroupId)
-				.append(additionalProperties).toHashCode();
+				.append(name).append(sourceforgeGroupId).toHashCode();
 	}
 
 	@Override
@@ -166,7 +148,7 @@ public class Tool
 		return new EqualsBuilder().append(label, rhs.label)
 				.append(mountPoint, rhs.mountPoint).append(name, rhs.name)
 				.append(sourceforgeGroupId, rhs.sourceforgeGroupId)
-				.append(additionalProperties, rhs.additionalProperties)
+
 				.isEquals();
 	}
 

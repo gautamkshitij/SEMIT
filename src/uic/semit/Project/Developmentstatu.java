@@ -15,7 +15,6 @@ public class Developmentstatu
 	private String fullpath;
 	private long id;
 	private String shortname;
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 	public Developmentstatu(String fullname, String fullpath, long id,
 			String shortname)
@@ -133,30 +132,6 @@ public class Developmentstatu
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Developmentstatu withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
-	@Override
-	public int hashCode()
-	{
-		return new HashCodeBuilder().append(fullname).append(fullpath)
-				.append(id).append(shortname).append(additionalProperties)
-				.toHashCode();
-	}
-
 	@Override
 	public boolean equals(Object other)
 	{
@@ -166,7 +141,7 @@ public class Developmentstatu
 		return new EqualsBuilder().append(fullname, rhs.fullname)
 				.append(fullpath, rhs.fullpath).append(id, rhs.id)
 				.append(shortname, rhs.shortname)
-				.append(additionalProperties, rhs.additionalProperties)
+
 				.isEquals();
 	}
 

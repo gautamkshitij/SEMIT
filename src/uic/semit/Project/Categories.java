@@ -22,7 +22,6 @@ public class Categories
 	private List<Os> os = new ArrayList<Os>();
 	private List<Topic> topic = new ArrayList<Topic>();
 	private List<Translation> translation = new ArrayList<Translation>();
-	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 	public Categories(List<Audience> audience, List<Database> database,
 			List<Developmentstatu> developmentstatus,
@@ -275,29 +274,13 @@ public class Categories
 		return ToStringBuilder.reflectionToString(this);
 	}
 
-	public Map<String, Object> getAdditionalProperties()
-	{
-		return this.additionalProperties;
-	}
-
-	public void setAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-	}
-
-	public Categories withAdditionalProperty(String name, Object value)
-	{
-		this.additionalProperties.put(name, value);
-		return this;
-	}
-
 	@Override
 	public int hashCode()
 	{
 		return new HashCodeBuilder().append(audience).append(database)
 				.append(developmentstatus).append(environment).append(language)
 				.append(license).append(os).append(topic).append(translation)
-				.append(additionalProperties).toHashCode();
+				.toHashCode();
 	}
 
 	@Override
@@ -313,7 +296,7 @@ public class Categories
 				.append(language, rhs.language).append(license, rhs.license)
 				.append(os, rhs.os).append(topic, rhs.topic)
 				.append(translation, rhs.translation)
-				.append(additionalProperties, rhs.additionalProperties)
+
 				.isEquals();
 	}
 
