@@ -1,13 +1,15 @@
 package uic.semit.Project.ProjectData;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 import javax.annotation.Generated;
+
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
+
+import uic.semit.Project.SourceCode.CodeFile;
 
 @Generated("org.jsonschema2pojo")
 public class Project
@@ -30,7 +32,7 @@ public class Project
 	private String summary;
 	private String url;
 	private String videoUrl;
-
+	private List<CodeFile> codeFiles = new ArrayList<CodeFile>();
 	private List<Developer> developers = new ArrayList<Developer>();
 	private List<Tool> tools = new ArrayList<Tool>();
 	private List<Screenshot> screenshots = new ArrayList<Screenshot>();
@@ -43,6 +45,16 @@ public class Project
 		this.projectName = projectName;
 		this.projectURL = "http://sourceforge.net/projects/" + projectName;
 		this.projectrestAPIURL = "ttp://sourceforge.net/rest/p/" + projectName;
+	}
+
+	public List<CodeFile> getCodeFiles()
+	{
+		return codeFiles;
+	}
+
+	public void setCodeFiles(List<CodeFile> codeFiles)
+	{
+		this.codeFiles = codeFiles;
 	}
 
 	/**

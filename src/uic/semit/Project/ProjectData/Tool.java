@@ -1,29 +1,31 @@
 package uic.semit.Project.ProjectData;
 
-import java.util.HashMap;
-import java.util.Map;
 import javax.annotation.Generated;
+
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
+import org.json.simple.JSONObject;
 
 @Generated("org.jsonschema2pojo")
 public class Tool
 {
 
 	private String label;
-	private String mountPoint;
+	private String mount_point;
 	private String name;
 	private long sourceforgeGroupId;
+	private JSONObject mount_point_more;
 
 	public Tool(String label, String mountPoint, String name,
-			long sourceforgeGroupId)
+			long sourceforgeGroupId, JSONObject mount_point)
 	{
 
 		this.label = label;
-		this.mountPoint = mountPoint;
+		this.mount_point = mountPoint;
 		this.name = name;
 		this.sourceforgeGroupId = sourceforgeGroupId;
+		this.mount_point_more = mount_point;
 	}
 
 	/**
@@ -57,7 +59,7 @@ public class Tool
 	 */
 	public String getMountPoint()
 	{
-		return mountPoint;
+		return mount_point;
 	}
 
 	/**
@@ -67,12 +69,12 @@ public class Tool
 	 */
 	public void setMountPoint(String mountPoint)
 	{
-		this.mountPoint = mountPoint;
+		this.mount_point = mountPoint;
 	}
 
 	public Tool withMountPoint(String mountPoint)
 	{
-		this.mountPoint = mountPoint;
+		this.mount_point = mountPoint;
 		return this;
 	}
 
@@ -135,7 +137,7 @@ public class Tool
 	@Override
 	public int hashCode()
 	{
-		return new HashCodeBuilder().append(label).append(mountPoint)
+		return new HashCodeBuilder().append(label).append(mount_point)
 				.append(name).append(sourceforgeGroupId).toHashCode();
 	}
 
@@ -146,7 +148,7 @@ public class Tool
 		if ((other instanceof Tool) == false) { return false; }
 		Tool rhs = ((Tool) other);
 		return new EqualsBuilder().append(label, rhs.label)
-				.append(mountPoint, rhs.mountPoint).append(name, rhs.name)
+				.append(mount_point, rhs.mount_point).append(name, rhs.name)
 				.append(sourceforgeGroupId, rhs.sourceforgeGroupId)
 
 				.isEquals();

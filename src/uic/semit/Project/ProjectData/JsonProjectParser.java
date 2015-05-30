@@ -21,14 +21,13 @@ public class JsonProjectParser
 
 	{
 		Project p = new Project("masterale");
-		JSONParser parser = new JSONParser();
+		JSONParser projectParser = new JSONParser();
 
 		try
 		{
 
-			Object obj = parser.parse(new FileReader("./untitled.json"));
-
-			JSONObject project = (JSONObject) obj;
+			JSONObject project = (JSONObject) projectParser
+					.parse(new FileReader("./untitled.json"));
 
 			String id = (String) project.get("_id");
 			p.setId(id);
@@ -176,12 +175,16 @@ public class JsonProjectParser
 				{
 
 					JSONObject toolsInnerObj = (JSONObject) i.next();
+					// read from rest/p/mount_point
+					JSONObject mount_point_parser = (JSONObject) projectParser
+							.parse(new FileReader("./test.json"));
+
 					if (!toolsInnerObj.containsKey("sourceforge_group_id"))
 					{
 						toolList.add(new Tool((String) toolsInnerObj
 								.get("label"), (String) toolsInnerObj
 								.get("mount_point"), (String) toolsInnerObj
-								.get("name"), -1));
+								.get("name"), -1, mount_point_parser));
 					}
 					else
 					{
@@ -189,7 +192,8 @@ public class JsonProjectParser
 								.get("label"), (String) toolsInnerObj
 								.get("mount_point"), (String) toolsInnerObj
 								.get("name"), (long) toolsInnerObj
-								.get("sourceforge_group_id")));
+								.get("sourceforge_group_id"),
+								mount_point_parser));
 
 					}
 				}
@@ -198,7 +202,7 @@ public class JsonProjectParser
 			}
 			else
 			{
-				toolList.add(new Tool(null, null, null, -1));
+				toolList.add(new Tool(null, null, null, -1, null));
 			}
 
 			JSONObject categories = (JSONObject) project.get("categories");
