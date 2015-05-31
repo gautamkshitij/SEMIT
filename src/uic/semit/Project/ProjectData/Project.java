@@ -14,6 +14,7 @@ import uic.semit.Project.SourceCode.CodeFile;
 @Generated("org.jsonschema2pojo")
 public class Project
 {
+
 	private String projectName; // project name from input file
 	private String projectURL; // http://sourceforge.net/projects/[project-name]/
 	private String projectrestAPIURL; // http://sourceforge.net/rest/p/[project-name]/
@@ -45,6 +46,7 @@ public class Project
 		this.projectName = projectName;
 		this.projectURL = "http://sourceforge.net/projects/" + projectName;
 		this.projectrestAPIURL = "ttp://sourceforge.net/rest/p/" + projectName;
+
 	}
 
 	public List<CodeFile> getCodeFiles()

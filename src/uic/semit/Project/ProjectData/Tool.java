@@ -15,7 +15,7 @@ public class Tool
 	private String mount_point;
 	private String name;
 	private long sourceforgeGroupId;
-	private JSONObject mount_point_more;
+	private JSONObject mount_point_data;
 
 	public Tool(String label, String mountPoint, String name,
 			long sourceforgeGroupId, JSONObject mount_point)
@@ -25,7 +25,7 @@ public class Tool
 		this.mount_point = mountPoint;
 		this.name = name;
 		this.sourceforgeGroupId = sourceforgeGroupId;
-		this.mount_point_more = mount_point;
+		this.mount_point_data = mount_point;
 	}
 
 	/**

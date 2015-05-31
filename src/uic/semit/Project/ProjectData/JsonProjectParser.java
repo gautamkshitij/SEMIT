@@ -426,4 +426,9 @@ public class JsonProjectParser
 
 		return p;
 	}
+
+	public static JSONObject getJSONfromURL(String projectURL)
+	{
+		return null;
+	}
 }
