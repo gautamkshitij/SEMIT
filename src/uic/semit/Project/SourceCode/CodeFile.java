@@ -4,14 +4,13 @@ public class CodeFile
 {
 	String fileName;
 	String fileType;
-	String ASTSourceCode;
 
-	public CodeFile(String fileName, String fileType, String ASTSourceCode)
+	public CodeFile(String fileName, String fileType) throws Exception
 	{
 
 		this.fileName = fileName;
 		this.fileType = fileType;
-		this.ASTSourceCode = ASTSourceCode;
+
 	}
 
 	@Override
@@ -20,11 +19,10 @@ public class CodeFile
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((ASTSourceCode == null) ? 0 : ASTSourceCode.hashCode());
-		result = prime * result
 				+ ((fileName == null) ? 0 : fileName.hashCode());
 		result = prime * result
 				+ ((fileType == null) ? 0 : fileType.hashCode());
+
 		return result;
 	}
 
@@ -38,13 +36,6 @@ public class CodeFile
 		if (getClass() != obj.getClass())
 			return false;
 		CodeFile other = (CodeFile) obj;
-		if (ASTSourceCode == null)
-		{
-			if (other.ASTSourceCode != null)
-				return false;
-		}
-		else if (!ASTSourceCode.equals(other.ASTSourceCode))
-			return false;
 		if (fileName == null)
 		{
 			if (other.fileName != null)
@@ -59,14 +50,8 @@ public class CodeFile
 		}
 		else if (!fileType.equals(other.fileType))
 			return false;
-		return true;
-	}
 
-	@Override
-	public String toString()
-	{
-		return "CodeFiles [fileName=" + fileName + ", fileType=" + fileType
-				+ ", ASTSourceCode=" + ASTSourceCode + "]";
+		return true;
 	}
 
 	public String getFileName()
@@ -87,16 +72,6 @@ public class CodeFile
 	public void setFileType(String fileType)
 	{
 		this.fileType = fileType;
-	}
-
-	public String getASTSourceCode()
-	{
-		return ASTSourceCode;
-	}
-
-	public void setASTSourceCode(String aSTSourceCode)
-	{
-		ASTSourceCode = aSTSourceCode;
 	}
 
 }

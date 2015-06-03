@@ -1,8 +1,7 @@
 package uic.semit.Project.ProjectData;
 
-import java.util.HashMap;
-import java.util.Map;
 import javax.annotation.Generated;
+
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;

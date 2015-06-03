@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 
 public class ObjectToJSON
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws Exception
 	{
 		Gson gson = new Gson();
 		Project newProject = new JsonProjectParser().initiliazeProject("");

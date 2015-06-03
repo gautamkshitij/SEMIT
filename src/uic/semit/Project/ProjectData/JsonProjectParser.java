@@ -13,11 +13,12 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import uic.semit.Project.SourceCode.CodeFile;
 import uic.semit.Project.UserProfile.jsonTOuserProfile;
 
 public class JsonProjectParser
 {
-	public Project initiliazeProject(String ProjectName)
+	public Project initiliazeProject(String ProjectName) throws Exception
 
 	{
 		Project p = new Project("masterale");
@@ -75,6 +76,11 @@ public class JsonProjectParser
 
 			Boolean _private = (Boolean) project.get("private");
 			p.setPrivate(_private);
+
+			List<CodeFile> codes = new ArrayList<>();
+			codes.add(new CodeFile("Testing", ".java"));
+			codes.add(new CodeFile("make", ".java"));
+			p.setCodeFiles(codes);
 
 			JSONArray labels = (JSONArray) project.get("labels");
 			List<String> labelList = new ArrayList<String>();

@@ -2,11 +2,13 @@ package uic.semit.Project.UserProfile;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.annotation.Generated;
-import com.google.gson.annotations.Expose;
+
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
-import org.apache.commons.lang.builder.ToStringBuilder;
+
+import com.google.gson.annotations.Expose;
 
 @Generated("org.jsonschema2pojo")
 public class UserProfile
