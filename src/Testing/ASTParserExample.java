@@ -42,7 +42,7 @@ public class ASTParserExample
 		List properties = node.structuralPropertiesForType();
 		for (ASTNode o : (ASTNode[]) getChildren(node))
 		{
-			//System.out.println(o.);
+			// System.out.println(o.);
 		}
 		// System.err.println(node.toString().toString());
 		// System.err.println(properties.toString().toString());

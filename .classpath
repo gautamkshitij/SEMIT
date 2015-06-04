@@ -8,5 +8,15 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JDT"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Antlr_Tutorial1"/>
 	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/ANTLR 4.5/lib/antlr-3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/fluent-hc-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpclient-cache-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpclient-win-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/jna-platform-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

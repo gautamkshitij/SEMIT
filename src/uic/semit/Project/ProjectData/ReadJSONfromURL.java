@@ -1,4 +1,4 @@
-package Testing;
+package uic.semit.Project.ProjectData;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -7,6 +7,7 @@ import org.apache.http.util.EntityUtils;
 
 public class ReadJSONfromURL
 {
+	private static String url = "http://www.apache.org/";
 
 	@SuppressWarnings("deprecation")
 	public static String getJson(String ProjectURL)
@@ -34,6 +35,18 @@ public class ReadJSONfromURL
 				json_string = EntityUtils.toString(response.getEntity());
 				return json_string;
 			}
+
+			//
+			// BufferedReader br = new BufferedReader(new InputStreamReader(
+			// (response.getEntity().getContent())));
+			//
+			// String output;
+			// System.out.println("Output from Server .... \n");
+			// while ((output = br.readLine()) != null)
+			// {
+			// System.out.println(output);
+			// }
+			//
 			httpClient.getConnectionManager().shutdown();
 
 		}

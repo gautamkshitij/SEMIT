@@ -17,6 +17,7 @@ public class FileUtils
 	public static List<String> readTextFileByLines(String fileName)
 			throws IOException
 	{
+		
 		List<String> lines = Files.readAllLines(Paths.get(fileName));
 		return lines;
 	}

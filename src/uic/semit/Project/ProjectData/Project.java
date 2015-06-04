@@ -33,9 +33,9 @@ public class Project
 	private String summary;
 	private String url;
 	private String videoUrl;
-	
+
 	private List<CodeFile> codeFiles = new ArrayList<CodeFile>();
-	
+
 	private List<Developer> developers = new ArrayList<Developer>();
 	private List<Tool> tools = new ArrayList<Tool>();
 	private List<Screenshot> screenshots = new ArrayList<Screenshot>();
