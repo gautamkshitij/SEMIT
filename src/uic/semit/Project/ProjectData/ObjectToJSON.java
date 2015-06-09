@@ -16,7 +16,8 @@ import com.google.gson.GsonBuilder;
 public class ObjectToJSON
 {
 	public static List<DownloadFiles> projectFiles = new ArrayList<DownloadFiles>();
-	static File file2 = new File("./Java_Project_SouceCode_part2.json");
+	static File file2 = new File(
+			"./DATA/Collected/Java_Project_SouceCode_SourceForge.json");
 	static Gson gson = new GsonBuilder().setPrettyPrinting().create();
 	static FileWriter fw1;
 	static BufferedWriter bw1;
@@ -29,36 +30,35 @@ public class ObjectToJSON
 		List<Project> projects = new ArrayList<Project>();
 		Project newProject = null;
 
-		File file = new File("./Java_Project_Data_part2.json");
-		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		// File file = new File(
+		// "./DATA/Collected/Java_Project_Data_SourceForge.json");
+		// FileWriter fw = new FileWriter(file.getAbsoluteFile());
 
 		fw1 = new FileWriter(file2.getAbsoluteFile()); // for source code
 
-		BufferedWriter bw = new BufferedWriter(fw);
-
-		bw.write("[");
+		// BufferedWriter bw = new BufferedWriter(fw);
+		//
+		// bw.write("[");
 		bw1.write("[");
-
+int i =0;
 		try (BufferedReader br = new BufferedReader(new FileReader(
-				"./Java_Project_Part2.txt")))
+				"./DATA/projectNames/Java_Project_Part2.txt")))
 		{
 			for (String projectName; (projectName = br.readLine()) != null;)
 			{
+				System.out.println(i);
 				newProject = new JsonProjectParser()
 						.initiliazeProject(projectName);
 				String json = gson.toJson(newProject);
-				bw.write(json);
-				bw.write(",");
-
-				// projects.add(newProject);
-
-				// System.out.println(projectName);
+				// bw.write(json);
+				// bw.write(",");
+				i++;
 			}
 
 		}
-		bw.write("]");
+		// bw.write("]");
 		bw1.write("]");
-		bw.close();
+		// bw.close();
 		bw1.close();
 
 	}
@@ -68,6 +68,7 @@ public class ObjectToJSON
 		String codejson = gson.toJson(df);
 		try
 		{
+		
 			bw1.write(codejson);
 			bw1.write(",");
 		}
