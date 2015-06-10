@@ -6,17 +6,18 @@
 	<classpathentry kind="lib" path="lib/gson-2.3.1.jar"/>
 	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JDT"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Antlr_Tutorial1"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/ANTLR 4.5/lib/antlr-3.2.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/fluent-hc-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpclient-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpclient-cache-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpclient-win-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpcore-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/httpmime-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/kshitijgautam/Google Drive/Coding/jar/httpcomponents-client-4.4.1/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="Supported Project/Antlr_Tutorial1"/>
+	<classpathentry kind="lib" path="lib/svnkit-1.3.5.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/fluent-hc-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/httpclient-cache-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/httpclient-win-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/http client 4.4.1/jna-platform-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
