@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class DownloadSourceFiles
+public class DownloadProjectExecutables
 {
 
 	public static void downloadProject(String projectName,
@@ -51,7 +51,7 @@ public class DownloadSourceFiles
 
 	public static void main(String[] args) throws IOException
 	{
-		DownloadSourceFiles.downloadProject("discrialign", "DiscriAlign.zip");
+		DownloadProjectExecutables.downloadProject("discrialign", "DiscriAlign.zip");
 
 	}
 }

@@ -12,11 +12,7 @@ public class RunTimeCommandExample
 
 		String domainName = "google.com";
 
-		// in mac oxs
 		String command = "git clone git://git.code.sf.net/p/mingw/mpmkr mingw-mpmkr";
-
-		// in windows
-		// String command = "ping -n 3 " + domainName;
 
 		String output = obj.executeCommand(command);
 
