@@ -1,4 +1,4 @@
-package uic.semit.Project.SourceCode;
+package Testing;
 
 import java.io.File;
 import java.io.IOException;
@@ -51,7 +51,8 @@ public class DownloadProjectExecutables
 
 	public static void main(String[] args) throws IOException
 	{
-		DownloadProjectExecutables.downloadProject("discrialign", "DiscriAlign.zip");
+		DownloadProjectExecutables.downloadProject("discrialign",
+				"DiscriAlign.zip");
 
 	}
 }
