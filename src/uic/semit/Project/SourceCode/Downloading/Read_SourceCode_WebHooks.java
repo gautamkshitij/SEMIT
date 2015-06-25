@@ -17,15 +17,16 @@ import org.jsoup.select.Elements;
 
 public class Read_SourceCode_WebHooks
 {
-
-	static ArrayList<String> menuConstants = new ArrayList<String>(
-			Arrays.asList("git", "mercurial", "svn", "cvs", "code", "hg"));
-	static Document projectHomePage;
-
 	/*
 	 * menu_consume_git menu_consume_mercurial menu_consume_svn menu_consume_cvs
 	 * menu_consume_code menu_consume_hg
 	 */
+
+	static ArrayList<String> menuConstants = new ArrayList<String>(
+			Arrays.asList("git", "mercurial", "svn", "cvs", "code", "hg"));
+
+	static Document projectHomePage;
+
 	public static void main(String[] args)
 	{
 		ProjectStructure projectStructure;
@@ -222,4 +223,9 @@ public class Read_SourceCode_WebHooks
 		return readOnlyUrl.trim();
 
 	}
+
+	public static void startDownloadingProject(ProjectStructure projectstrucutre)
+	{
+	}
+
 }

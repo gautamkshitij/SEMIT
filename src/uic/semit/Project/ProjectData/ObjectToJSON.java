@@ -40,7 +40,7 @@ public class ObjectToJSON
 		//
 		// bw.write("[");
 		bw1.write("[");
-int i =0;
+		int i = 0;
 		try (BufferedReader br = new BufferedReader(new FileReader(
 				"./DATA/projectNames/Java_Project_Part2.txt")))
 		{
@@ -68,7 +68,7 @@ int i =0;
 		String codejson = gson.toJson(df);
 		try
 		{
-		
+
 			bw1.write(codejson);
 			bw1.write(",");
 		}

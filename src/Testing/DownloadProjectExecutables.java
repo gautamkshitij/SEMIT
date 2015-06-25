@@ -19,8 +19,8 @@ public class DownloadProjectExecutables
 
 			String url = "http://downloads.sourceforge.net/sourceforge/"
 					+ "discrialign" + "/" + "DiscriAlign.zip";
-			ProcessBuilder pb = new ProcessBuilder("curl", "-L", "-O",
-					downloadURL);
+			ProcessBuilder pb = new ProcessBuilder("curl",
+					"http://svn.code.sf.net/p/jibx/svn/trunk jibx-svn");
 
 			File projectDirectory = new File("./DATA/CODE/JAVA/" + projectName);
 
