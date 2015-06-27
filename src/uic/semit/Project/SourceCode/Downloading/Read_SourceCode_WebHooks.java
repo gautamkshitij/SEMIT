@@ -37,11 +37,15 @@ public class Read_SourceCode_WebHooks
 			{
 				projectStructure = new ProjectStructure();
 
-				projectStructure.setProjectName("jibx");
+				projectStructure.setProjectName(project);
 
-				getWebHookURL("jibx", projectStructure);
-				System.out.println(projectStructure);
-				break;
+				projectStructure = getProjectStructure(project,
+						projectStructure);
+
+				new Downloading(projectStructure);
+				System.out.println(project);
+				
+
 			}
 		}
 		catch (Exception e)
@@ -50,7 +54,7 @@ public class Read_SourceCode_WebHooks
 		}
 	}
 
-	public static void getWebHookURL(String project,
+	public static ProjectStructure getProjectStructure(String project,
 			ProjectStructure projectStructure)
 	{
 		List<String> internalFolders = new ArrayList<String>();
@@ -75,9 +79,7 @@ public class Read_SourceCode_WebHooks
 					Elements ulElement = codeMenuElements.select("ul");
 					if (ulElement.size() > 0)
 					{
-
 						Elements liElements = ulElement.select("li");
-
 						/*
 						 * get href from <a> -> extract clone link extract text
 						 * node from li element -> make folder->
@@ -100,9 +102,6 @@ public class Read_SourceCode_WebHooks
 								internFolder_with_URL.put(acnhorText,
 										getReadOnlyURL(achorLink, project));
 
-								// getReadOnlyURL(anchorTag.attr("href"),
-								// project,
-								// menuType, anchorTag.text(), true);
 								// it does have internal projects, so true
 							}
 						}
@@ -152,6 +151,7 @@ public class Read_SourceCode_WebHooks
 		catch (Exception e)
 		{
 		}
+		return projectStructure;
 
 	}
 
@@ -186,32 +186,20 @@ public class Read_SourceCode_WebHooks
 				/*
 				 * no access url
 				 */
-				// System.out.println("no access url");
 				Elements code = projectInternalPage.select("code");
-
 				for (Node child : code.get(0).childNodes())
 				{
 					if (child instanceof TextNode)
 					{
-						// System.out.println(((TextNode) child).text());
 						if (((TextNode) child).text().length() != 0)
 						{
-							// readOnlyUrl = ((TextNode)
-							// child).text().toString();
-							// readOnlyUrl = readOnlyUrl + project;
-							// ((TextNode) child).text().toString();
-
-							// System.out.println(child.toString());
 							if (child.toString().trim().length() != 0)
 							{
 								readOnlyUrl = child.toString() + project;
 							}
-
 						}
-
 					}
 				}
-
 			}
 
 		}
@@ -222,10 +210,6 @@ public class Read_SourceCode_WebHooks
 
 		return readOnlyUrl.trim();
 
-	}
-
-	public static void startDownloadingProject(ProjectStructure projectstrucutre)
-	{
 	}
 
 }
