@@ -1,12 +1,13 @@
 package uic.semit.Project.SourceCode.Downloading;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -14,6 +15,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
+
+import uic.semit.kshitij.FileUtils;
 
 public class Read_SourceCode_WebHooks
 {
@@ -29,24 +32,33 @@ public class Read_SourceCode_WebHooks
 
 	public static void main(String[] args)
 	{
-		ProjectStructure projectStructure;
-		try (BufferedReader br = new BufferedReader(new FileReader(
-				"./DATA/projectNames/Java_Project_Names.txt")))
+		// ProjectStructure projectStructure;
+		// try (BufferedReader br = new BufferedReader(new FileReader(
+		// "./DATA/projectNames/Java_Project_Names.txt")))
+		// {
+		// for (String project; (project = br.readLine()) != null;)
+		// {
+		try
 		{
-			for (String project; (project = br.readLine()) != null;)
+			List<String> projects = FileUtils
+					.readTextFileByLines("./DATA/projectNames/Java_Project_Names.txt");
+
+			ExecutorService executorService = Executors.newFixedThreadPool(10);
+
+			for (String project : projects)
 			{
-				projectStructure = new ProjectStructure();
+				Runnable projectDownloader = new MyRunnable(project);
+				executorService.execute(projectDownloader);
+			}
 
-				projectStructure.setProjectName(project);
+			executorService.shutdown();
 
-				projectStructure = getProjectStructure(project,
-						projectStructure);
-
-				new Downloading(projectStructure);
-				System.out.println(project);
-				
+			while (!executorService.isTerminated())
+			{
 
 			}
+			System.out.println("FINISHED ALL THREAD");
+
 		}
 		catch (Exception e)
 		{
@@ -210,6 +222,39 @@ public class Read_SourceCode_WebHooks
 
 		return readOnlyUrl.trim();
 
+	}
+
+	public static class MyRunnable implements Runnable
+	{
+		private final String projectName;
+
+		MyRunnable(String name)
+		{
+			this.projectName = name;
+		}
+
+		@Override
+		public void run()
+		{
+			ProjectStructure projectStructure = new ProjectStructure();
+
+			projectStructure.setProjectName(this.projectName);
+
+			projectStructure = getProjectStructure(this.projectName,
+					projectStructure);
+
+			try
+			{
+				new Downloading(projectStructure);
+			}
+			catch (IOException e)
+			{
+				// TODO Auto-generated catch block
+				System.err.println(e.toString() + "Error: " + this.projectName);
+			}
+			System.out.println("Thread - " + this.projectName);
+
+		}
 	}
 
 }
