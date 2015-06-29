@@ -29,8 +29,9 @@ public class ProjectStructure
 	public String toString()
 	{
 		return "ProjectStructure [projectName=" + projectName
-				+ "\n\n, internFolder_with_URL=" + internFolder_with_URL.toString()
-				+ "\n\n, FolderStructure=" + folderStructure.toString() + "]";
+				+ "\n\n, internFolder_with_URL="
+				+ internFolder_with_URL.toString() + "\n\n, FolderStructure="
+				+ folderStructure.toString() + "]";
 	}
 
 	public String getProjectName()
