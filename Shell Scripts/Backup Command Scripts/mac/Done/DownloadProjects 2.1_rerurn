@@ -1,0 +1,40 @@
+#!/bin/bash
+
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/vhstrain/codevhstrain.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/vhstrain/codevhstrain co -P /Volumes/HDD_Kshitij/JAVA/vhstrain/codevhstrain
+svn checkout svn://svn.code.sf.net/p/gorku/code/ /Volumes/HDD_Kshitij/JAVA/gorku/codegorku-code
+git clone git://git.code.sf.net/p/c2001/code /Volumes/HDD_Kshitij/JAVA/c2001/codec2001-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/fm100/codefm100.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/fm100/codefm100 co -P /Volumes/HDD_Kshitij/JAVA/fm100/codefm100
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/finaldestiny/codefinaldestiny.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/finaldestiny/codefinaldestiny co -P /Volumes/HDD_Kshitij/JAVA/finaldestiny/codefinaldestiny
+svn checkout svn://svn.code.sf.net/p/spankandroid/code/ /Volumes/HDD_Kshitij/JAVA/spankandroid/codespankandroid-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/mapperframework/codemapperframework.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/mapperframework/codemapperframework co -P /Volumes/HDD_Kshitij/JAVA/mapperframework/codemapperframework
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/plide/codeplide.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/plide/codeplide co -P /Volumes/HDD_Kshitij/JAVA/plide/codeplide
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/jtr/cvsjtr.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/jtr/cvsjtr co -P /Volumes/HDD_Kshitij/JAVA/jtr/cvsjtr
+svn checkout svn://svn.code.sf.net/p/jtr/code/trunk /Volumes/HDD_Kshitij/JAVA/jtr/codejtr-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/listanegra/codelistanegra.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/listanegra/codelistanegra co -P /Volumes/HDD_Kshitij/JAVA/listanegra/codelistanegra
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/web1856/codeweb1856.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/web1856/codeweb1856 co -P /Volumes/HDD_Kshitij/JAVA/web1856/codeweb1856
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/polo/codepolo.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/polo/codepolo co -P /Volumes/HDD_Kshitij/JAVA/polo/codepolo
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/magenta/codemagenta.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/magenta/codemagenta co -P /Volumes/HDD_Kshitij/JAVA/magenta/codemagenta
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/pixe/codepixe.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/pixe/codepixe co -P /Volumes/HDD_Kshitij/JAVA/pixe/codepixe
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/beanmaker/codebeanmaker.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/beanmaker/codebeanmaker co -P /Volumes/HDD_Kshitij/JAVA/beanmaker/codebeanmaker
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/agile2d/cvsagile2d.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/agile2d/cvsagile2d co -P /Volumes/HDD_Kshitij/JAVA/agile2d/cvsagile2d
+svn checkout svn://svn.code.sf.net/p/agile2d/code/ /Volumes/HDD_Kshitij/JAVA/agile2d/codeagile2d-code
+svn checkout svn://svn.code.sf.net/p/gridsam/code/trunk /Volumes/HDD_Kshitij/JAVA/gridsam/codegridsam-code
+svn checkout svn://svn.code.sf.net/p/powersync/code/ /Volumes/HDD_Kshitij/JAVA/powersync/codepowersync-code
+svn checkout svn://svn.code.sf.net/p/structorizer/code/ /Volumes/HDD_Kshitij/JAVA/structorizer/codestructorizer-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/al4java/codeal4java.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/al4java/codeal4java co -P /Volumes/HDD_Kshitij/JAVA/al4java/codeal4java
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/jaud/codejaud.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/jaud/codejaud co -P /Volumes/HDD_Kshitij/JAVA/jaud/codejaud
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/ebla/codeebla.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/ebla/codeebla co -P /Volumes/HDD_Kshitij/JAVA/ebla/codeebla
+svn checkout svn://svn.code.sf.net/p/jc-printer/code/ /Volumes/HDD_Kshitij/JAVA/jc-printer/codejc-printer-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/picturemetadata/codepicturemetadata.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/picturemetadata/codepicturemetadata co -P /Volumes/HDD_Kshitij/JAVA/picturemetadata/codepicturemetadata
+svn checkout svn://svn.code.sf.net/p/cuebinfo/code/ /Volumes/HDD_Kshitij/JAVA/cuebinfo/codecuebinfo-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/jflouze/codejflouze.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/jflouze/codejflouze co -P /Volumes/HDD_Kshitij/JAVA/jflouze/codejflouze
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/httpmail/codehttpmail.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/httpmail/codehttpmail co -P /Volumes/HDD_Kshitij/JAVA/httpmail/codehttpmail
+svn checkout svn://svn.code.sf.net/p/pojogenerator/code/ /Volumes/HDD_Kshitij/JAVA/pojogenerator/codepojogenerator-code
+hg clone http://hg.code.sf.net/p/hsaction/code /Volumes/HDD_Kshitij/JAVA/hsaction/codehsaction-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/blues/codeblues.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/blues/codeblues co -P /Volumes/HDD_Kshitij/JAVA/blues/codeblues
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/javaclass/codejavaclass.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/javaclass/codejavaclass co -P /Volumes/HDD_Kshitij/JAVA/javaclass/codejavaclass
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/java-arkanoid/codejava-arkanoid.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/java-arkanoid/codejava-arkanoid co -P /Volumes/HDD_Kshitij/JAVA/java-arkanoid/codejava-arkanoid
+svn checkout svn://svn.code.sf.net/p/xplanetconfig/code/ /Volumes/HDD_Kshitij/JAVA/xplanetconfig/codexplanetconfig-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/codejen/codecodejen.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/codejen/codecodejen co -P /Volumes/HDD_Kshitij/JAVA/codejen/codecodejen
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/bjcruncher/codebjcruncher.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/bjcruncher/codebjcruncher co -P /Volumes/HDD_Kshitij/JAVA/bjcruncher/codebjcruncher
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/quit/codequit.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/quit/codequit co -P /Volumes/HDD_Kshitij/JAVA/quit/codequit

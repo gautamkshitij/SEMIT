@@ -1,0 +1,497 @@
+#!/bin/bash
+
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/xspacedb/codexspacedb.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/xspacedb/codexspacedb co -P /media/kshitij/HDD_Kshitij/JAVA/xspacedb/codexspacedb
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/treeform/codetreeform.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/treeform/codetreeform co -P /media/kshitij/HDD_Kshitij/JAVA/treeform/codetreeform
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/banjo/codebanjo.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/banjo/codebanjo co -P /media/kshitij/HDD_Kshitij/JAVA/banjo/codebanjo
+svn checkout svn://svn.code.sf.net/p/checkcml/code/trunk /media/kshitij/HDD_Kshitij/JAVA/checkcml/codecheckcml-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/bricksviewer/codebricksviewer.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/bricksviewer/codebricksviewer co -P /media/kshitij/HDD_Kshitij/JAVA/bricksviewer/codebricksviewer
+svn checkout svn://svn.code.sf.net/p/lsesame/code/trunk /media/kshitij/HDD_Kshitij/JAVA/lsesame/codelsesame-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/geeboss/codegeeboss.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/geeboss/codegeeboss co -P /media/kshitij/HDD_Kshitij/JAVA/geeboss/codegeeboss
+svn checkout svn://svn.code.sf.net/p/equil/code/trunk /media/kshitij/HDD_Kshitij/JAVA/equil/codeequil-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/htdv/codehtdv.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/htdv/codehtdv co -P /media/kshitij/HDD_Kshitij/JAVA/htdv/codehtdv
+git clone git://git.code.sf.net/p/kerner-utils-io/code /media/kshitij/HDD_Kshitij/JAVA/kerner-utils-io/codekerner-utils-io-code
+svn checkout svn://svn.code.sf.net/p/jqql/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jqql/codejqql-code
+svn checkout svn://svn.code.sf.net/p/clark/code/trunk /media/kshitij/HDD_Kshitij/JAVA/clark/codeclark-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/otas/codeotas.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/otas/codeotas co -P /media/kshitij/HDD_Kshitij/JAVA/otas/codeotas
+svn checkout svn://svn.code.sf.net/p/doraplatform/code/trunk /media/kshitij/HDD_Kshitij/JAVA/doraplatform/codedoraplatform-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/morroniaop/codemorroniaop.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/morroniaop/codemorroniaop co -P /media/kshitij/HDD_Kshitij/JAVA/morroniaop/codemorroniaop
+svn checkout svn://svn.code.sf.net/p/zipme/code/trunk /media/kshitij/HDD_Kshitij/JAVA/zipme/codezipme-code
+svn checkout svn://svn.code.sf.net/p/jamesbondracing/code/ /media/kshitij/HDD_Kshitij/JAVA/jamesbondracing/codejamesbondracing-code
+svn checkout svn://svn.code.sf.net/p/campusproject/code/ /media/kshitij/HDD_Kshitij/JAVA/campusproject/codecampusproject-code
+svn checkout svn://svn.code.sf.net/p/delegex/code/trunk /media/kshitij/HDD_Kshitij/JAVA/delegex/codedelegex-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/htmlclient/codehtmlclient.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/htmlclient/codehtmlclient co -P /media/kshitij/HDD_Kshitij/JAVA/htmlclient/codehtmlclient
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/osmq/codeosmq.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/osmq/codeosmq co -P /media/kshitij/HDD_Kshitij/JAVA/osmq/codeosmq
+svn checkout svn://svn.code.sf.net/p/minecraftsavmgr/code/ /media/kshitij/HDD_Kshitij/JAVA/minecraftsavmgr/codeminecraftsavmgr-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/mandragora/cvsmandragora.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/mandragora/cvsmandragora co -P /media/kshitij/HDD_Kshitij/JAVA/mandragora/cvsmandragora
+git clone git://git.code.sf.net/p/mandragora/git /media/kshitij/HDD_Kshitij/JAVA/mandragora/gitmandragora-git
+svn checkout svn://svn.code.sf.net/p/enclave/code/trunk /media/kshitij/HDD_Kshitij/JAVA/enclave/codeenclave-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ant-jnlp-war/cvsant-jnlp-war.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ant-jnlp-war/cvsant-jnlp-war co -P /media/kshitij/HDD_Kshitij/JAVA/ant-jnlp-war/cvsant-jnlp-war
+git clone git://git.code.sf.net/p/ant-jnlp-war/git /media/kshitij/HDD_Kshitij/JAVA/ant-jnlp-war/gitant-jnlp-war-git
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/englishtonepali/codeenglishtonepali.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/englishtonepali/codeenglishtonepali co -P /media/kshitij/HDD_Kshitij/JAVA/englishtonepali/codeenglishtonepali
+svn checkout svn://svn.code.sf.net/p/sqleonardo/code/trunk /media/kshitij/HDD_Kshitij/JAVA/sqleonardo/codesqleonardo-code
+svn checkout svn://svn.code.sf.net/p/ori/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ori/codeori-code
+svn checkout svn://svn.code.sf.net/p/jtstand/code/ /media/kshitij/HDD_Kshitij/JAVA/jtstand/codejtstand-code
+svn checkout svn://svn.code.sf.net/p/awl-wizard/code/ /media/kshitij/HDD_Kshitij/JAVA/awl-wizard/codeawl-wizard-code
+svn checkout svn://svn.code.sf.net/p/kappalayout/code/trunk /media/kshitij/HDD_Kshitij/JAVA/kappalayout/codekappalayout-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ovum/codeovum.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ovum/codeovum co -P /media/kshitij/HDD_Kshitij/JAVA/ovum/codeovum
+hg clone http://hg.code.sf.net/p/cmsdtools/code /media/kshitij/HDD_Kshitij/JAVA/cmsdtools/codecmsdtools-code
+svn checkout svn://svn.code.sf.net/p/libusb4jwo/code/trunk /media/kshitij/HDD_Kshitij/JAVA/libusb4jwo/codelibusb4jwo-code
+svn checkout svn://svn.code.sf.net/p/asmdev/code/trunk /media/kshitij/HDD_Kshitij/JAVA/asmdev/codeasmdev-code
+svn checkout svn://svn.code.sf.net/p/janthus/code/trunk /media/kshitij/HDD_Kshitij/JAVA/janthus/codejanthus-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/studiav/codestudiav.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/studiav/codestudiav co -P /media/kshitij/HDD_Kshitij/JAVA/studiav/codestudiav
+svn checkout svn://svn.code.sf.net/p/ouclassofhonour/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ouclassofhonour/codeouclassofhonour-code
+svn checkout svn://svn.code.sf.net/p/metatemplate/code/ /media/kshitij/HDD_Kshitij/JAVA/metatemplate/codemetatemplate-code
+svn checkout svn://svn.code.sf.net/p/jexin/code/ /media/kshitij/HDD_Kshitij/JAVA/jexin/codejexin-code
+svn checkout svn://svn.code.sf.net/p/picofarm/code/trunk /media/kshitij/HDD_Kshitij/JAVA/picofarm/codepicofarm-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/elysion/codeelysion.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/elysion/codeelysion co -P /media/kshitij/HDD_Kshitij/JAVA/elysion/codeelysion
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/slimehockey/codeslimehockey.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/slimehockey/codeslimehockey co -P /media/kshitij/HDD_Kshitij/JAVA/slimehockey/codeslimehockey
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jhpservlet/codejhpservlet.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jhpservlet/codejhpservlet co -P /media/kshitij/HDD_Kshitij/JAVA/jhpservlet/codejhpservlet
+svn checkout svn://svn.code.sf.net/p/tagcloud/code/trunk /media/kshitij/HDD_Kshitij/JAVA/tagcloud/codetagcloud-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/pampus/codepampus.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/pampus/codepampus co -P /media/kshitij/HDD_Kshitij/JAVA/pampus/codepampus
+svn checkout svn://svn.code.sf.net/p/jpdftweak/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jpdftweak/codejpdftweak-code
+git clone git://git.code.sf.net/p/webcurator/neo /media/kshitij/HDD_Kshitij/JAVA/webcurator/codewebcurator-neo
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/log4j2db/codelog4j2db.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/log4j2db/codelog4j2db co -P /media/kshitij/HDD_Kshitij/JAVA/log4j2db/codelog4j2db
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jpsquerrylangua/codejpsquerrylangua.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jpsquerrylangua/codejpsquerrylangua co -P /media/kshitij/HDD_Kshitij/JAVA/jpsquerrylangua/codejpsquerrylangua
+hg clone http://hg.code.sf.net/p/silversaga/code /media/kshitij/HDD_Kshitij/JAVA/silversaga/codesilversaga-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/enaf/cvsenaf.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/enaf/cvsenaf co -P /media/kshitij/HDD_Kshitij/JAVA/enaf/cvsenaf
+svn checkout svn://svn.code.sf.net/p/enaf/code/ /media/kshitij/HDD_Kshitij/JAVA/enaf/codeenaf-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/dogwood/codedogwood.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/dogwood/codedogwood co -P /media/kshitij/HDD_Kshitij/JAVA/dogwood/codedogwood
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/javamaf/codejavamaf.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/javamaf/codejavamaf co -P /media/kshitij/HDD_Kshitij/JAVA/javamaf/codejavamaf
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/j3draw/codej3draw.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/j3draw/codej3draw co -P /media/kshitij/HDD_Kshitij/JAVA/j3draw/codej3draw
+svn checkout svn://svn.code.sf.net/p/gdedengi/code/ /media/kshitij/HDD_Kshitij/JAVA/gdedengi/codegdedengi-code
+svn checkout svn://svn.code.sf.net/p/initiativetrack/code/ /media/kshitij/HDD_Kshitij/JAVA/initiativetrack/codeinitiativetrack-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/dti-project/codedti-project.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/dti-project/codedti-project co -P /media/kshitij/HDD_Kshitij/JAVA/dti-project/codedti-project
+svn checkout svn://svn.code.sf.net/p/werewolf/code/trunk /media/kshitij/HDD_Kshitij/JAVA/werewolf/codewerewolf-code
+svn checkout svn://svn.code.sf.net/p/escapek/code/trunk /media/kshitij/HDD_Kshitij/JAVA/escapek/codeescapek-code
+svn checkout svn://svn.code.sf.net/p/autoshare/code/trunk /media/kshitij/HDD_Kshitij/JAVA/autoshare/codeautoshare-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/dbpopulator/codedbpopulator.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/dbpopulator/codedbpopulator co -P /media/kshitij/HDD_Kshitij/JAVA/dbpopulator/codedbpopulator
+svn checkout svn://svn.code.sf.net/p/yahoofin/code/trunk /media/kshitij/HDD_Kshitij/JAVA/yahoofin/codeyahoofin-code
+svn checkout svn://svn.code.sf.net/p/alfa/code/ /media/kshitij/HDD_Kshitij/JAVA/alfa/codealfa-code
+svn checkout svn://svn.code.sf.net/p/digitdestruct/code/trunk /media/kshitij/HDD_Kshitij/JAVA/digitdestruct/codedigitdestruct-code
+svn checkout svn://svn.code.sf.net/p/jlastfmlib/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jlastfmlib/codejlastfmlib-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jyvis/codejyvis.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jyvis/codejyvis co -P /media/kshitij/HDD_Kshitij/JAVA/jyvis/codejyvis
+svn checkout svn://svn.code.sf.net/p/jodatimecalenda/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jodatimecalenda/codejodatimecalenda-code
+svn checkout svn://svn.code.sf.net/p/wilma/code/trunk /media/kshitij/HDD_Kshitij/JAVA/wilma/codewilma-code
+svn checkout svn://svn.code.sf.net/p/maketargeter/code/trunk /media/kshitij/HDD_Kshitij/JAVA/maketargeter/codemaketargeter-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/rhchess/coderhchess.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/rhchess/coderhchess co -P /media/kshitij/HDD_Kshitij/JAVA/rhchess/coderhchess
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/skyline/codeskyline.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/skyline/codeskyline co -P /media/kshitij/HDD_Kshitij/JAVA/skyline/codeskyline
+svn checkout svn://svn.code.sf.net/p/spidr/code/trunk /media/kshitij/HDD_Kshitij/JAVA/spidr/codespidr-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/bloodymary/codebloodymary.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/bloodymary/codebloodymary co -P /media/kshitij/HDD_Kshitij/JAVA/bloodymary/codebloodymary
+svn checkout svn://svn.code.sf.net/p/eeviewer/code/trunk /media/kshitij/HDD_Kshitij/JAVA/eeviewer/codeeeviewer-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/minitraff/codeminitraff.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/minitraff/codeminitraff co -P /media/kshitij/HDD_Kshitij/JAVA/minitraff/codeminitraff
+git clone git://git.code.sf.net/p/openqreg/git /media/kshitij/HDD_Kshitij/JAVA/openqreg/gitopenqreg-git
+svn checkout svn://svn.code.sf.net/p/openqreg/svn/ /media/kshitij/HDD_Kshitij/JAVA/openqreg/svnopenqreg-svn
+hg clone http://hg.code.sf.net/p/perfidix/code /media/kshitij/HDD_Kshitij/JAVA/perfidix/codeperfidix-code
+git clone git://git.code.sf.net/p/c3po/git /media/kshitij/HDD_Kshitij/JAVA/c3po/gitc3po-git
+svn checkout svn://svn.code.sf.net/p/c3po/code/trunk /media/kshitij/HDD_Kshitij/JAVA/c3po/svnc3po-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/simpledate/codesimpledate.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/simpledate/codesimpledate co -P /media/kshitij/HDD_Kshitij/JAVA/simpledate/codesimpledate
+svn checkout svn://svn.code.sf.net/p/jmxplorer/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jmxplorer/codejmxplorer-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/xdoclet/codexdoclet.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/xdoclet/codexdoclet co -P /media/kshitij/HDD_Kshitij/JAVA/xdoclet/codexdoclet
+svn checkout svn://svn.code.sf.net/p/j-share/code/trunk /media/kshitij/HDD_Kshitij/JAVA/j-share/codej-share-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/pstopwatch/codepstopwatch.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/pstopwatch/codepstopwatch co -P /media/kshitij/HDD_Kshitij/JAVA/pstopwatch/codepstopwatch
+svn checkout svn://svn.code.sf.net/p/java30boxesapi/code/ /media/kshitij/HDD_Kshitij/JAVA/java30boxesapi/codejava30boxesapi-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jmarket/codejmarket.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jmarket/codejmarket co -P /media/kshitij/HDD_Kshitij/JAVA/jmarket/codejmarket
+svn checkout svn://svn.code.sf.net/p/javademo/code/ /media/kshitij/HDD_Kshitij/JAVA/javademo/codejavademo-code
+svn checkout svn://svn.code.sf.net/p/webgraphlab/code/ /media/kshitij/HDD_Kshitij/JAVA/webgraphlab/codewebgraphlab-code
+git clone git://git.code.sf.net/p/cbu/code /media/kshitij/HDD_Kshitij/JAVA/cbu/codecbu-code
+svn checkout svn://svn.code.sf.net/p/appthemes/code/ /media/kshitij/HDD_Kshitij/JAVA/appthemes/codeappthemes-code
+svn checkout svn://svn.code.sf.net/p/swingstates/code/trunk /media/kshitij/HDD_Kshitij/JAVA/swingstates/codeswingstates-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/pdexpenv/codepdexpenv.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/pdexpenv/codepdexpenv co -P /media/kshitij/HDD_Kshitij/JAVA/pdexpenv/codepdexpenv
+svn checkout svn://svn.code.sf.net/p/eclipse4sl/code/trunk /media/kshitij/HDD_Kshitij/JAVA/eclipse4sl/codeeclipse4sl-code
+svn checkout svn://svn.code.sf.net/p/openforceqst/code/ /media/kshitij/HDD_Kshitij/JAVA/openforceqst/codeopenforceqst-code
+svn checkout svn://svn.code.sf.net/p/javamazesolver/code/ /media/kshitij/HDD_Kshitij/JAVA/javamazesolver/codejavamazesolver-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jconsole/codejconsole.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jconsole/codejconsole co -P /media/kshitij/HDD_Kshitij/JAVA/jconsole/codejconsole
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/khronos/codekhronos.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/khronos/codekhronos co -P /media/kshitij/HDD_Kshitij/JAVA/khronos/codekhronos
+svn checkout svn://svn.code.sf.net/p/univpn/code/trunk /media/kshitij/HDD_Kshitij/JAVA/univpn/codeunivpn-code
+svn checkout svn://svn.code.sf.net/p/fidocadj/code/trunk /media/kshitij/HDD_Kshitij/JAVA/fidocadj/codefidocadj-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jfiglet/codejfiglet.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jfiglet/codejfiglet co -P /media/kshitij/HDD_Kshitij/JAVA/jfiglet/codejfiglet
+svn checkout svn://svn.code.sf.net/p/ambienti/code/ /media/kshitij/HDD_Kshitij/JAVA/ambienti/codeambienti-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/tcpswitch/codetcpswitch.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/tcpswitch/codetcpswitch co -P /media/kshitij/HDD_Kshitij/JAVA/tcpswitch/codetcpswitch
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/antscout/codeantscout.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/antscout/codeantscout co -P /media/kshitij/HDD_Kshitij/JAVA/antscout/codeantscout
+svn checkout svn://svn.code.sf.net/p/what-a-mess/code/ /media/kshitij/HDD_Kshitij/JAVA/what-a-mess/codewhat-a-mess-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/javastates/codejavastates.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/javastates/codejavastates co -P /media/kshitij/HDD_Kshitij/JAVA/javastates/codejavastates
+svn checkout svn://svn.code.sf.net/p/comixviewer/code/trunk /media/kshitij/HDD_Kshitij/JAVA/comixviewer/codecomixviewer-code
+svn checkout svn://svn.code.sf.net/p/mnetviewer/code/trunk /media/kshitij/HDD_Kshitij/JAVA/mnetviewer/codemnetviewer-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/gvsproject/cvsgvsproject.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/gvsproject/cvsgvsproject co -P /media/kshitij/HDD_Kshitij/JAVA/gvsproject/cvsgvsproject
+svn checkout svn://svn.code.sf.net/p/gvsproject/code/trunk /media/kshitij/HDD_Kshitij/JAVA/gvsproject/codegvsproject-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/aamfetch/codeaamfetch.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/aamfetch/codeaamfetch co -P /media/kshitij/HDD_Kshitij/JAVA/aamfetch/codeaamfetch
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/relaxngcc/coderelaxngcc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/relaxngcc/coderelaxngcc co -P /media/kshitij/HDD_Kshitij/JAVA/relaxngcc/coderelaxngcc
+hg clone http://hg.code.sf.net/p/luceneindexapplication/mercurial /media/kshitij/HDD_Kshitij/JAVA/luceneindexapplication/mercurialluceneindexapplication-mercurial
+svn checkout svn://svn.code.sf.net/p/luceneindexapplication/svn/ /media/kshitij/HDD_Kshitij/JAVA/luceneindexapplication/svnluceneindexapplication-svn
+svn checkout svn://svn.code.sf.net/p/pedidocredito/code/ /media/kshitij/HDD_Kshitij/JAVA/pedidocredito/codepedidocredito-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/easysatpics/codeeasysatpics.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/easysatpics/codeeasysatpics co -P /media/kshitij/HDD_Kshitij/JAVA/easysatpics/codeeasysatpics
+svn checkout svn://svn.code.sf.net/p/nevada/code/trunk /media/kshitij/HDD_Kshitij/JAVA/nevada/codenevada-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/rtmgenerator/codertmgenerator.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/rtmgenerator/codertmgenerator co -P /media/kshitij/HDD_Kshitij/JAVA/rtmgenerator/codertmgenerator
+svn checkout svn://svn.code.sf.net/p/genom/code/ /media/kshitij/HDD_Kshitij/JAVA/genom/codegenom-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/catabolicrealm/codecatabolicrealm.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/catabolicrealm/codecatabolicrealm co -P /media/kshitij/HDD_Kshitij/JAVA/catabolicrealm/codecatabolicrealm
+svn checkout svn://svn.code.sf.net/p/tredart/code/trunk /media/kshitij/HDD_Kshitij/JAVA/tredart/codetredart-code
+svn checkout svn://svn.code.sf.net/p/mysoft-hmnap/code/ /media/kshitij/HDD_Kshitij/JAVA/mysoft-hmnap/codemysoft-hmnap-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/cohradar/codecohradar.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/cohradar/codecohradar co -P /media/kshitij/HDD_Kshitij/JAVA/cohradar/codecohradar
+svn checkout svn://svn.code.sf.net/p/opencobol2java/code/ /media/kshitij/HDD_Kshitij/JAVA/opencobol2java/codeopencobol2java-code
+git clone git://git.code.sf.net/p/jasperservlet/code-1 /media/kshitij/HDD_Kshitij/JAVA/jasperservlet/codejasperservlet-code-1
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/mysqlproxy/codemysqlproxy.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/mysqlproxy/codemysqlproxy co -P /media/kshitij/HDD_Kshitij/JAVA/mysqlproxy/codemysqlproxy
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/info-sapient/codeinfo-sapient.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/info-sapient/codeinfo-sapient co -P /media/kshitij/HDD_Kshitij/JAVA/info-sapient/codeinfo-sapient
+svn checkout svn://svn.code.sf.net/p/stockreturns/code/ /media/kshitij/HDD_Kshitij/JAVA/stockreturns/codestockreturns-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/sfeb/codesfeb.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/sfeb/codesfeb co -P /media/kshitij/HDD_Kshitij/JAVA/sfeb/codesfeb
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/cavor/codecavor.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/cavor/codecavor co -P /media/kshitij/HDD_Kshitij/JAVA/cavor/codecavor
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/cs6725-prover/codecs6725-prover.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/cs6725-prover/codecs6725-prover co -P /media/kshitij/HDD_Kshitij/JAVA/cs6725-prover/codecs6725-prover
+svn checkout svn://svn.code.sf.net/p/geovision/code/trunk /media/kshitij/HDD_Kshitij/JAVA/geovision/codegeovision-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/decorutils/codedecorutils.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/decorutils/codedecorutils co -P /media/kshitij/HDD_Kshitij/JAVA/decorutils/codedecorutils
+svn checkout svn://svn.code.sf.net/p/isolateproject/code/ /media/kshitij/HDD_Kshitij/JAVA/isolateproject/codeisolateproject-code
+svn checkout svn://svn.code.sf.net/p/autopsi/code/trunk /media/kshitij/HDD_Kshitij/JAVA/autopsi/codeautopsi-code
+svn checkout svn://svn.code.sf.net/p/petosgi/code/trunk /media/kshitij/HDD_Kshitij/JAVA/petosgi/codepetosgi-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/newoop/codenewoop.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/newoop/codenewoop co -P /media/kshitij/HDD_Kshitij/JAVA/newoop/codenewoop
+svn checkout svn://svn.code.sf.net/p/platina/code/ /media/kshitij/HDD_Kshitij/JAVA/platina/codeplatina-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/i18nlog/codei18nlog.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/i18nlog/codei18nlog co -P /media/kshitij/HDD_Kshitij/JAVA/i18nlog/codei18nlog
+svn checkout svn://svn.code.sf.net/p/ecl-datepicker/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ecl-datepicker/codeecl-datepicker-code
+svn checkout svn://svn.code.sf.net/p/devportal/code/ /media/kshitij/HDD_Kshitij/JAVA/devportal/codedevportal-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/infomax/codeinfomax.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/infomax/codeinfomax co -P /media/kshitij/HDD_Kshitij/JAVA/infomax/codeinfomax
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/datascript/codedatascript.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/datascript/codedatascript co -P /media/kshitij/HDD_Kshitij/JAVA/datascript/codedatascript
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jfile/codejfile.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jfile/codejfile co -P /media/kshitij/HDD_Kshitij/JAVA/jfile/codejfile
+svn checkout svn://svn.code.sf.net/p/nkossj/code/ /media/kshitij/HDD_Kshitij/JAVA/nkossj/codenkossj-code
+svn checkout svn://svn.code.sf.net/p/iwebo/code/ /media/kshitij/HDD_Kshitij/JAVA/iwebo/codeiwebo-code
+svn checkout svn://svn.code.sf.net/p/jprocbuildersql/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jprocbuildersql/codejprocbuildersql-code
+svn checkout svn://svn.code.sf.net/p/rendertux/code/ /media/kshitij/HDD_Kshitij/JAVA/rendertux/coderendertux-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/smartass/codesmartass.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/smartass/codesmartass co -P /media/kshitij/HDD_Kshitij/JAVA/smartass/codesmartass
+svn checkout svn://svn.code.sf.net/p/zenphotojavaman/code/ /media/kshitij/HDD_Kshitij/JAVA/zenphotojavaman/codezenphotojavaman-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/xmloop/cvsxmloop.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/xmloop/cvsxmloop co -P /media/kshitij/HDD_Kshitij/JAVA/xmloop/cvsxmloop
+svn checkout svn://svn.code.sf.net/p/xmloop/code/ /media/kshitij/HDD_Kshitij/JAVA/xmloop/codexmloop-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/c-it/codec-it.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/c-it/codec-it co -P /media/kshitij/HDD_Kshitij/JAVA/c-it/codec-it
+svn checkout svn://svn.code.sf.net/p/antwar/code/ /media/kshitij/HDD_Kshitij/JAVA/antwar/codeantwar-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/vectors/codevectors.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/vectors/codevectors co -P /media/kshitij/HDD_Kshitij/JAVA/vectors/codevectors
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/financial-sys/codefinancial-sys.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/financial-sys/codefinancial-sys co -P /media/kshitij/HDD_Kshitij/JAVA/financial-sys/codefinancial-sys
+svn checkout svn://svn.code.sf.net/p/jspsurveylib/code/ /media/kshitij/HDD_Kshitij/JAVA/jspsurveylib/codejspsurveylib-code
+svn checkout svn://svn.code.sf.net/p/simplenet/code/trunk /media/kshitij/HDD_Kshitij/JAVA/simplenet/codesimplenet-code
+svn checkout svn://svn.code.sf.net/p/projecteia2/code/ /media/kshitij/HDD_Kshitij/JAVA/projecteia2/codeprojecteia2-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/db2-jmin/codedb2-jmin.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/db2-jmin/codedb2-jmin co -P /media/kshitij/HDD_Kshitij/JAVA/db2-jmin/codedb2-jmin
+svn checkout svn://svn.code.sf.net/p/die-crowd/code/ /media/kshitij/HDD_Kshitij/JAVA/die-crowd/codedie-crowd-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/liberator-jpa/codeliberator-jpa.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/liberator-jpa/codeliberator-jpa co -P /media/kshitij/HDD_Kshitij/JAVA/liberator-jpa/codeliberator-jpa
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/dragmath/codedragmath.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/dragmath/codedragmath co -P /media/kshitij/HDD_Kshitij/JAVA/dragmath/codedragmath
+svn checkout svn://svn.code.sf.net/p/ruleminer/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ruleminer/coderuleminer-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/marvelit/codemarvelit.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/marvelit/codemarvelit co -P /media/kshitij/HDD_Kshitij/JAVA/marvelit/codemarvelit
+svn checkout svn://svn.code.sf.net/p/jcomputervision/code/ /media/kshitij/HDD_Kshitij/JAVA/jcomputervision/codejcomputervision-code
+svn checkout svn://svn.code.sf.net/p/javaviewcontrol/code/ /media/kshitij/HDD_Kshitij/JAVA/javaviewcontrol/codejavaviewcontrol-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ossorecaptcha/codeossorecaptcha.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ossorecaptcha/codeossorecaptcha co -P /media/kshitij/HDD_Kshitij/JAVA/ossorecaptcha/codeossorecaptcha
+svn checkout svn://svn.code.sf.net/p/javareveng/code/trunk /media/kshitij/HDD_Kshitij/JAVA/javareveng/codejavareveng-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jopt-simple/codejopt-simple.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jopt-simple/codejopt-simple co -P /media/kshitij/HDD_Kshitij/JAVA/jopt-simple/codejopt-simple
+svn checkout svn://svn.code.sf.net/p/moviedatabase/code/ /media/kshitij/HDD_Kshitij/JAVA/moviedatabase/codemoviedatabase-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/hotsheet/codehotsheet.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/hotsheet/codehotsheet co -P /media/kshitij/HDD_Kshitij/JAVA/hotsheet/codehotsheet
+svn checkout svn://svn.code.sf.net/p/forager/code/ /media/kshitij/HDD_Kshitij/JAVA/forager/codeforager-code
+svn checkout svn://svn.code.sf.net/p/mobilecinjava/code/trunk /media/kshitij/HDD_Kshitij/JAVA/mobilecinjava/codemobilecinjava-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/icj/cvsicj.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/icj/cvsicj co -P /media/kshitij/HDD_Kshitij/JAVA/icj/cvsicj
+svn checkout svn://svn.code.sf.net/p/icj/code/trunk /media/kshitij/HDD_Kshitij/JAVA/icj/codeicj-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/coefficient/codecoefficient.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/coefficient/codecoefficient co -P /media/kshitij/HDD_Kshitij/JAVA/coefficient/codecoefficient
+svn checkout svn://svn.code.sf.net/p/linktweet/code/ /media/kshitij/HDD_Kshitij/JAVA/linktweet/codelinktweet-code
+svn checkout svn://svn.code.sf.net/p/opendiskarchive/code/trunk /media/kshitij/HDD_Kshitij/JAVA/opendiskarchive/codeopendiskarchive-code
+svn checkout svn://svn.code.sf.net/p/dreampnp/code/trunk /media/kshitij/HDD_Kshitij/JAVA/dreampnp/codedreampnp-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/gridbusbroker/codegridbusbroker.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/gridbusbroker/codegridbusbroker co -P /media/kshitij/HDD_Kshitij/JAVA/gridbusbroker/codegridbusbroker
+svn checkout svn://svn.code.sf.net/p/accelerator-ml/code/ /media/kshitij/HDD_Kshitij/JAVA/accelerator-ml/codeaccelerator-ml-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/joeq/cvsjoeq.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/joeq/cvsjoeq co -P /media/kshitij/HDD_Kshitij/JAVA/joeq/cvsjoeq
+svn checkout svn://svn.code.sf.net/p/joeq/svn/trunk /media/kshitij/HDD_Kshitij/JAVA/joeq/svnjoeq-svn
+svn checkout svn://svn.code.sf.net/p/evaluadorsac/code/ /media/kshitij/HDD_Kshitij/JAVA/evaluadorsac/codeevaluadorsac-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/otp-j2me/codeotp-j2me.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/otp-j2me/codeotp-j2me co -P /media/kshitij/HDD_Kshitij/JAVA/otp-j2me/codeotp-j2me
+svn checkout svn://svn.code.sf.net/p/yaqut/code/ /media/kshitij/HDD_Kshitij/JAVA/yaqut/codeyaqut-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/yaggui/codeyaggui.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/yaggui/codeyaggui co -P /media/kshitij/HDD_Kshitij/JAVA/yaggui/codeyaggui
+svn checkout svn://svn.code.sf.net/p/congaconfig/code/trunk /media/kshitij/HDD_Kshitij/JAVA/congaconfig/codecongaconfig-code
+svn checkout svn://svn.code.sf.net/p/ht-commons/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ht-commons/codeht-commons-code
+svn checkout svn://svn.code.sf.net/p/errs/code/ /media/kshitij/HDD_Kshitij/JAVA/errs/codeerrs-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/comoro/codecomoro.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/comoro/codecomoro co -P /media/kshitij/HDD_Kshitij/JAVA/comoro/codecomoro
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/iceboatgame/codeiceboatgame.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/iceboatgame/codeiceboatgame co -P /media/kshitij/HDD_Kshitij/JAVA/iceboatgame/codeiceboatgame
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/nfpnet/codenfpnet.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/nfpnet/codenfpnet co -P /media/kshitij/HDD_Kshitij/JAVA/nfpnet/codenfpnet
+svn checkout svn://svn.code.sf.net/p/gshape/code/trunk /media/kshitij/HDD_Kshitij/JAVA/gshape/codegshape-code
+svn checkout svn://svn.code.sf.net/p/jacoproxy/code/ /media/kshitij/HDD_Kshitij/JAVA/jacoproxy/codejacoproxy-code
+svn checkout svn://svn.code.sf.net/p/eclipse-ddt/code/trunk /media/kshitij/HDD_Kshitij/JAVA/eclipse-ddt/codeeclipse-ddt-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/pear-sim/codepear-sim.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/pear-sim/codepear-sim co -P /media/kshitij/HDD_Kshitij/JAVA/pear-sim/codepear-sim
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/daschau/codedaschau.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/daschau/codedaschau co -P /media/kshitij/HDD_Kshitij/JAVA/daschau/codedaschau
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/google-taglib/codegoogle-taglib.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/google-taglib/codegoogle-taglib co -P /media/kshitij/HDD_Kshitij/JAVA/google-taglib/codegoogle-taglib
+svn checkout svn://svn.code.sf.net/p/jgarminimg/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jgarminimg/codejgarminimg-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/trovacap-java/cvstrovacap-java.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/trovacap-java/cvstrovacap-java co -P /media/kshitij/HDD_Kshitij/JAVA/trovacap-java/cvstrovacap-java
+svn checkout svn://svn.code.sf.net/p/trovacap-java/code/trunk /media/kshitij/HDD_Kshitij/JAVA/trovacap-java/codetrovacap-java-code
+svn checkout svn://svn.code.sf.net/p/maverick/code/ /media/kshitij/HDD_Kshitij/JAVA/maverick/codemaverick-code
+svn checkout svn://svn.code.sf.net/p/sqlwizz/code/ /media/kshitij/HDD_Kshitij/JAVA/sqlwizz/codesqlwizz-code
+svn checkout svn://svn.code.sf.net/p/xtvdclient/code/trunk /media/kshitij/HDD_Kshitij/JAVA/xtvdclient/codextvdclient-code
+svn checkout svn://svn.code.sf.net/p/heliconiusdb/code/trunk /media/kshitij/HDD_Kshitij/JAVA/heliconiusdb/codeheliconiusdb-code
+svn checkout svn://svn.code.sf.net/p/plantuml-modeler/code/ /media/kshitij/HDD_Kshitij/JAVA/plantuml-modeler/codeplantuml-modeler-code
+svn checkout svn://svn.code.sf.net/p/jpiper/code/ /media/kshitij/HDD_Kshitij/JAVA/jpiper/codejpiper-code
+git clone git://git.code.sf.net/p/foodstoragecalculator/code /media/kshitij/HDD_Kshitij/JAVA/foodstoragecalculator/codefoodstoragecalculator-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jsorb/codejsorb.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jsorb/codejsorb co -P /media/kshitij/HDD_Kshitij/JAVA/jsorb/codejsorb
+svn checkout svn://svn.code.sf.net/p/opencms-ldap/code/trunk /media/kshitij/HDD_Kshitij/JAVA/opencms-ldap/codeopencms-ldap-code
+svn checkout svn://svn.code.sf.net/p/jmdns/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jmdns/codejmdns-code
+svn checkout svn://svn.code.sf.net/p/internetapps/code/trunk /media/kshitij/HDD_Kshitij/JAVA/internetapps/codeinternetapps-code
+git clone git://git.code.sf.net/p/jcca/code /media/kshitij/HDD_Kshitij/JAVA/jcca/codejcca-code
+svn checkout svn://svn.code.sf.net/p/waffle/code/trunk /media/kshitij/HDD_Kshitij/JAVA/waffle/codewaffle-code
+svn checkout svn://svn.code.sf.net/p/superb0ard/code-0/ /media/kshitij/HDD_Kshitij/JAVA/superb0ard/codesuperb0ard-code-0
+svn checkout svn://svn.code.sf.net/p/mopress/code/trunk /media/kshitij/HDD_Kshitij/JAVA/mopress/codemopress-code
+svn checkout svn://svn.code.sf.net/p/jinyan/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jinyan/codejinyan-code
+svn checkout svn://svn.code.sf.net/p/ssm-chain/code/ /media/kshitij/HDD_Kshitij/JAVA/ssm-chain/codessm-chain-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/autoj/codeautoj.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/autoj/codeautoj co -P /media/kshitij/HDD_Kshitij/JAVA/autoj/codeautoj
+svn checkout svn://svn.code.sf.net/p/wikicleaner/code/trunk /media/kshitij/HDD_Kshitij/JAVA/wikicleaner/codewikicleaner-code
+svn checkout svn://svn.code.sf.net/p/ribbitm/code/ /media/kshitij/HDD_Kshitij/JAVA/ribbitm/coderibbitm-code
+svn checkout svn://svn.code.sf.net/p/mirthdaymanager/code/ /media/kshitij/HDD_Kshitij/JAVA/mirthdaymanager/codemirthdaymanager-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/powervnc/codepowervnc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/powervnc/codepowervnc co -P /media/kshitij/HDD_Kshitij/JAVA/powervnc/codepowervnc
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/judge/codejudge.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/judge/codejudge co -P /media/kshitij/HDD_Kshitij/JAVA/judge/codejudge
+svn checkout svn://svn.code.sf.net/p/qalab/code/trunk /media/kshitij/HDD_Kshitij/JAVA/qalab/codeqalab-code
+svn checkout svn://svn.code.sf.net/p/abstractalm/code/ /media/kshitij/HDD_Kshitij/JAVA/abstractalm/codeabstractalm-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ga-fwork/codega-fwork.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ga-fwork/codega-fwork co -P /media/kshitij/HDD_Kshitij/JAVA/ga-fwork/codega-fwork
+git clone git://git.code.sf.net/p/emam/code /media/kshitij/HDD_Kshitij/JAVA/emam/codeemam-code
+svn checkout svn://svn.code.sf.net/p/water/code/trunk /media/kshitij/HDD_Kshitij/JAVA/water/codewater-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/janimationshop/codejanimationshop.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/janimationshop/codejanimationshop co -P /media/kshitij/HDD_Kshitij/JAVA/janimationshop/codejanimationshop
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jxpfw/codejxpfw.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jxpfw/codejxpfw co -P /media/kshitij/HDD_Kshitij/JAVA/jxpfw/codejxpfw
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/evogap/codeevogap.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/evogap/codeevogap co -P /media/kshitij/HDD_Kshitij/JAVA/evogap/codeevogap
+svn checkout svn://svn.code.sf.net/p/scenewiz/code/trunk /media/kshitij/HDD_Kshitij/JAVA/scenewiz/codescenewiz-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jcookie/codejcookie.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jcookie/codejcookie co -P /media/kshitij/HDD_Kshitij/JAVA/jcookie/codejcookie
+svn checkout svn://svn.code.sf.net/p/mobpcremotectrl/code/ /media/kshitij/HDD_Kshitij/JAVA/mobpcremotectrl/codemobpcremotectrl-code
+hg clone http://hg.code.sf.net/p/agilewiki/mercurial /media/kshitij/HDD_Kshitij/JAVA/agilewiki/mercurialagilewiki-mercurial
+svn checkout svn://svn.code.sf.net/p/agilewiki/svn/trunk /media/kshitij/HDD_Kshitij/JAVA/agilewiki/svnagilewiki-svn
+svn checkout svn://svn.code.sf.net/p/shard-3store/code/ /media/kshitij/HDD_Kshitij/JAVA/shard-3store/codeshard-3store-code
+svn checkout svn://svn.code.sf.net/p/doing/code/trunk /media/kshitij/HDD_Kshitij/JAVA/doing/codedoing-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/zyphos/codezyphos.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/zyphos/codezyphos co -P /media/kshitij/HDD_Kshitij/JAVA/zyphos/codezyphos
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/javadiff/codejavadiff.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/javadiff/codejavadiff co -P /media/kshitij/HDD_Kshitij/JAVA/javadiff/codejavadiff
+svn checkout svn://svn.code.sf.net/p/skellib/code/trunk /media/kshitij/HDD_Kshitij/JAVA/skellib/codeskellib-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/volleylife/cvsvolleylife.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/volleylife/cvsvolleylife co -P /media/kshitij/HDD_Kshitij/JAVA/volleylife/cvsvolleylife
+svn checkout svn://svn.code.sf.net/p/volleylife/code/ /media/kshitij/HDD_Kshitij/JAVA/volleylife/codevolleylife-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jpictures/codejpictures.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jpictures/codejpictures co -P /media/kshitij/HDD_Kshitij/JAVA/jpictures/codejpictures
+svn checkout svn://svn.code.sf.net/p/gako/code/ /media/kshitij/HDD_Kshitij/JAVA/gako/codegako-code
+svn checkout svn://svn.code.sf.net/p/sf-uw/code/trunk /media/kshitij/HDD_Kshitij/JAVA/sf-uw/codesf-uw-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/commsvcfw/codecommsvcfw.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/commsvcfw/codecommsvcfw co -P /media/kshitij/HDD_Kshitij/JAVA/commsvcfw/codecommsvcfw
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jspackager/codejspackager.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jspackager/codejspackager co -P /media/kshitij/HDD_Kshitij/JAVA/jspackager/codejspackager
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/parisian/codeparisian.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/parisian/codeparisian co -P /media/kshitij/HDD_Kshitij/JAVA/parisian/codeparisian
+svn checkout svn://svn.code.sf.net/p/simplexmlmailer/code/ /media/kshitij/HDD_Kshitij/JAVA/simplexmlmailer/codesimplexmlmailer-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jphost/codejphost.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jphost/codejphost co -P /media/kshitij/HDD_Kshitij/JAVA/jphost/codejphost
+svn checkout svn://svn.code.sf.net/p/lemmings-2/code/trunk /media/kshitij/HDD_Kshitij/JAVA/lemmings-2/codelemmings-2-code
+svn checkout svn://svn.code.sf.net/p/dadosobservados/code/ /media/kshitij/HDD_Kshitij/JAVA/dadosobservados/codedadosobservados-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/lti/cvslti.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/lti/cvslti co -P /media/kshitij/HDD_Kshitij/JAVA/lti/cvslti
+svn checkout svn://svn.code.sf.net/p/lti/code/ /media/kshitij/HDD_Kshitij/JAVA/lti/codelti-code
+svn checkout svn://svn.code.sf.net/p/builder/code/trunk /media/kshitij/HDD_Kshitij/JAVA/builder/codebuilder-code
+svn checkout svn://svn.code.sf.net/p/blax/code-svn/trunk /media/kshitij/HDD_Kshitij/JAVA/blax/codeblax-code-svn
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/newfaith/codenewfaith.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/newfaith/codenewfaith co -P /media/kshitij/HDD_Kshitij/JAVA/newfaith/codenewfaith
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/cap4e/codecap4e.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/cap4e/codecap4e co -P /media/kshitij/HDD_Kshitij/JAVA/cap4e/codecap4e
+cvs -z3 -d:pserver:anonymous@vlma.cvs.sourceforge.net:/cvsroot/vlma co -P /media/kshitij/HDD_Kshitij/JAVA/vlmaa/codevlmaa
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jcrconnector/codejcrconnector.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jcrconnector/codejcrconnector co -P /media/kshitij/HDD_Kshitij/JAVA/jcrconnector/codejcrconnector
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jlinalg/cvsjlinalg.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jlinalg/cvsjlinalg co -P /media/kshitij/HDD_Kshitij/JAVA/jlinalg/cvsjlinalg
+svn checkout svn://svn.code.sf.net/p/jlinalg/code/ /media/kshitij/HDD_Kshitij/JAVA/jlinalg/codejlinalg-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/adfc/codeadfc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/adfc/codeadfc co -P /media/kshitij/HDD_Kshitij/JAVA/adfc/codeadfc
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/open-orm/codeopen-orm.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/open-orm/codeopen-orm co -P /media/kshitij/HDD_Kshitij/JAVA/open-orm/codeopen-orm
+svn checkout svn://svn.code.sf.net/p/puces-samples/code/trunk /media/kshitij/HDD_Kshitij/JAVA/puces-samples/codepuces-samples-code
+svn checkout svn://svn.code.sf.net/p/webwatcher/code/ /media/kshitij/HDD_Kshitij/JAVA/webwatcher/codewebwatcher-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/userver/codeuserver.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/userver/codeuserver co -P /media/kshitij/HDD_Kshitij/JAVA/userver/codeuserver
+git clone git://git.code.sf.net/p/strzeleckiplugin/code /media/kshitij/HDD_Kshitij/JAVA/strzeleckiplugin/codestrzeleckiplugin-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/sphaera/codesphaera.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/sphaera/codesphaera co -P /media/kshitij/HDD_Kshitij/JAVA/sphaera/codesphaera
+svn checkout svn://svn.code.sf.net/p/jshm/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jshm/codejshm-code
+svn checkout svn://svn.code.sf.net/p/lssass/code/ /media/kshitij/HDD_Kshitij/JAVA/lssass/codelssass-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/spoiler/codespoiler.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/spoiler/codespoiler co -P /media/kshitij/HDD_Kshitij/JAVA/spoiler/codespoiler
+svn checkout svn://svn.code.sf.net/p/stuck-wheel/code/trunk /media/kshitij/HDD_Kshitij/JAVA/stuck-wheel/codestuck-wheel-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/eclipseexeditor/codeeclipseexeditor.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/eclipseexeditor/codeeclipseexeditor co -P /media/kshitij/HDD_Kshitij/JAVA/eclipseexeditor/codeeclipseexeditor
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/qscity3d/codeqscity3d.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/qscity3d/codeqscity3d co -P /media/kshitij/HDD_Kshitij/JAVA/qscity3d/codeqscity3d
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/perftest/codeperftest.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/perftest/codeperftest co -P /media/kshitij/HDD_Kshitij/JAVA/perftest/codeperftest
+svn checkout svn://svn.code.sf.net/p/ialib/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ialib/codeialib-code
+svn checkout svn://svn.code.sf.net/p/sitemap-parser/code/trunk /media/kshitij/HDD_Kshitij/JAVA/sitemap-parser/codesitemap-parser-code
+svn checkout svn://svn.code.sf.net/p/yaxdiff/code/ /media/kshitij/HDD_Kshitij/JAVA/yaxdiff/codeyaxdiff-code
+svn checkout svn://svn.code.sf.net/p/bt-thud/code/trunk /media/kshitij/HDD_Kshitij/JAVA/bt-thud/codebt-thud-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/easycourseware/codeeasycourseware.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/easycourseware/codeeasycourseware co -P /media/kshitij/HDD_Kshitij/JAVA/easycourseware/codeeasycourseware
+svn checkout svn://svn.code.sf.net/p/jeocaching/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jeocaching/codejeocaching-code
+svn checkout svn://svn.code.sf.net/p/pimpsismypianos/code/ /media/kshitij/HDD_Kshitij/JAVA/pimpsismypianos/codepimpsismypianos-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jxp/codejxp.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jxp/codejxp co -P /media/kshitij/HDD_Kshitij/JAVA/jxp/codejxp
+svn checkout svn://svn.code.sf.net/p/jpianotrain/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jpianotrain/codejpianotrain-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/polytopetetris/codepolytopetetris.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/polytopetetris/codepolytopetetris co -P /media/kshitij/HDD_Kshitij/JAVA/polytopetetris/codepolytopetetris
+svn checkout svn://svn.code.sf.net/p/geomodel/code/ /media/kshitij/HDD_Kshitij/JAVA/geomodel/codegeomodel-code
+svn checkout svn://svn.code.sf.net/p/easy-comm/code/trunk /media/kshitij/HDD_Kshitij/JAVA/easy-comm/codeeasy-comm-code
+svn checkout svn://svn.code.sf.net/p/neonoe/code/trunk /media/kshitij/HDD_Kshitij/JAVA/neonoe/codeneonoe-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/twole/codetwole.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/twole/codetwole co -P /media/kshitij/HDD_Kshitij/JAVA/twole/codetwole
+svn checkout svn://svn.code.sf.net/p/opencalc/code/trunk /media/kshitij/HDD_Kshitij/JAVA/opencalc/codeopencalc-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/josi-solar/codejosi-solar.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/josi-solar/codejosi-solar co -P /media/kshitij/HDD_Kshitij/JAVA/josi-solar/codejosi-solar
+svn checkout svn://svn.code.sf.net/p/sms-jacket/code/trunk /media/kshitij/HDD_Kshitij/JAVA/sms-jacket/codesms-jacket-code
+svn checkout svn://svn.code.sf.net/p/vocabreminder/code/ /media/kshitij/HDD_Kshitij/JAVA/vocabreminder/codevocabreminder-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/robocode2game/coderobocode2game.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/robocode2game/coderobocode2game co -P /media/kshitij/HDD_Kshitij/JAVA/robocode2game/coderobocode2game
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/flogman/codeflogman.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/flogman/codeflogman co -P /media/kshitij/HDD_Kshitij/JAVA/flogman/codeflogman
+svn checkout svn://svn.code.sf.net/p/atheris/code/trunk /media/kshitij/HDD_Kshitij/JAVA/atheris/codeatheris-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jamonapi/codejamonapi.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jamonapi/codejamonapi co -P /media/kshitij/HDD_Kshitij/JAVA/jamonapi/codejamonapi
+svn checkout svn://svn.code.sf.net/p/unitmetrics/code/ /media/kshitij/HDD_Kshitij/JAVA/unitmetrics/codeunitmetrics-code
+svn checkout svn://svn.code.sf.net/p/jprocessor/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jprocessor/codejprocessor-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/retromenu/coderetromenu.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/retromenu/coderetromenu co -P /media/kshitij/HDD_Kshitij/JAVA/retromenu/coderetromenu
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/airtodo/codeairtodo.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/airtodo/codeairtodo co -P /media/kshitij/HDD_Kshitij/JAVA/airtodo/codeairtodo
+git clone git://git.code.sf.net/p/jnfe/base /media/kshitij/HDD_Kshitij/JAVA/jnfe/git/basejnfe-base
+git clone git://git.code.sf.net/p/jnfe/devel /media/kshitij/HDD_Kshitij/JAVA/jnfe/git/develjnfe-devel
+git clone git://git.code.sf.net/p/jnfe/jnfe /media/kshitij/HDD_Kshitij/JAVA/jnfe/git/jnfejnfe-jnfe
+svn checkout svn://svn.code.sf.net/p/jctc/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jctc/codejctc-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/atgeclipse/codeatgeclipse.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/atgeclipse/codeatgeclipse co -P /media/kshitij/HDD_Kshitij/JAVA/atgeclipse/codeatgeclipse
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/carabiner/codecarabiner.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/carabiner/codecarabiner co -P /media/kshitij/HDD_Kshitij/JAVA/carabiner/codecarabiner
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/kennismanager/codekennismanager.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/kennismanager/codekennismanager co -P /media/kshitij/HDD_Kshitij/JAVA/kennismanager/codekennismanager
+svn checkout svn://svn.code.sf.net/p/microdbsw/code/trunk /media/kshitij/HDD_Kshitij/JAVA/microdbsw/codemicrodbsw-code
+hg clone http://hg.code.sf.net/p/harrow/code /media/kshitij/HDD_Kshitij/JAVA/harrow/codeharrow-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jmailsrv/codejmailsrv.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jmailsrv/codejmailsrv co -P /media/kshitij/HDD_Kshitij/JAVA/jmailsrv/codejmailsrv
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/isportal05/cvsisportal05.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/isportal05/cvsisportal05 co -P /media/kshitij/HDD_Kshitij/JAVA/isportal05/cvsisportal05
+svn checkout svn://svn.code.sf.net/p/isportal05/code/ /media/kshitij/HDD_Kshitij/JAVA/isportal05/codeisportal05-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jtheme/codejtheme.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jtheme/codejtheme co -P /media/kshitij/HDD_Kshitij/JAVA/jtheme/codejtheme
+svn checkout svn://svn.code.sf.net/p/iter-hangman/code/ /media/kshitij/HDD_Kshitij/JAVA/iter-hangman/codeiter-hangman-code
+git clone git://git.code.sf.net/p/openlca/code /media/kshitij/HDD_Kshitij/JAVA/openlca/codeopenlca-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/aiforgames/codeaiforgames.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/aiforgames/codeaiforgames co -P /media/kshitij/HDD_Kshitij/JAVA/aiforgames/codeaiforgames
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/safejdbc/codesafejdbc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/safejdbc/codesafejdbc co -P /media/kshitij/HDD_Kshitij/JAVA/safejdbc/codesafejdbc
+svn checkout svn://svn.code.sf.net/p/trojuhelnik/code/ /media/kshitij/HDD_Kshitij/JAVA/trojuhelnik/codetrojuhelnik-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/av4odf/codeav4odf.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/av4odf/codeav4odf co -P /media/kshitij/HDD_Kshitij/JAVA/av4odf/codeav4odf
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/junicoder/codejunicoder.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/junicoder/codejunicoder co -P /media/kshitij/HDD_Kshitij/JAVA/junicoder/codejunicoder
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/tarotux/codetarotux.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/tarotux/codetarotux co -P /media/kshitij/HDD_Kshitij/JAVA/tarotux/codetarotux
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/javacurse/codejavacurse.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/javacurse/codejavacurse co -P /media/kshitij/HDD_Kshitij/JAVA/javacurse/codejavacurse
+svn checkout svn://svn.code.sf.net/p/yagni/code/ /media/kshitij/HDD_Kshitij/JAVA/yagni/codeyagni-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jpwrite/codejpwrite.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jpwrite/codejpwrite co -P /media/kshitij/HDD_Kshitij/JAVA/jpwrite/codejpwrite
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jasmin/codejasmin.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jasmin/codejasmin co -P /media/kshitij/HDD_Kshitij/JAVA/jasmin/codejasmin
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jxunit/codejxunit.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jxunit/codejxunit co -P /media/kshitij/HDD_Kshitij/JAVA/jxunit/codejxunit
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/swingbits/codeswingbits.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/swingbits/codeswingbits co -P /media/kshitij/HDD_Kshitij/JAVA/swingbits/codeswingbits
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/logframework/codelogframework.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/logframework/codelogframework co -P /media/kshitij/HDD_Kshitij/JAVA/logframework/codelogframework
+svn checkout svn://svn.code.sf.net/p/components4j/code/trunk /media/kshitij/HDD_Kshitij/JAVA/components4j/codecomponents4j-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jreporter/codejreporter.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jreporter/codejreporter co -P /media/kshitij/HDD_Kshitij/JAVA/jreporter/codejreporter
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/genesis-ioc/codegenesis-ioc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/genesis-ioc/codegenesis-ioc co -P /media/kshitij/HDD_Kshitij/JAVA/genesis-ioc/codegenesis-ioc
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/mpe/codempe.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/mpe/codempe co -P /media/kshitij/HDD_Kshitij/JAVA/mpe/codempe
+svn checkout svn://svn.code.sf.net/p/syncstore/code/trunk /media/kshitij/HDD_Kshitij/JAVA/syncstore/codesyncstore-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/signaleducation/codesignaleducation.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/signaleducation/codesignaleducation co -P /media/kshitij/HDD_Kshitij/JAVA/signaleducation/codesignaleducation
+git clone git://git.code.sf.net/p/penrose/code /media/kshitij/HDD_Kshitij/JAVA/penrose/codepenrose-code
+svn checkout svn://svn.code.sf.net/p/swingdocking/code/trunk /media/kshitij/HDD_Kshitij/JAVA/swingdocking/codeswingdocking-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/wordfreak/codewordfreak.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/wordfreak/codewordfreak co -P /media/kshitij/HDD_Kshitij/JAVA/wordfreak/codewordfreak
+git clone git://git.code.sf.net/p/camprocessor/camedit /media/kshitij/HDD_Kshitij/JAVA/camprocessor/git/Cameditcamprocessor-camedit
+git clone git://git.code.sf.net/p/camprocessor/camv /media/kshitij/HDD_Kshitij/JAVA/camprocessor/git/Camvcamprocessor-camv
+git clone git://git.code.sf.net/p/camprocessor/camv-test /media/kshitij/HDD_Kshitij/JAVA/camprocessor/git/Camv-testcamprocessor-camv-test
+git clone git://git.code.sf.net/p/camprocessor/CAM-Base /media/kshitij/HDD_Kshitij/JAVA/camprocessor/git/CAM-Basecamprocessor-CAM-Base
+git clone git://git.code.sf.net/p/camprocessor/CAMEditor /media/kshitij/HDD_Kshitij/JAVA/camprocessor/git/CAMEditorcamprocessor-CAMEditor
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jrevproxy/codejrevproxy.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jrevproxy/codejrevproxy co -P /media/kshitij/HDD_Kshitij/JAVA/jrevproxy/codejrevproxy
+svn checkout svn://svn.code.sf.net/p/zucchini-squash/code/ /media/kshitij/HDD_Kshitij/JAVA/zucchini-squash/codezucchini-squash-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/dragonbreath/codedragonbreath.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/dragonbreath/codedragonbreath co -P /media/kshitij/HDD_Kshitij/JAVA/dragonbreath/codedragonbreath
+svn checkout svn://svn.code.sf.net/p/lanholdempoker/code/trunk /media/kshitij/HDD_Kshitij/JAVA/lanholdempoker/codelanholdempoker-code
+svn checkout svn://svn.code.sf.net/p/clubmanagement/code/trunk /media/kshitij/HDD_Kshitij/JAVA/clubmanagement/codeclubmanagement-code
+svn checkout svn://svn.code.sf.net/p/jdistunit/code/ /media/kshitij/HDD_Kshitij/JAVA/jdistunit/codejdistunit-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/moleicious/codemoleicious.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/moleicious/codemoleicious co -P /media/kshitij/HDD_Kshitij/JAVA/moleicious/codemoleicious
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/relation-finder/coderelation-finder.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/relation-finder/coderelation-finder co -P /media/kshitij/HDD_Kshitij/JAVA/relation-finder/coderelation-finder
+svn checkout svn://svn.code.sf.net/p/byuediftools/code/trunk /media/kshitij/HDD_Kshitij/JAVA/byuediftools/codebyuediftools-code
+svn checkout svn://svn.code.sf.net/p/ceevitoriaadmin/code/ /media/kshitij/HDD_Kshitij/JAVA/ceevitoriaadmin/codeceevitoriaadmin-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ewc/codeewc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ewc/codeewc co -P /media/kshitij/HDD_Kshitij/JAVA/ewc/codeewc
+svn checkout svn://svn.code.sf.net/p/p2pvpn/code/ /media/kshitij/HDD_Kshitij/JAVA/p2pvpn/codep2pvpn-code
+svn checkout svn://svn.code.sf.net/p/suprabrowser/code/trunk /media/kshitij/HDD_Kshitij/JAVA/suprabrowser/codesuprabrowser-code
+svn checkout svn://svn.code.sf.net/p/agenda-bio/code/trunk /media/kshitij/HDD_Kshitij/JAVA/agenda-bio/codeagenda-bio-code
+svn checkout svn://svn.code.sf.net/p/el4ant/code/trunk /media/kshitij/HDD_Kshitij/JAVA/el4ant/codeel4ant-code
+svn checkout svn://svn.code.sf.net/p/evotrader/code/trunk /media/kshitij/HDD_Kshitij/JAVA/evotrader/codeevotrader-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/digiscrap/codedigiscrap.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/digiscrap/codedigiscrap co -P /media/kshitij/HDD_Kshitij/JAVA/digiscrap/codedigiscrap
+svn checkout svn://svn.code.sf.net/p/jwadlib/code/ /media/kshitij/HDD_Kshitij/JAVA/jwadlib/codejwadlib-code
+svn checkout svn://svn.code.sf.net/p/jbeacon/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jbeacon/codejbeacon-code
+svn checkout svn://svn.code.sf.net/p/javabudget/code/ /media/kshitij/HDD_Kshitij/JAVA/javabudget/codejavabudget-code
+svn checkout svn://svn.code.sf.net/p/bodega/code/ /media/kshitij/HDD_Kshitij/JAVA/bodega/codebodega-code
+svn checkout svn://svn.code.sf.net/p/japrosim/code/trunk /media/kshitij/HDD_Kshitij/JAVA/japrosim/svn/Codejaprosim-code
+svn checkout svn://svn.code.sf.net/p/japrosim/source/trunk /media/kshitij/HDD_Kshitij/JAVA/japrosim/svn/Sourcejaprosim-source
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/elaunch/codeelaunch.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/elaunch/codeelaunch co -P /media/kshitij/HDD_Kshitij/JAVA/elaunch/codeelaunch
+svn checkout svn://svn.code.sf.net/p/geoifx/code/ /media/kshitij/HDD_Kshitij/JAVA/geoifx/codegeoifx-code
+svn checkout svn://svn.code.sf.net/p/botspokerroom/code/ /media/kshitij/HDD_Kshitij/JAVA/botspokerroom/codebotspokerroom-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/xbus/codexbus.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/xbus/codexbus co -P /media/kshitij/HDD_Kshitij/JAVA/xbus/codexbus
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/rcpsudoku/codercpsudoku.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/rcpsudoku/codercpsudoku co -P /media/kshitij/HDD_Kshitij/JAVA/rcpsudoku/codercpsudoku
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/derbymyadmin/codederbymyadmin.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/derbymyadmin/codederbymyadmin co -P /media/kshitij/HDD_Kshitij/JAVA/derbymyadmin/codederbymyadmin
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/nusbiopack/codenusbiopack.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/nusbiopack/codenusbiopack co -P /media/kshitij/HDD_Kshitij/JAVA/nusbiopack/codenusbiopack
+svn checkout svn://svn.code.sf.net/p/jvcard/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jvcard/codejvcard-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/nckptsimulator/cvsnckptsimulator.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/nckptsimulator/cvsnckptsimulator co -P /media/kshitij/HDD_Kshitij/JAVA/nckptsimulator/cvsnckptsimulator
+svn checkout svn://svn.code.sf.net/p/nckptsimulator/code/ /media/kshitij/HDD_Kshitij/JAVA/nckptsimulator/codenckptsimulator-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/casinoblue/codecasinoblue.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/casinoblue/codecasinoblue co -P /media/kshitij/HDD_Kshitij/JAVA/casinoblue/codecasinoblue
+hg clone http://hg.code.sf.net/p/graphtk/code /media/kshitij/HDD_Kshitij/JAVA/graphtk/codegraphtk-code
+svn checkout svn://svn.code.sf.net/p/fake-sango/code/ /media/kshitij/HDD_Kshitij/JAVA/fake-sango/codefake-sango-code
+svn checkout svn://svn.code.sf.net/p/shaft/code/ /media/kshitij/HDD_Kshitij/JAVA/shaft/codeshaft-code
+svn checkout svn://svn.code.sf.net/p/xmlnodeparser/code/ /media/kshitij/HDD_Kshitij/JAVA/xmlnodeparser/codexmlnodeparser-code
+svn checkout svn://svn.code.sf.net/p/filenamematcher/code/ /media/kshitij/HDD_Kshitij/JAVA/filenamematcher/codefilenamematcher-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/pyeclipse/codepyeclipse.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/pyeclipse/codepyeclipse co -P /media/kshitij/HDD_Kshitij/JAVA/pyeclipse/codepyeclipse
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/mini-pub/codemini-pub.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/mini-pub/codemini-pub co -P /media/kshitij/HDD_Kshitij/JAVA/mini-pub/codemini-pub
+svn checkout svn://svn.code.sf.net/p/ovanttasks/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ovanttasks/codeovanttasks-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ripplet/coderipplet.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ripplet/coderipplet co -P /media/kshitij/HDD_Kshitij/JAVA/ripplet/coderipplet
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/sokobantux/codesokobantux.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/sokobantux/codesokobantux co -P /media/kshitij/HDD_Kshitij/JAVA/sokobantux/codesokobantux
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jdroids/codejdroids.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jdroids/codejdroids co -P /media/kshitij/HDD_Kshitij/JAVA/jdroids/codejdroids
+svn checkout svn://svn.code.sf.net/p/omdplugin/code/ /media/kshitij/HDD_Kshitij/JAVA/omdplugin/codeomdplugin-code
+svn checkout svn://svn.code.sf.net/p/drakensang/code/trunk /media/kshitij/HDD_Kshitij/JAVA/drakensang/codedrakensang-code
+svn checkout svn://svn.code.sf.net/p/worklock/code/ /media/kshitij/HDD_Kshitij/JAVA/worklock/codeworklock-code
+svn checkout svn://svn.code.sf.net/p/cmdconfig/code/ /media/kshitij/HDD_Kshitij/JAVA/cmdconfig/codecmdconfig-code
+svn checkout svn://svn.code.sf.net/p/jdpapi/code/ /media/kshitij/HDD_Kshitij/JAVA/jdpapi/codejdpapi-code
+svn checkout svn://svn.code.sf.net/p/jabba/code/ /media/kshitij/HDD_Kshitij/JAVA/jabba/codejabba-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jwamenvironment/codejwamenvironment.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jwamenvironment/codejwamenvironment co -P /media/kshitij/HDD_Kshitij/JAVA/jwamenvironment/codejwamenvironment
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/neonzip/codeneonzip.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/neonzip/codeneonzip co -P /media/kshitij/HDD_Kshitij/JAVA/neonzip/codeneonzip
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jpeeps/codejpeeps.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jpeeps/codejpeeps co -P /media/kshitij/HDD_Kshitij/JAVA/jpeeps/codejpeeps
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/xstance/codexstance.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/xstance/codexstance co -P /media/kshitij/HDD_Kshitij/JAVA/xstance/codexstance
+svn checkout svn://svn.code.sf.net/p/ah7/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ah7/codeah7-code
+svn checkout svn://svn.code.sf.net/p/colossus/code/trunk /media/kshitij/HDD_Kshitij/JAVA/colossus/codecolossus-code
+git clone git://git.code.sf.net/p/keepassj2me/keepassj2me-midlet /media/kshitij/HDD_Kshitij/JAVA/keepassj2me/git/keepassj2me-midletkeepassj2me-keepassj2me-midlet
+git clone git://git.code.sf.net/p/keepassj2me/keepassj2me-packer /media/kshitij/HDD_Kshitij/JAVA/keepassj2me/git/keepassj2me-packerkeepassj2me-keepassj2me-packer
+git clone git://git.code.sf.net/p/keepassj2me/keepassj2me.sf.net /media/kshitij/HDD_Kshitij/JAVA/keepassj2me/git/keepassj2me.sf.netkeepassj2me-keepassj2me.sf.net
+svn checkout svn://svn.code.sf.net/p/keepassj2me/svn/ /media/kshitij/HDD_Kshitij/JAVA/keepassj2me/svnkeepassj2me-svn
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/hvs/codehvs.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/hvs/codehvs co -P /media/kshitij/HDD_Kshitij/JAVA/hvs/codehvs
+svn checkout svn://svn.code.sf.net/p/xpressroad/code/ /media/kshitij/HDD_Kshitij/JAVA/xpressroad/codexpressroad-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jchassis/codejchassis.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jchassis/codejchassis co -P /media/kshitij/HDD_Kshitij/JAVA/jchassis/codejchassis
+svn checkout svn://svn.code.sf.net/p/whatzit/code/trunk /media/kshitij/HDD_Kshitij/JAVA/whatzit/codewhatzit-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/semanticwebpipe/codesemanticwebpipe.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/semanticwebpipe/codesemanticwebpipe co -P /media/kshitij/HDD_Kshitij/JAVA/semanticwebpipe/codesemanticwebpipe
+svn checkout svn://svn.code.sf.net/p/texttrix/svn/texttrix/trunk /media/kshitij/HDD_Kshitij/JAVA/texttrix/codetexttrix-svn
+svn checkout svn://svn.code.sf.net/p/crystalstore/code/ /media/kshitij/HDD_Kshitij/JAVA/crystalstore/codecrystalstore-code
+svn checkout svn://svn.code.sf.net/p/jamplugged/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jamplugged/codejamplugged-code
+svn checkout svn://svn.code.sf.net/p/chordman/code/trunk /media/kshitij/HDD_Kshitij/JAVA/chordman/codechordman-code
+svn checkout svn://svn.code.sf.net/p/voltalog/code/trunk /media/kshitij/HDD_Kshitij/JAVA/voltalog/codevoltalog-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/side4u/codeside4u.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/side4u/codeside4u co -P /media/kshitij/HDD_Kshitij/JAVA/side4u/codeside4u
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/dvdc/codedvdc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/dvdc/codedvdc co -P /media/kshitij/HDD_Kshitij/JAVA/dvdc/codedvdc
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/highflyer/codehighflyer.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/highflyer/codehighflyer co -P /media/kshitij/HDD_Kshitij/JAVA/highflyer/codehighflyer
+svn checkout svn://svn.code.sf.net/p/jcloader/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jcloader/codejcloader-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/easycluster/codeeasycluster.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/easycluster/codeeasycluster co -P /media/kshitij/HDD_Kshitij/JAVA/easycluster/codeeasycluster
+svn checkout svn://svn.code.sf.net/p/polycasso/code/trunk /media/kshitij/HDD_Kshitij/JAVA/polycasso/codepolycasso-code
+git clone git://git.code.sf.net/p/coloureyes/code /media/kshitij/HDD_Kshitij/JAVA/coloureyes/codecoloureyes-code
+svn checkout svn://svn.code.sf.net/p/modbuspal/code/ /media/kshitij/HDD_Kshitij/JAVA/modbuspal/codemodbuspal-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/blackdome/codeblackdome.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/blackdome/codeblackdome co -P /media/kshitij/HDD_Kshitij/JAVA/blackdome/codeblackdome
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ini4j/cvsini4j.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ini4j/cvsini4j co -P /media/kshitij/HDD_Kshitij/JAVA/ini4j/cvsini4j
+svn checkout svn://svn.code.sf.net/p/ini4j/code/trunk /media/kshitij/HDD_Kshitij/JAVA/ini4j/codeini4j-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/socker/codesocker.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/socker/codesocker co -P /media/kshitij/HDD_Kshitij/JAVA/socker/codesocker
+svn checkout svn://svn.code.sf.net/p/atevents/code/trunk /media/kshitij/HDD_Kshitij/JAVA/atevents/codeatevents-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jbpm-opencms/codejbpm-opencms.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jbpm-opencms/codejbpm-opencms co -P /media/kshitij/HDD_Kshitij/JAVA/jbpm-opencms/codejbpm-opencms
+svn checkout svn://svn.code.sf.net/p/mirach/code/ /media/kshitij/HDD_Kshitij/JAVA/mirach/codemirach-code
+svn checkout svn://svn.code.sf.net/p/ferrovie/code/ /media/kshitij/HDD_Kshitij/JAVA/ferrovie/codeferrovie-code
+svn checkout svn://svn.code.sf.net/p/shef/code/ /media/kshitij/HDD_Kshitij/JAVA/shef/codeshef-code
+svn checkout svn://svn.code.sf.net/p/mime-util/code/trunk /media/kshitij/HDD_Kshitij/JAVA/mime-util/codemime-util-code
+svn checkout svn://svn.code.sf.net/p/jsquashfs/code/trunk /media/kshitij/HDD_Kshitij/JAVA/jsquashfs/codejsquashfs-code
+svn checkout svn://svn.code.sf.net/p/wikipediabioref/code/ /media/kshitij/HDD_Kshitij/JAVA/wikipediabioref/codewikipediabioref-code
+svn checkout svn://svn.code.sf.net/p/goodbyeworld/code/trunk /media/kshitij/HDD_Kshitij/JAVA/goodbyeworld/codegoodbyeworld-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/nntprss/codenntprss.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/nntprss/codenntprss co -P /media/kshitij/HDD_Kshitij/JAVA/nntprss/codenntprss
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/expensetracker/codeexpensetracker.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/expensetracker/codeexpensetracker co -P /media/kshitij/HDD_Kshitij/JAVA/expensetracker/codeexpensetracker
+svn checkout svn://svn.code.sf.net/p/pigapps/code/ /media/kshitij/HDD_Kshitij/JAVA/pigapps/codepigapps-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/java-readline/codejava-readline.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/java-readline/codejava-readline co -P /media/kshitij/HDD_Kshitij/JAVA/java-readline/codejava-readline
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/motionbased/codemotionbased.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/motionbased/codemotionbased co -P /media/kshitij/HDD_Kshitij/JAVA/motionbased/codemotionbased
+svn checkout svn://svn.code.sf.net/p/trotskytime/code/ /media/kshitij/HDD_Kshitij/JAVA/trotskytime/codetrotskytime-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/strangebrew/codestrangebrew.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/strangebrew/codestrangebrew co -P /media/kshitij/HDD_Kshitij/JAVA/strangebrew/codestrangebrew
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/emailchecker/codeemailchecker.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/emailchecker/codeemailchecker co -P /media/kshitij/HDD_Kshitij/JAVA/emailchecker/codeemailchecker
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/manama/codemanama.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/manama/codemanama co -P /media/kshitij/HDD_Kshitij/JAVA/manama/codemanama
+git clone git://git.code.sf.net/p/svojak/code /media/kshitij/HDD_Kshitij/JAVA/svojak/codesvojak-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/snaax/codesnaax.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/snaax/codesnaax co -P /media/kshitij/HDD_Kshitij/JAVA/snaax/codesnaax
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/deepduke/codedeepduke.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/deepduke/codedeepduke co -P /media/kshitij/HDD_Kshitij/JAVA/deepduke/codedeepduke
+svn checkout svn://svn.code.sf.net/p/bsgraphics/code/trunk /media/kshitij/HDD_Kshitij/JAVA/bsgraphics/codebsgraphics-code
+svn checkout svn://svn.code.sf.net/p/edecanat/code/trunk /media/kshitij/HDD_Kshitij/JAVA/edecanat/codeedecanat-code
+svn checkout svn://svn.code.sf.net/p/simplemms/code/trunk /media/kshitij/HDD_Kshitij/JAVA/simplemms/codesimplemms-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/dimdim/codedimdim.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/dimdim/codedimdim co -P /media/kshitij/HDD_Kshitij/JAVA/dimdim/codedimdim
+svn checkout svn://svn.code.sf.net/p/javageocoder/code/ /media/kshitij/HDD_Kshitij/JAVA/javageocoder/codejavageocoder-code
+svn checkout svn://svn.code.sf.net/p/prest/code/trunk /media/kshitij/HDD_Kshitij/JAVA/prest/codeprest-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/upc/codeupc.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/upc/codeupc co -P /media/kshitij/HDD_Kshitij/JAVA/upc/codeupc
+git clone git://git.code.sf.net/p/umlcreator/code /media/kshitij/HDD_Kshitij/JAVA/umlcreator/codeumlcreator-code
+svn checkout svn://svn.code.sf.net/p/secdata/code/ /media/kshitij/HDD_Kshitij/JAVA/secdata/codesecdata-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/bugkilla/codebugkilla.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/bugkilla/codebugkilla co -P /media/kshitij/HDD_Kshitij/JAVA/bugkilla/codebugkilla
+bzr:///media/kshitij/HDD_Kshitij/JAVA/bzr-nb-plugin/codebzr-nb-plugin.bzr.sourceforge.net/bzrroot//media/kshitij/HDD_Kshitij/JAVA/bzr-nb-plugin/codebzr-nb-plugin (read-only) bzr+ssh://*anonymous@/media/kshitij/HDD_Kshitij/JAVA/bzr-nb-plugin/codebzr-nb-plugin.bzr.sourceforge.net/bzrroot//media/kshitij/HDD_Kshitij/JAVA/bzr-nb-plugin/codebzr-nb-plugin (read/write) /media/kshitij/HDD_Kshitij/JAVA/bzr-nb-plugin/codebzr-nb-plugin
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jemmyfixture/codejemmyfixture.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jemmyfixture/codejemmyfixture co -P /media/kshitij/HDD_Kshitij/JAVA/jemmyfixture/codejemmyfixture
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ripula/coderipula.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ripula/coderipula co -P /media/kshitij/HDD_Kshitij/JAVA/ripula/coderipula
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jstella/codejstella.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jstella/codejstella co -P /media/kshitij/HDD_Kshitij/JAVA/jstella/codejstella
+svn checkout svn://svn.code.sf.net/p/jfcunit-2/code/ /media/kshitij/HDD_Kshitij/JAVA/jfcunit-2/codejfcunit-2-code
+svn checkout svn://svn.code.sf.net/p/aatma/code/ /media/kshitij/HDD_Kshitij/JAVA/aatma/codeaatma-code
+svn checkout svn://svn.code.sf.net/p/expresst6/code/trunk /media/kshitij/HDD_Kshitij/JAVA/expresst6/codeexpresst6-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/replipool/codereplipool.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/replipool/codereplipool co -P /media/kshitij/HDD_Kshitij/JAVA/replipool/codereplipool
+svn checkout svn://svn.code.sf.net/p/dbmigratej/code/trunk /media/kshitij/HDD_Kshitij/JAVA/dbmigratej/codedbmigratej-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/solareclipse/codesolareclipse.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/solareclipse/codesolareclipse co -P /media/kshitij/HDD_Kshitij/JAVA/solareclipse/codesolareclipse
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/ldapeclipse/codeldapeclipse.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/ldapeclipse/codeldapeclipse co -P /media/kshitij/HDD_Kshitij/JAVA/ldapeclipse/codeldapeclipse
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/mosaix/codemosaix.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/mosaix/codemosaix co -P /media/kshitij/HDD_Kshitij/JAVA/mosaix/codemosaix
+svn checkout svn://svn.code.sf.net/p/rmlmediautil/code/ /media/kshitij/HDD_Kshitij/JAVA/rmlmediautil/codermlmediautil-code
+svn checkout svn://svn.code.sf.net/p/flydict/code/ /media/kshitij/HDD_Kshitij/JAVA/flydict/codeflydict-code
+svn checkout svn://svn.code.sf.net/p/sprut-fw/code/ /media/kshitij/HDD_Kshitij/JAVA/sprut-fw/codesprut-fw-code
+svn checkout svn://svn.code.sf.net/p/t-i-c-o/code/trunk /media/kshitij/HDD_Kshitij/JAVA/t-i-c-o/codet-i-c-o-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jmars/codejmars.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jmars/codejmars co -P /media/kshitij/HDD_Kshitij/JAVA/jmars/codejmars
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/webcounters/codewebcounters.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/webcounters/codewebcounters co -P /media/kshitij/HDD_Kshitij/JAVA/webcounters/codewebcounters
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/javadoxml/codejavadoxml.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/javadoxml/codejavadoxml co -P /media/kshitij/HDD_Kshitij/JAVA/javadoxml/codejavadoxml
+svn checkout svn://svn.code.sf.net/p/churchdigital/code/ /media/kshitij/HDD_Kshitij/JAVA/churchdigital/codechurchdigital-code
+svn checkout svn://svn.code.sf.net/p/html5canvas/code/trunk /media/kshitij/HDD_Kshitij/JAVA/html5canvas/codehtml5canvas-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/traceurpascal/codetraceurpascal.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/traceurpascal/codetraceurpascal co -P /media/kshitij/HDD_Kshitij/JAVA/traceurpascal/codetraceurpascal
+svn checkout svn://svn.code.sf.net/p/sistra/code/ /media/kshitij/HDD_Kshitij/JAVA/sistra/codesistra-code
+svn checkout svn://svn.code.sf.net/p/smartchron/code/ /media/kshitij/HDD_Kshitij/JAVA/smartchron/codesmartchron-code
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/beanview/codebeanview.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/beanview/codebeanview co -P /media/kshitij/HDD_Kshitij/JAVA/beanview/codebeanview
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/jdstream/codejdstream.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/jdstream/codejdstream co -P /media/kshitij/HDD_Kshitij/JAVA/jdstream/codejdstream
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/legion/codelegion.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/legion/codelegion co -P /media/kshitij/HDD_Kshitij/JAVA/legion/codelegion
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/neudist/codeneudist.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/neudist/codeneudist co -P /media/kshitij/HDD_Kshitij/JAVA/neudist/codeneudist
+svn checkout svn://svn.code.sf.net/p/fitarcp/code/trunk /media/kshitij/HDD_Kshitij/JAVA/fitarcp/codefitarcp-code

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/smyle/codesmyle.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/smyle/codesmyle co -P /Users/kshitijgautam/JAVA/smyle/codesmyle
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jjicalc/codejjicalc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jjicalc/codejjicalc co -P /Users/kshitijgautam/JAVA/jjicalc/codejjicalc
+svn checkout svn://svn.code.sf.net/p/cachier/code/ /Users/kshitijgautam/JAVA/cachier/codecachier-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/infinatekurios/cvsinfinatekurios.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/infinatekurios/cvsinfinatekurios co -P /Users/kshitijgautam/JAVA/infinatekurios/cvsinfinatekurios
+svn checkout svn://svn.code.sf.net/p/infinatekurios/code/trunk /Users/kshitijgautam/JAVA/infinatekurios/codeinfinatekurios-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/beanlet/codebeanlet.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/beanlet/codebeanlet co -P /Users/kshitijgautam/JAVA/beanlet/codebeanlet
+svn checkout svn://svn.code.sf.net/p/mahjong-webserv/code/trunk /Users/kshitijgautam/JAVA/mahjong-webserv/codemahjong-webserv-code
+svn checkout svn://svn.code.sf.net/p/cartoreso/code/trunk /Users/kshitijgautam/JAVA/cartoreso/codecartoreso-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jdbcappender/codejdbcappender.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jdbcappender/codejdbcappender co -P /Users/kshitijgautam/JAVA/jdbcappender/codejdbcappender
+svn checkout svn://svn.code.sf.net/p/javanzb/code/trunk /Users/kshitijgautam/JAVA/javanzb/codejavanzb-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/gnome-gcj/codegnome-gcj.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/gnome-gcj/codegnome-gcj co -P /Users/kshitijgautam/JAVA/gnome-gcj/codegnome-gcj
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/eclipsensis/codeeclipsensis.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/eclipsensis/codeeclipsensis co -P /Users/kshitijgautam/JAVA/eclipsensis/codeeclipsensis
+svn checkout svn://svn.code.sf.net/p/almandoku/code/ /Users/kshitijgautam/JAVA/almandoku/codealmandoku-code
+svn checkout svn://svn.code.sf.net/p/techne-dev/code/trunk /Users/kshitijgautam/JAVA/techne-dev/codetechne-dev-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/normalizer/codenormalizer.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/normalizer/codenormalizer co -P /Users/kshitijgautam/JAVA/normalizer/codenormalizer
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/basys/codebasys.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/basys/codebasys co -P /Users/kshitijgautam/JAVA/basys/codebasys
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/osesm/codeosesm.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/osesm/codeosesm co -P /Users/kshitijgautam/JAVA/osesm/codeosesm
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/bxmodeller/codebxmodeller.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/bxmodeller/codebxmodeller co -P /Users/kshitijgautam/JAVA/bxmodeller/codebxmodeller
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/bes/codebes.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/bes/codebes co -P /Users/kshitijgautam/JAVA/bes/codebes
+svn checkout svn://svn.code.sf.net/p/autoexport/code/ /Users/kshitijgautam/JAVA/autoexport/codeautoexport-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/os400bridge/codeos400bridge.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/os400bridge/codeos400bridge co -P /Users/kshitijgautam/JAVA/os400bridge/codeos400bridge
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/nk119/codenk119.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/nk119/codenk119 co -P /Users/kshitijgautam/JAVA/nk119/codenk119

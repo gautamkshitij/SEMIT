@@ -1,0 +1,3 @@
+#!/bin/bash
+
+svn checkout svn://svn.code.sf.net/p/gorku/code/ /Volumes/HDD_Kshitij/JAVA/gorku/codegorku-code

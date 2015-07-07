@@ -1,0 +1,497 @@
+#!/bin/bash
+
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/xspacedb/codexspacedb.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/xspacedb/codexspacedb co -P /Users/kshitijgautam/JAVA/xspacedb/codexspacedb
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/treeform/codetreeform.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/treeform/codetreeform co -P /Users/kshitijgautam/JAVA/treeform/codetreeform
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/banjo/codebanjo.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/banjo/codebanjo co -P /Users/kshitijgautam/JAVA/banjo/codebanjo
+svn checkout svn://svn.code.sf.net/p/checkcml/code/trunk /Users/kshitijgautam/JAVA/checkcml/codecheckcml-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/bricksviewer/codebricksviewer.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/bricksviewer/codebricksviewer co -P /Users/kshitijgautam/JAVA/bricksviewer/codebricksviewer
+svn checkout svn://svn.code.sf.net/p/lsesame/code/trunk /Users/kshitijgautam/JAVA/lsesame/codelsesame-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/geeboss/codegeeboss.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/geeboss/codegeeboss co -P /Users/kshitijgautam/JAVA/geeboss/codegeeboss
+svn checkout svn://svn.code.sf.net/p/equil/code/trunk /Users/kshitijgautam/JAVA/equil/codeequil-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/htdv/codehtdv.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/htdv/codehtdv co -P /Users/kshitijgautam/JAVA/htdv/codehtdv
+git clone git://git.code.sf.net/p/kerner-utils-io/code /Users/kshitijgautam/JAVA/kerner-utils-io/codekerner-utils-io-code
+svn checkout svn://svn.code.sf.net/p/jqql/code/trunk /Users/kshitijgautam/JAVA/jqql/codejqql-code
+svn checkout svn://svn.code.sf.net/p/clark/code/trunk /Users/kshitijgautam/JAVA/clark/codeclark-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/otas/codeotas.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/otas/codeotas co -P /Users/kshitijgautam/JAVA/otas/codeotas
+svn checkout svn://svn.code.sf.net/p/doraplatform/code/trunk /Users/kshitijgautam/JAVA/doraplatform/codedoraplatform-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/morroniaop/codemorroniaop.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/morroniaop/codemorroniaop co -P /Users/kshitijgautam/JAVA/morroniaop/codemorroniaop
+svn checkout svn://svn.code.sf.net/p/zipme/code/trunk /Users/kshitijgautam/JAVA/zipme/codezipme-code
+svn checkout svn://svn.code.sf.net/p/jamesbondracing/code/ /Users/kshitijgautam/JAVA/jamesbondracing/codejamesbondracing-code
+svn checkout svn://svn.code.sf.net/p/campusproject/code/ /Users/kshitijgautam/JAVA/campusproject/codecampusproject-code
+svn checkout svn://svn.code.sf.net/p/delegex/code/trunk /Users/kshitijgautam/JAVA/delegex/codedelegex-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/htmlclient/codehtmlclient.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/htmlclient/codehtmlclient co -P /Users/kshitijgautam/JAVA/htmlclient/codehtmlclient
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/osmq/codeosmq.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/osmq/codeosmq co -P /Users/kshitijgautam/JAVA/osmq/codeosmq
+svn checkout svn://svn.code.sf.net/p/minecraftsavmgr/code/ /Users/kshitijgautam/JAVA/minecraftsavmgr/codeminecraftsavmgr-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/mandragora/cvsmandragora.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/mandragora/cvsmandragora co -P /Users/kshitijgautam/JAVA/mandragora/cvsmandragora
+git clone git://git.code.sf.net/p/mandragora/git /Users/kshitijgautam/JAVA/mandragora/gitmandragora-git
+svn checkout svn://svn.code.sf.net/p/enclave/code/trunk /Users/kshitijgautam/JAVA/enclave/codeenclave-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ant-jnlp-war/cvsant-jnlp-war.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ant-jnlp-war/cvsant-jnlp-war co -P /Users/kshitijgautam/JAVA/ant-jnlp-war/cvsant-jnlp-war
+git clone git://git.code.sf.net/p/ant-jnlp-war/git /Users/kshitijgautam/JAVA/ant-jnlp-war/gitant-jnlp-war-git
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/englishtonepali/codeenglishtonepali.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/englishtonepali/codeenglishtonepali co -P /Users/kshitijgautam/JAVA/englishtonepali/codeenglishtonepali
+svn checkout svn://svn.code.sf.net/p/sqleonardo/code/trunk /Users/kshitijgautam/JAVA/sqleonardo/codesqleonardo-code
+svn checkout svn://svn.code.sf.net/p/ori/code/trunk /Users/kshitijgautam/JAVA/ori/codeori-code
+svn checkout svn://svn.code.sf.net/p/jtstand/code/ /Users/kshitijgautam/JAVA/jtstand/codejtstand-code
+svn checkout svn://svn.code.sf.net/p/awl-wizard/code/ /Users/kshitijgautam/JAVA/awl-wizard/codeawl-wizard-code
+svn checkout svn://svn.code.sf.net/p/kappalayout/code/trunk /Users/kshitijgautam/JAVA/kappalayout/codekappalayout-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ovum/codeovum.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ovum/codeovum co -P /Users/kshitijgautam/JAVA/ovum/codeovum
+hg clone http://hg.code.sf.net/p/cmsdtools/code /Users/kshitijgautam/JAVA/cmsdtools/codecmsdtools-code
+svn checkout svn://svn.code.sf.net/p/libusb4jwo/code/trunk /Users/kshitijgautam/JAVA/libusb4jwo/codelibusb4jwo-code
+svn checkout svn://svn.code.sf.net/p/asmdev/code/trunk /Users/kshitijgautam/JAVA/asmdev/codeasmdev-code
+svn checkout svn://svn.code.sf.net/p/janthus/code/trunk /Users/kshitijgautam/JAVA/janthus/codejanthus-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/studiav/codestudiav.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/studiav/codestudiav co -P /Users/kshitijgautam/JAVA/studiav/codestudiav
+svn checkout svn://svn.code.sf.net/p/ouclassofhonour/code/trunk /Users/kshitijgautam/JAVA/ouclassofhonour/codeouclassofhonour-code
+svn checkout svn://svn.code.sf.net/p/metatemplate/code/ /Users/kshitijgautam/JAVA/metatemplate/codemetatemplate-code
+svn checkout svn://svn.code.sf.net/p/jexin/code/ /Users/kshitijgautam/JAVA/jexin/codejexin-code
+svn checkout svn://svn.code.sf.net/p/picofarm/code/trunk /Users/kshitijgautam/JAVA/picofarm/codepicofarm-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/elysion/codeelysion.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/elysion/codeelysion co -P /Users/kshitijgautam/JAVA/elysion/codeelysion
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/slimehockey/codeslimehockey.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/slimehockey/codeslimehockey co -P /Users/kshitijgautam/JAVA/slimehockey/codeslimehockey
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jhpservlet/codejhpservlet.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jhpservlet/codejhpservlet co -P /Users/kshitijgautam/JAVA/jhpservlet/codejhpservlet
+svn checkout svn://svn.code.sf.net/p/tagcloud/code/trunk /Users/kshitijgautam/JAVA/tagcloud/codetagcloud-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/pampus/codepampus.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/pampus/codepampus co -P /Users/kshitijgautam/JAVA/pampus/codepampus
+svn checkout svn://svn.code.sf.net/p/jpdftweak/code/trunk /Users/kshitijgautam/JAVA/jpdftweak/codejpdftweak-code
+git clone git://git.code.sf.net/p/webcurator/neo /Users/kshitijgautam/JAVA/webcurator/codewebcurator-neo
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/log4j2db/codelog4j2db.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/log4j2db/codelog4j2db co -P /Users/kshitijgautam/JAVA/log4j2db/codelog4j2db
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jpsquerrylangua/codejpsquerrylangua.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jpsquerrylangua/codejpsquerrylangua co -P /Users/kshitijgautam/JAVA/jpsquerrylangua/codejpsquerrylangua
+hg clone http://hg.code.sf.net/p/silversaga/code /Users/kshitijgautam/JAVA/silversaga/codesilversaga-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/enaf/cvsenaf.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/enaf/cvsenaf co -P /Users/kshitijgautam/JAVA/enaf/cvsenaf
+svn checkout svn://svn.code.sf.net/p/enaf/code/ /Users/kshitijgautam/JAVA/enaf/codeenaf-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/dogwood/codedogwood.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/dogwood/codedogwood co -P /Users/kshitijgautam/JAVA/dogwood/codedogwood
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/javamaf/codejavamaf.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/javamaf/codejavamaf co -P /Users/kshitijgautam/JAVA/javamaf/codejavamaf
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/j3draw/codej3draw.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/j3draw/codej3draw co -P /Users/kshitijgautam/JAVA/j3draw/codej3draw
+svn checkout svn://svn.code.sf.net/p/gdedengi/code/ /Users/kshitijgautam/JAVA/gdedengi/codegdedengi-code
+svn checkout svn://svn.code.sf.net/p/initiativetrack/code/ /Users/kshitijgautam/JAVA/initiativetrack/codeinitiativetrack-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/dti-project/codedti-project.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/dti-project/codedti-project co -P /Users/kshitijgautam/JAVA/dti-project/codedti-project
+svn checkout svn://svn.code.sf.net/p/werewolf/code/trunk /Users/kshitijgautam/JAVA/werewolf/codewerewolf-code
+svn checkout svn://svn.code.sf.net/p/escapek/code/trunk /Users/kshitijgautam/JAVA/escapek/codeescapek-code
+svn checkout svn://svn.code.sf.net/p/autoshare/code/trunk /Users/kshitijgautam/JAVA/autoshare/codeautoshare-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/dbpopulator/codedbpopulator.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/dbpopulator/codedbpopulator co -P /Users/kshitijgautam/JAVA/dbpopulator/codedbpopulator
+svn checkout svn://svn.code.sf.net/p/yahoofin/code/trunk /Users/kshitijgautam/JAVA/yahoofin/codeyahoofin-code
+svn checkout svn://svn.code.sf.net/p/alfa/code/ /Users/kshitijgautam/JAVA/alfa/codealfa-code
+svn checkout svn://svn.code.sf.net/p/digitdestruct/code/trunk /Users/kshitijgautam/JAVA/digitdestruct/codedigitdestruct-code
+svn checkout svn://svn.code.sf.net/p/jlastfmlib/code/trunk /Users/kshitijgautam/JAVA/jlastfmlib/codejlastfmlib-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jyvis/codejyvis.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jyvis/codejyvis co -P /Users/kshitijgautam/JAVA/jyvis/codejyvis
+svn checkout svn://svn.code.sf.net/p/jodatimecalenda/code/trunk /Users/kshitijgautam/JAVA/jodatimecalenda/codejodatimecalenda-code
+svn checkout svn://svn.code.sf.net/p/wilma/code/trunk /Users/kshitijgautam/JAVA/wilma/codewilma-code
+svn checkout svn://svn.code.sf.net/p/maketargeter/code/trunk /Users/kshitijgautam/JAVA/maketargeter/codemaketargeter-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/rhchess/coderhchess.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/rhchess/coderhchess co -P /Users/kshitijgautam/JAVA/rhchess/coderhchess
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/skyline/codeskyline.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/skyline/codeskyline co -P /Users/kshitijgautam/JAVA/skyline/codeskyline
+svn checkout svn://svn.code.sf.net/p/spidr/code/trunk /Users/kshitijgautam/JAVA/spidr/codespidr-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/bloodymary/codebloodymary.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/bloodymary/codebloodymary co -P /Users/kshitijgautam/JAVA/bloodymary/codebloodymary
+svn checkout svn://svn.code.sf.net/p/eeviewer/code/trunk /Users/kshitijgautam/JAVA/eeviewer/codeeeviewer-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/minitraff/codeminitraff.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/minitraff/codeminitraff co -P /Users/kshitijgautam/JAVA/minitraff/codeminitraff
+git clone git://git.code.sf.net/p/openqreg/git /Users/kshitijgautam/JAVA/openqreg/gitopenqreg-git
+svn checkout svn://svn.code.sf.net/p/openqreg/svn/ /Users/kshitijgautam/JAVA/openqreg/svnopenqreg-svn
+hg clone http://hg.code.sf.net/p/perfidix/code /Users/kshitijgautam/JAVA/perfidix/codeperfidix-code
+git clone git://git.code.sf.net/p/c3po/git /Users/kshitijgautam/JAVA/c3po/gitc3po-git
+svn checkout svn://svn.code.sf.net/p/c3po/code/trunk /Users/kshitijgautam/JAVA/c3po/svnc3po-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/simpledate/codesimpledate.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/simpledate/codesimpledate co -P /Users/kshitijgautam/JAVA/simpledate/codesimpledate
+svn checkout svn://svn.code.sf.net/p/jmxplorer/code/trunk /Users/kshitijgautam/JAVA/jmxplorer/codejmxplorer-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/xdoclet/codexdoclet.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/xdoclet/codexdoclet co -P /Users/kshitijgautam/JAVA/xdoclet/codexdoclet
+svn checkout svn://svn.code.sf.net/p/j-share/code/trunk /Users/kshitijgautam/JAVA/j-share/codej-share-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/pstopwatch/codepstopwatch.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/pstopwatch/codepstopwatch co -P /Users/kshitijgautam/JAVA/pstopwatch/codepstopwatch
+svn checkout svn://svn.code.sf.net/p/java30boxesapi/code/ /Users/kshitijgautam/JAVA/java30boxesapi/codejava30boxesapi-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jmarket/codejmarket.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jmarket/codejmarket co -P /Users/kshitijgautam/JAVA/jmarket/codejmarket
+svn checkout svn://svn.code.sf.net/p/javademo/code/ /Users/kshitijgautam/JAVA/javademo/codejavademo-code
+svn checkout svn://svn.code.sf.net/p/webgraphlab/code/ /Users/kshitijgautam/JAVA/webgraphlab/codewebgraphlab-code
+git clone git://git.code.sf.net/p/cbu/code /Users/kshitijgautam/JAVA/cbu/codecbu-code
+svn checkout svn://svn.code.sf.net/p/appthemes/code/ /Users/kshitijgautam/JAVA/appthemes/codeappthemes-code
+svn checkout svn://svn.code.sf.net/p/swingstates/code/trunk /Users/kshitijgautam/JAVA/swingstates/codeswingstates-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/pdexpenv/codepdexpenv.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/pdexpenv/codepdexpenv co -P /Users/kshitijgautam/JAVA/pdexpenv/codepdexpenv
+svn checkout svn://svn.code.sf.net/p/eclipse4sl/code/trunk /Users/kshitijgautam/JAVA/eclipse4sl/codeeclipse4sl-code
+svn checkout svn://svn.code.sf.net/p/openforceqst/code/ /Users/kshitijgautam/JAVA/openforceqst/codeopenforceqst-code
+svn checkout svn://svn.code.sf.net/p/javamazesolver/code/ /Users/kshitijgautam/JAVA/javamazesolver/codejavamazesolver-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jconsole/codejconsole.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jconsole/codejconsole co -P /Users/kshitijgautam/JAVA/jconsole/codejconsole
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/khronos/codekhronos.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/khronos/codekhronos co -P /Users/kshitijgautam/JAVA/khronos/codekhronos
+svn checkout svn://svn.code.sf.net/p/univpn/code/trunk /Users/kshitijgautam/JAVA/univpn/codeunivpn-code
+svn checkout svn://svn.code.sf.net/p/fidocadj/code/trunk /Users/kshitijgautam/JAVA/fidocadj/codefidocadj-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jfiglet/codejfiglet.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jfiglet/codejfiglet co -P /Users/kshitijgautam/JAVA/jfiglet/codejfiglet
+svn checkout svn://svn.code.sf.net/p/ambienti/code/ /Users/kshitijgautam/JAVA/ambienti/codeambienti-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/tcpswitch/codetcpswitch.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/tcpswitch/codetcpswitch co -P /Users/kshitijgautam/JAVA/tcpswitch/codetcpswitch
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/antscout/codeantscout.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/antscout/codeantscout co -P /Users/kshitijgautam/JAVA/antscout/codeantscout
+svn checkout svn://svn.code.sf.net/p/what-a-mess/code/ /Users/kshitijgautam/JAVA/what-a-mess/codewhat-a-mess-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/javastates/codejavastates.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/javastates/codejavastates co -P /Users/kshitijgautam/JAVA/javastates/codejavastates
+svn checkout svn://svn.code.sf.net/p/comixviewer/code/trunk /Users/kshitijgautam/JAVA/comixviewer/codecomixviewer-code
+svn checkout svn://svn.code.sf.net/p/mnetviewer/code/trunk /Users/kshitijgautam/JAVA/mnetviewer/codemnetviewer-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/gvsproject/cvsgvsproject.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/gvsproject/cvsgvsproject co -P /Users/kshitijgautam/JAVA/gvsproject/cvsgvsproject
+svn checkout svn://svn.code.sf.net/p/gvsproject/code/trunk /Users/kshitijgautam/JAVA/gvsproject/codegvsproject-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/aamfetch/codeaamfetch.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/aamfetch/codeaamfetch co -P /Users/kshitijgautam/JAVA/aamfetch/codeaamfetch
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/relaxngcc/coderelaxngcc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/relaxngcc/coderelaxngcc co -P /Users/kshitijgautam/JAVA/relaxngcc/coderelaxngcc
+hg clone http://hg.code.sf.net/p/luceneindexapplication/mercurial /Users/kshitijgautam/JAVA/luceneindexapplication/mercurialluceneindexapplication-mercurial
+svn checkout svn://svn.code.sf.net/p/luceneindexapplication/svn/ /Users/kshitijgautam/JAVA/luceneindexapplication/svnluceneindexapplication-svn
+svn checkout svn://svn.code.sf.net/p/pedidocredito/code/ /Users/kshitijgautam/JAVA/pedidocredito/codepedidocredito-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/easysatpics/codeeasysatpics.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/easysatpics/codeeasysatpics co -P /Users/kshitijgautam/JAVA/easysatpics/codeeasysatpics
+svn checkout svn://svn.code.sf.net/p/nevada/code/trunk /Users/kshitijgautam/JAVA/nevada/codenevada-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/rtmgenerator/codertmgenerator.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/rtmgenerator/codertmgenerator co -P /Users/kshitijgautam/JAVA/rtmgenerator/codertmgenerator
+svn checkout svn://svn.code.sf.net/p/genom/code/ /Users/kshitijgautam/JAVA/genom/codegenom-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/catabolicrealm/codecatabolicrealm.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/catabolicrealm/codecatabolicrealm co -P /Users/kshitijgautam/JAVA/catabolicrealm/codecatabolicrealm
+svn checkout svn://svn.code.sf.net/p/tredart/code/trunk /Users/kshitijgautam/JAVA/tredart/codetredart-code
+svn checkout svn://svn.code.sf.net/p/mysoft-hmnap/code/ /Users/kshitijgautam/JAVA/mysoft-hmnap/codemysoft-hmnap-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/cohradar/codecohradar.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/cohradar/codecohradar co -P /Users/kshitijgautam/JAVA/cohradar/codecohradar
+svn checkout svn://svn.code.sf.net/p/opencobol2java/code/ /Users/kshitijgautam/JAVA/opencobol2java/codeopencobol2java-code
+git clone git://git.code.sf.net/p/jasperservlet/code-1 /Users/kshitijgautam/JAVA/jasperservlet/codejasperservlet-code-1
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/mysqlproxy/codemysqlproxy.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/mysqlproxy/codemysqlproxy co -P /Users/kshitijgautam/JAVA/mysqlproxy/codemysqlproxy
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/info-sapient/codeinfo-sapient.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/info-sapient/codeinfo-sapient co -P /Users/kshitijgautam/JAVA/info-sapient/codeinfo-sapient
+svn checkout svn://svn.code.sf.net/p/stockreturns/code/ /Users/kshitijgautam/JAVA/stockreturns/codestockreturns-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/sfeb/codesfeb.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/sfeb/codesfeb co -P /Users/kshitijgautam/JAVA/sfeb/codesfeb
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/cavor/codecavor.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/cavor/codecavor co -P /Users/kshitijgautam/JAVA/cavor/codecavor
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/cs6725-prover/codecs6725-prover.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/cs6725-prover/codecs6725-prover co -P /Users/kshitijgautam/JAVA/cs6725-prover/codecs6725-prover
+svn checkout svn://svn.code.sf.net/p/geovision/code/trunk /Users/kshitijgautam/JAVA/geovision/codegeovision-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/decorutils/codedecorutils.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/decorutils/codedecorutils co -P /Users/kshitijgautam/JAVA/decorutils/codedecorutils
+svn checkout svn://svn.code.sf.net/p/isolateproject/code/ /Users/kshitijgautam/JAVA/isolateproject/codeisolateproject-code
+svn checkout svn://svn.code.sf.net/p/autopsi/code/trunk /Users/kshitijgautam/JAVA/autopsi/codeautopsi-code
+svn checkout svn://svn.code.sf.net/p/petosgi/code/trunk /Users/kshitijgautam/JAVA/petosgi/codepetosgi-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/newoop/codenewoop.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/newoop/codenewoop co -P /Users/kshitijgautam/JAVA/newoop/codenewoop
+svn checkout svn://svn.code.sf.net/p/platina/code/ /Users/kshitijgautam/JAVA/platina/codeplatina-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/i18nlog/codei18nlog.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/i18nlog/codei18nlog co -P /Users/kshitijgautam/JAVA/i18nlog/codei18nlog
+svn checkout svn://svn.code.sf.net/p/ecl-datepicker/code/trunk /Users/kshitijgautam/JAVA/ecl-datepicker/codeecl-datepicker-code
+svn checkout svn://svn.code.sf.net/p/devportal/code/ /Users/kshitijgautam/JAVA/devportal/codedevportal-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/infomax/codeinfomax.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/infomax/codeinfomax co -P /Users/kshitijgautam/JAVA/infomax/codeinfomax
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/datascript/codedatascript.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/datascript/codedatascript co -P /Users/kshitijgautam/JAVA/datascript/codedatascript
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jfile/codejfile.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jfile/codejfile co -P /Users/kshitijgautam/JAVA/jfile/codejfile
+svn checkout svn://svn.code.sf.net/p/nkossj/code/ /Users/kshitijgautam/JAVA/nkossj/codenkossj-code
+svn checkout svn://svn.code.sf.net/p/iwebo/code/ /Users/kshitijgautam/JAVA/iwebo/codeiwebo-code
+svn checkout svn://svn.code.sf.net/p/jprocbuildersql/code/trunk /Users/kshitijgautam/JAVA/jprocbuildersql/codejprocbuildersql-code
+svn checkout svn://svn.code.sf.net/p/rendertux/code/ /Users/kshitijgautam/JAVA/rendertux/coderendertux-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/smartass/codesmartass.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/smartass/codesmartass co -P /Users/kshitijgautam/JAVA/smartass/codesmartass
+svn checkout svn://svn.code.sf.net/p/zenphotojavaman/code/ /Users/kshitijgautam/JAVA/zenphotojavaman/codezenphotojavaman-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/xmloop/cvsxmloop.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/xmloop/cvsxmloop co -P /Users/kshitijgautam/JAVA/xmloop/cvsxmloop
+svn checkout svn://svn.code.sf.net/p/xmloop/code/ /Users/kshitijgautam/JAVA/xmloop/codexmloop-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/c-it/codec-it.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/c-it/codec-it co -P /Users/kshitijgautam/JAVA/c-it/codec-it
+svn checkout svn://svn.code.sf.net/p/antwar/code/ /Users/kshitijgautam/JAVA/antwar/codeantwar-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/vectors/codevectors.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/vectors/codevectors co -P /Users/kshitijgautam/JAVA/vectors/codevectors
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/financial-sys/codefinancial-sys.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/financial-sys/codefinancial-sys co -P /Users/kshitijgautam/JAVA/financial-sys/codefinancial-sys
+svn checkout svn://svn.code.sf.net/p/jspsurveylib/code/ /Users/kshitijgautam/JAVA/jspsurveylib/codejspsurveylib-code
+svn checkout svn://svn.code.sf.net/p/simplenet/code/trunk /Users/kshitijgautam/JAVA/simplenet/codesimplenet-code
+svn checkout svn://svn.code.sf.net/p/projecteia2/code/ /Users/kshitijgautam/JAVA/projecteia2/codeprojecteia2-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/db2-jmin/codedb2-jmin.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/db2-jmin/codedb2-jmin co -P /Users/kshitijgautam/JAVA/db2-jmin/codedb2-jmin
+svn checkout svn://svn.code.sf.net/p/die-crowd/code/ /Users/kshitijgautam/JAVA/die-crowd/codedie-crowd-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/liberator-jpa/codeliberator-jpa.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/liberator-jpa/codeliberator-jpa co -P /Users/kshitijgautam/JAVA/liberator-jpa/codeliberator-jpa
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/dragmath/codedragmath.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/dragmath/codedragmath co -P /Users/kshitijgautam/JAVA/dragmath/codedragmath
+svn checkout svn://svn.code.sf.net/p/ruleminer/code/trunk /Users/kshitijgautam/JAVA/ruleminer/coderuleminer-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/marvelit/codemarvelit.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/marvelit/codemarvelit co -P /Users/kshitijgautam/JAVA/marvelit/codemarvelit
+svn checkout svn://svn.code.sf.net/p/jcomputervision/code/ /Users/kshitijgautam/JAVA/jcomputervision/codejcomputervision-code
+svn checkout svn://svn.code.sf.net/p/javaviewcontrol/code/ /Users/kshitijgautam/JAVA/javaviewcontrol/codejavaviewcontrol-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ossorecaptcha/codeossorecaptcha.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ossorecaptcha/codeossorecaptcha co -P /Users/kshitijgautam/JAVA/ossorecaptcha/codeossorecaptcha
+svn checkout svn://svn.code.sf.net/p/javareveng/code/trunk /Users/kshitijgautam/JAVA/javareveng/codejavareveng-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jopt-simple/codejopt-simple.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jopt-simple/codejopt-simple co -P /Users/kshitijgautam/JAVA/jopt-simple/codejopt-simple
+svn checkout svn://svn.code.sf.net/p/moviedatabase/code/ /Users/kshitijgautam/JAVA/moviedatabase/codemoviedatabase-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/hotsheet/codehotsheet.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/hotsheet/codehotsheet co -P /Users/kshitijgautam/JAVA/hotsheet/codehotsheet
+svn checkout svn://svn.code.sf.net/p/forager/code/ /Users/kshitijgautam/JAVA/forager/codeforager-code
+svn checkout svn://svn.code.sf.net/p/mobilecinjava/code/trunk /Users/kshitijgautam/JAVA/mobilecinjava/codemobilecinjava-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/icj/cvsicj.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/icj/cvsicj co -P /Users/kshitijgautam/JAVA/icj/cvsicj
+svn checkout svn://svn.code.sf.net/p/icj/code/trunk /Users/kshitijgautam/JAVA/icj/codeicj-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/coefficient/codecoefficient.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/coefficient/codecoefficient co -P /Users/kshitijgautam/JAVA/coefficient/codecoefficient
+svn checkout svn://svn.code.sf.net/p/linktweet/code/ /Users/kshitijgautam/JAVA/linktweet/codelinktweet-code
+svn checkout svn://svn.code.sf.net/p/opendiskarchive/code/trunk /Users/kshitijgautam/JAVA/opendiskarchive/codeopendiskarchive-code
+svn checkout svn://svn.code.sf.net/p/dreampnp/code/trunk /Users/kshitijgautam/JAVA/dreampnp/codedreampnp-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/gridbusbroker/codegridbusbroker.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/gridbusbroker/codegridbusbroker co -P /Users/kshitijgautam/JAVA/gridbusbroker/codegridbusbroker
+svn checkout svn://svn.code.sf.net/p/accelerator-ml/code/ /Users/kshitijgautam/JAVA/accelerator-ml/codeaccelerator-ml-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/joeq/cvsjoeq.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/joeq/cvsjoeq co -P /Users/kshitijgautam/JAVA/joeq/cvsjoeq
+svn checkout svn://svn.code.sf.net/p/joeq/svn/trunk /Users/kshitijgautam/JAVA/joeq/svnjoeq-svn
+svn checkout svn://svn.code.sf.net/p/evaluadorsac/code/ /Users/kshitijgautam/JAVA/evaluadorsac/codeevaluadorsac-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/otp-j2me/codeotp-j2me.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/otp-j2me/codeotp-j2me co -P /Users/kshitijgautam/JAVA/otp-j2me/codeotp-j2me
+svn checkout svn://svn.code.sf.net/p/yaqut/code/ /Users/kshitijgautam/JAVA/yaqut/codeyaqut-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/yaggui/codeyaggui.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/yaggui/codeyaggui co -P /Users/kshitijgautam/JAVA/yaggui/codeyaggui
+svn checkout svn://svn.code.sf.net/p/congaconfig/code/trunk /Users/kshitijgautam/JAVA/congaconfig/codecongaconfig-code
+svn checkout svn://svn.code.sf.net/p/ht-commons/code/trunk /Users/kshitijgautam/JAVA/ht-commons/codeht-commons-code
+svn checkout svn://svn.code.sf.net/p/errs/code/ /Users/kshitijgautam/JAVA/errs/codeerrs-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/comoro/codecomoro.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/comoro/codecomoro co -P /Users/kshitijgautam/JAVA/comoro/codecomoro
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/iceboatgame/codeiceboatgame.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/iceboatgame/codeiceboatgame co -P /Users/kshitijgautam/JAVA/iceboatgame/codeiceboatgame
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/nfpnet/codenfpnet.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/nfpnet/codenfpnet co -P /Users/kshitijgautam/JAVA/nfpnet/codenfpnet
+svn checkout svn://svn.code.sf.net/p/gshape/code/trunk /Users/kshitijgautam/JAVA/gshape/codegshape-code
+svn checkout svn://svn.code.sf.net/p/jacoproxy/code/ /Users/kshitijgautam/JAVA/jacoproxy/codejacoproxy-code
+svn checkout svn://svn.code.sf.net/p/eclipse-ddt/code/trunk /Users/kshitijgautam/JAVA/eclipse-ddt/codeeclipse-ddt-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/pear-sim/codepear-sim.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/pear-sim/codepear-sim co -P /Users/kshitijgautam/JAVA/pear-sim/codepear-sim
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/daschau/codedaschau.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/daschau/codedaschau co -P /Users/kshitijgautam/JAVA/daschau/codedaschau
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/google-taglib/codegoogle-taglib.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/google-taglib/codegoogle-taglib co -P /Users/kshitijgautam/JAVA/google-taglib/codegoogle-taglib
+svn checkout svn://svn.code.sf.net/p/jgarminimg/code/trunk /Users/kshitijgautam/JAVA/jgarminimg/codejgarminimg-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/trovacap-java/cvstrovacap-java.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/trovacap-java/cvstrovacap-java co -P /Users/kshitijgautam/JAVA/trovacap-java/cvstrovacap-java
+svn checkout svn://svn.code.sf.net/p/trovacap-java/code/trunk /Users/kshitijgautam/JAVA/trovacap-java/codetrovacap-java-code
+svn checkout svn://svn.code.sf.net/p/maverick/code/ /Users/kshitijgautam/JAVA/maverick/codemaverick-code
+svn checkout svn://svn.code.sf.net/p/sqlwizz/code/ /Users/kshitijgautam/JAVA/sqlwizz/codesqlwizz-code
+svn checkout svn://svn.code.sf.net/p/xtvdclient/code/trunk /Users/kshitijgautam/JAVA/xtvdclient/codextvdclient-code
+svn checkout svn://svn.code.sf.net/p/heliconiusdb/code/trunk /Users/kshitijgautam/JAVA/heliconiusdb/codeheliconiusdb-code
+svn checkout svn://svn.code.sf.net/p/plantuml-modeler/code/ /Users/kshitijgautam/JAVA/plantuml-modeler/codeplantuml-modeler-code
+svn checkout svn://svn.code.sf.net/p/jpiper/code/ /Users/kshitijgautam/JAVA/jpiper/codejpiper-code
+git clone git://git.code.sf.net/p/foodstoragecalculator/code /Users/kshitijgautam/JAVA/foodstoragecalculator/codefoodstoragecalculator-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jsorb/codejsorb.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jsorb/codejsorb co -P /Users/kshitijgautam/JAVA/jsorb/codejsorb
+svn checkout svn://svn.code.sf.net/p/opencms-ldap/code/trunk /Users/kshitijgautam/JAVA/opencms-ldap/codeopencms-ldap-code
+svn checkout svn://svn.code.sf.net/p/jmdns/code/trunk /Users/kshitijgautam/JAVA/jmdns/codejmdns-code
+svn checkout svn://svn.code.sf.net/p/internetapps/code/trunk /Users/kshitijgautam/JAVA/internetapps/codeinternetapps-code
+git clone git://git.code.sf.net/p/jcca/code /Users/kshitijgautam/JAVA/jcca/codejcca-code
+svn checkout svn://svn.code.sf.net/p/waffle/code/trunk /Users/kshitijgautam/JAVA/waffle/codewaffle-code
+svn checkout svn://svn.code.sf.net/p/superb0ard/code-0/ /Users/kshitijgautam/JAVA/superb0ard/codesuperb0ard-code-0
+svn checkout svn://svn.code.sf.net/p/mopress/code/trunk /Users/kshitijgautam/JAVA/mopress/codemopress-code
+svn checkout svn://svn.code.sf.net/p/jinyan/code/trunk /Users/kshitijgautam/JAVA/jinyan/codejinyan-code
+svn checkout svn://svn.code.sf.net/p/ssm-chain/code/ /Users/kshitijgautam/JAVA/ssm-chain/codessm-chain-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/autoj/codeautoj.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/autoj/codeautoj co -P /Users/kshitijgautam/JAVA/autoj/codeautoj
+svn checkout svn://svn.code.sf.net/p/wikicleaner/code/trunk /Users/kshitijgautam/JAVA/wikicleaner/codewikicleaner-code
+svn checkout svn://svn.code.sf.net/p/ribbitm/code/ /Users/kshitijgautam/JAVA/ribbitm/coderibbitm-code
+svn checkout svn://svn.code.sf.net/p/mirthdaymanager/code/ /Users/kshitijgautam/JAVA/mirthdaymanager/codemirthdaymanager-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/powervnc/codepowervnc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/powervnc/codepowervnc co -P /Users/kshitijgautam/JAVA/powervnc/codepowervnc
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/judge/codejudge.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/judge/codejudge co -P /Users/kshitijgautam/JAVA/judge/codejudge
+svn checkout svn://svn.code.sf.net/p/qalab/code/trunk /Users/kshitijgautam/JAVA/qalab/codeqalab-code
+svn checkout svn://svn.code.sf.net/p/abstractalm/code/ /Users/kshitijgautam/JAVA/abstractalm/codeabstractalm-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ga-fwork/codega-fwork.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ga-fwork/codega-fwork co -P /Users/kshitijgautam/JAVA/ga-fwork/codega-fwork
+git clone git://git.code.sf.net/p/emam/code /Users/kshitijgautam/JAVA/emam/codeemam-code
+svn checkout svn://svn.code.sf.net/p/water/code/trunk /Users/kshitijgautam/JAVA/water/codewater-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/janimationshop/codejanimationshop.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/janimationshop/codejanimationshop co -P /Users/kshitijgautam/JAVA/janimationshop/codejanimationshop
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jxpfw/codejxpfw.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jxpfw/codejxpfw co -P /Users/kshitijgautam/JAVA/jxpfw/codejxpfw
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/evogap/codeevogap.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/evogap/codeevogap co -P /Users/kshitijgautam/JAVA/evogap/codeevogap
+svn checkout svn://svn.code.sf.net/p/scenewiz/code/trunk /Users/kshitijgautam/JAVA/scenewiz/codescenewiz-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jcookie/codejcookie.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jcookie/codejcookie co -P /Users/kshitijgautam/JAVA/jcookie/codejcookie
+svn checkout svn://svn.code.sf.net/p/mobpcremotectrl/code/ /Users/kshitijgautam/JAVA/mobpcremotectrl/codemobpcremotectrl-code
+hg clone http://hg.code.sf.net/p/agilewiki/mercurial /Users/kshitijgautam/JAVA/agilewiki/mercurialagilewiki-mercurial
+svn checkout svn://svn.code.sf.net/p/agilewiki/svn/trunk /Users/kshitijgautam/JAVA/agilewiki/svnagilewiki-svn
+svn checkout svn://svn.code.sf.net/p/shard-3store/code/ /Users/kshitijgautam/JAVA/shard-3store/codeshard-3store-code
+svn checkout svn://svn.code.sf.net/p/doing/code/trunk /Users/kshitijgautam/JAVA/doing/codedoing-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/zyphos/codezyphos.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/zyphos/codezyphos co -P /Users/kshitijgautam/JAVA/zyphos/codezyphos
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/javadiff/codejavadiff.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/javadiff/codejavadiff co -P /Users/kshitijgautam/JAVA/javadiff/codejavadiff
+svn checkout svn://svn.code.sf.net/p/skellib/code/trunk /Users/kshitijgautam/JAVA/skellib/codeskellib-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/volleylife/cvsvolleylife.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/volleylife/cvsvolleylife co -P /Users/kshitijgautam/JAVA/volleylife/cvsvolleylife
+svn checkout svn://svn.code.sf.net/p/volleylife/code/ /Users/kshitijgautam/JAVA/volleylife/codevolleylife-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jpictures/codejpictures.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jpictures/codejpictures co -P /Users/kshitijgautam/JAVA/jpictures/codejpictures
+svn checkout svn://svn.code.sf.net/p/gako/code/ /Users/kshitijgautam/JAVA/gako/codegako-code
+svn checkout svn://svn.code.sf.net/p/sf-uw/code/trunk /Users/kshitijgautam/JAVA/sf-uw/codesf-uw-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/commsvcfw/codecommsvcfw.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/commsvcfw/codecommsvcfw co -P /Users/kshitijgautam/JAVA/commsvcfw/codecommsvcfw
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jspackager/codejspackager.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jspackager/codejspackager co -P /Users/kshitijgautam/JAVA/jspackager/codejspackager
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/parisian/codeparisian.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/parisian/codeparisian co -P /Users/kshitijgautam/JAVA/parisian/codeparisian
+svn checkout svn://svn.code.sf.net/p/simplexmlmailer/code/ /Users/kshitijgautam/JAVA/simplexmlmailer/codesimplexmlmailer-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jphost/codejphost.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jphost/codejphost co -P /Users/kshitijgautam/JAVA/jphost/codejphost
+svn checkout svn://svn.code.sf.net/p/lemmings-2/code/trunk /Users/kshitijgautam/JAVA/lemmings-2/codelemmings-2-code
+svn checkout svn://svn.code.sf.net/p/dadosobservados/code/ /Users/kshitijgautam/JAVA/dadosobservados/codedadosobservados-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/lti/cvslti.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/lti/cvslti co -P /Users/kshitijgautam/JAVA/lti/cvslti
+svn checkout svn://svn.code.sf.net/p/lti/code/ /Users/kshitijgautam/JAVA/lti/codelti-code
+svn checkout svn://svn.code.sf.net/p/builder/code/trunk /Users/kshitijgautam/JAVA/builder/codebuilder-code
+svn checkout svn://svn.code.sf.net/p/blax/code-svn/trunk /Users/kshitijgautam/JAVA/blax/codeblax-code-svn
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/newfaith/codenewfaith.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/newfaith/codenewfaith co -P /Users/kshitijgautam/JAVA/newfaith/codenewfaith
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/cap4e/codecap4e.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/cap4e/codecap4e co -P /Users/kshitijgautam/JAVA/cap4e/codecap4e
+cvs -z3 -d:pserver:anonymous@vlma.cvs.sourceforge.net:/cvsroot/vlma co -P /Users/kshitijgautam/JAVA/vlmaa/codevlmaa
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jcrconnector/codejcrconnector.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jcrconnector/codejcrconnector co -P /Users/kshitijgautam/JAVA/jcrconnector/codejcrconnector
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jlinalg/cvsjlinalg.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jlinalg/cvsjlinalg co -P /Users/kshitijgautam/JAVA/jlinalg/cvsjlinalg
+svn checkout svn://svn.code.sf.net/p/jlinalg/code/ /Users/kshitijgautam/JAVA/jlinalg/codejlinalg-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/adfc/codeadfc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/adfc/codeadfc co -P /Users/kshitijgautam/JAVA/adfc/codeadfc
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/open-orm/codeopen-orm.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/open-orm/codeopen-orm co -P /Users/kshitijgautam/JAVA/open-orm/codeopen-orm
+svn checkout svn://svn.code.sf.net/p/puces-samples/code/trunk /Users/kshitijgautam/JAVA/puces-samples/codepuces-samples-code
+svn checkout svn://svn.code.sf.net/p/webwatcher/code/ /Users/kshitijgautam/JAVA/webwatcher/codewebwatcher-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/userver/codeuserver.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/userver/codeuserver co -P /Users/kshitijgautam/JAVA/userver/codeuserver
+git clone git://git.code.sf.net/p/strzeleckiplugin/code /Users/kshitijgautam/JAVA/strzeleckiplugin/codestrzeleckiplugin-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/sphaera/codesphaera.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/sphaera/codesphaera co -P /Users/kshitijgautam/JAVA/sphaera/codesphaera
+svn checkout svn://svn.code.sf.net/p/jshm/code/trunk /Users/kshitijgautam/JAVA/jshm/codejshm-code
+svn checkout svn://svn.code.sf.net/p/lssass/code/ /Users/kshitijgautam/JAVA/lssass/codelssass-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/spoiler/codespoiler.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/spoiler/codespoiler co -P /Users/kshitijgautam/JAVA/spoiler/codespoiler
+svn checkout svn://svn.code.sf.net/p/stuck-wheel/code/trunk /Users/kshitijgautam/JAVA/stuck-wheel/codestuck-wheel-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/eclipseexeditor/codeeclipseexeditor.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/eclipseexeditor/codeeclipseexeditor co -P /Users/kshitijgautam/JAVA/eclipseexeditor/codeeclipseexeditor
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/qscity3d/codeqscity3d.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/qscity3d/codeqscity3d co -P /Users/kshitijgautam/JAVA/qscity3d/codeqscity3d
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/perftest/codeperftest.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/perftest/codeperftest co -P /Users/kshitijgautam/JAVA/perftest/codeperftest
+svn checkout svn://svn.code.sf.net/p/ialib/code/trunk /Users/kshitijgautam/JAVA/ialib/codeialib-code
+svn checkout svn://svn.code.sf.net/p/sitemap-parser/code/trunk /Users/kshitijgautam/JAVA/sitemap-parser/codesitemap-parser-code
+svn checkout svn://svn.code.sf.net/p/yaxdiff/code/ /Users/kshitijgautam/JAVA/yaxdiff/codeyaxdiff-code
+svn checkout svn://svn.code.sf.net/p/bt-thud/code/trunk /Users/kshitijgautam/JAVA/bt-thud/codebt-thud-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/easycourseware/codeeasycourseware.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/easycourseware/codeeasycourseware co -P /Users/kshitijgautam/JAVA/easycourseware/codeeasycourseware
+svn checkout svn://svn.code.sf.net/p/jeocaching/code/trunk /Users/kshitijgautam/JAVA/jeocaching/codejeocaching-code
+svn checkout svn://svn.code.sf.net/p/pimpsismypianos/code/ /Users/kshitijgautam/JAVA/pimpsismypianos/codepimpsismypianos-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jxp/codejxp.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jxp/codejxp co -P /Users/kshitijgautam/JAVA/jxp/codejxp
+svn checkout svn://svn.code.sf.net/p/jpianotrain/code/trunk /Users/kshitijgautam/JAVA/jpianotrain/codejpianotrain-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/polytopetetris/codepolytopetetris.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/polytopetetris/codepolytopetetris co -P /Users/kshitijgautam/JAVA/polytopetetris/codepolytopetetris
+svn checkout svn://svn.code.sf.net/p/geomodel/code/ /Users/kshitijgautam/JAVA/geomodel/codegeomodel-code
+svn checkout svn://svn.code.sf.net/p/easy-comm/code/trunk /Users/kshitijgautam/JAVA/easy-comm/codeeasy-comm-code
+svn checkout svn://svn.code.sf.net/p/neonoe/code/trunk /Users/kshitijgautam/JAVA/neonoe/codeneonoe-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/twole/codetwole.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/twole/codetwole co -P /Users/kshitijgautam/JAVA/twole/codetwole
+svn checkout svn://svn.code.sf.net/p/opencalc/code/trunk /Users/kshitijgautam/JAVA/opencalc/codeopencalc-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/josi-solar/codejosi-solar.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/josi-solar/codejosi-solar co -P /Users/kshitijgautam/JAVA/josi-solar/codejosi-solar
+svn checkout svn://svn.code.sf.net/p/sms-jacket/code/trunk /Users/kshitijgautam/JAVA/sms-jacket/codesms-jacket-code
+svn checkout svn://svn.code.sf.net/p/vocabreminder/code/ /Users/kshitijgautam/JAVA/vocabreminder/codevocabreminder-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/robocode2game/coderobocode2game.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/robocode2game/coderobocode2game co -P /Users/kshitijgautam/JAVA/robocode2game/coderobocode2game
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/flogman/codeflogman.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/flogman/codeflogman co -P /Users/kshitijgautam/JAVA/flogman/codeflogman
+svn checkout svn://svn.code.sf.net/p/atheris/code/trunk /Users/kshitijgautam/JAVA/atheris/codeatheris-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jamonapi/codejamonapi.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jamonapi/codejamonapi co -P /Users/kshitijgautam/JAVA/jamonapi/codejamonapi
+svn checkout svn://svn.code.sf.net/p/unitmetrics/code/ /Users/kshitijgautam/JAVA/unitmetrics/codeunitmetrics-code
+svn checkout svn://svn.code.sf.net/p/jprocessor/code/trunk /Users/kshitijgautam/JAVA/jprocessor/codejprocessor-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/retromenu/coderetromenu.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/retromenu/coderetromenu co -P /Users/kshitijgautam/JAVA/retromenu/coderetromenu
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/airtodo/codeairtodo.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/airtodo/codeairtodo co -P /Users/kshitijgautam/JAVA/airtodo/codeairtodo
+git clone git://git.code.sf.net/p/jnfe/base /Users/kshitijgautam/JAVA/jnfe/git/basejnfe-base
+git clone git://git.code.sf.net/p/jnfe/devel /Users/kshitijgautam/JAVA/jnfe/git/develjnfe-devel
+git clone git://git.code.sf.net/p/jnfe/jnfe /Users/kshitijgautam/JAVA/jnfe/git/jnfejnfe-jnfe
+svn checkout svn://svn.code.sf.net/p/jctc/code/trunk /Users/kshitijgautam/JAVA/jctc/codejctc-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/atgeclipse/codeatgeclipse.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/atgeclipse/codeatgeclipse co -P /Users/kshitijgautam/JAVA/atgeclipse/codeatgeclipse
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/carabiner/codecarabiner.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/carabiner/codecarabiner co -P /Users/kshitijgautam/JAVA/carabiner/codecarabiner
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/kennismanager/codekennismanager.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/kennismanager/codekennismanager co -P /Users/kshitijgautam/JAVA/kennismanager/codekennismanager
+svn checkout svn://svn.code.sf.net/p/microdbsw/code/trunk /Users/kshitijgautam/JAVA/microdbsw/codemicrodbsw-code
+hg clone http://hg.code.sf.net/p/harrow/code /Users/kshitijgautam/JAVA/harrow/codeharrow-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jmailsrv/codejmailsrv.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jmailsrv/codejmailsrv co -P /Users/kshitijgautam/JAVA/jmailsrv/codejmailsrv
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/isportal05/cvsisportal05.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/isportal05/cvsisportal05 co -P /Users/kshitijgautam/JAVA/isportal05/cvsisportal05
+svn checkout svn://svn.code.sf.net/p/isportal05/code/ /Users/kshitijgautam/JAVA/isportal05/codeisportal05-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jtheme/codejtheme.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jtheme/codejtheme co -P /Users/kshitijgautam/JAVA/jtheme/codejtheme
+svn checkout svn://svn.code.sf.net/p/iter-hangman/code/ /Users/kshitijgautam/JAVA/iter-hangman/codeiter-hangman-code
+git clone git://git.code.sf.net/p/openlca/code /Users/kshitijgautam/JAVA/openlca/codeopenlca-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/aiforgames/codeaiforgames.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/aiforgames/codeaiforgames co -P /Users/kshitijgautam/JAVA/aiforgames/codeaiforgames
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/safejdbc/codesafejdbc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/safejdbc/codesafejdbc co -P /Users/kshitijgautam/JAVA/safejdbc/codesafejdbc
+svn checkout svn://svn.code.sf.net/p/trojuhelnik/code/ /Users/kshitijgautam/JAVA/trojuhelnik/codetrojuhelnik-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/av4odf/codeav4odf.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/av4odf/codeav4odf co -P /Users/kshitijgautam/JAVA/av4odf/codeav4odf
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/junicoder/codejunicoder.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/junicoder/codejunicoder co -P /Users/kshitijgautam/JAVA/junicoder/codejunicoder
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/tarotux/codetarotux.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/tarotux/codetarotux co -P /Users/kshitijgautam/JAVA/tarotux/codetarotux
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/javacurse/codejavacurse.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/javacurse/codejavacurse co -P /Users/kshitijgautam/JAVA/javacurse/codejavacurse
+svn checkout svn://svn.code.sf.net/p/yagni/code/ /Users/kshitijgautam/JAVA/yagni/codeyagni-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jpwrite/codejpwrite.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jpwrite/codejpwrite co -P /Users/kshitijgautam/JAVA/jpwrite/codejpwrite
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jasmin/codejasmin.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jasmin/codejasmin co -P /Users/kshitijgautam/JAVA/jasmin/codejasmin
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jxunit/codejxunit.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jxunit/codejxunit co -P /Users/kshitijgautam/JAVA/jxunit/codejxunit
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/swingbits/codeswingbits.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/swingbits/codeswingbits co -P /Users/kshitijgautam/JAVA/swingbits/codeswingbits
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/logframework/codelogframework.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/logframework/codelogframework co -P /Users/kshitijgautam/JAVA/logframework/codelogframework
+svn checkout svn://svn.code.sf.net/p/components4j/code/trunk /Users/kshitijgautam/JAVA/components4j/codecomponents4j-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jreporter/codejreporter.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jreporter/codejreporter co -P /Users/kshitijgautam/JAVA/jreporter/codejreporter
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/genesis-ioc/codegenesis-ioc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/genesis-ioc/codegenesis-ioc co -P /Users/kshitijgautam/JAVA/genesis-ioc/codegenesis-ioc
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/mpe/codempe.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/mpe/codempe co -P /Users/kshitijgautam/JAVA/mpe/codempe
+svn checkout svn://svn.code.sf.net/p/syncstore/code/trunk /Users/kshitijgautam/JAVA/syncstore/codesyncstore-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/signaleducation/codesignaleducation.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/signaleducation/codesignaleducation co -P /Users/kshitijgautam/JAVA/signaleducation/codesignaleducation
+git clone git://git.code.sf.net/p/penrose/code /Users/kshitijgautam/JAVA/penrose/codepenrose-code
+svn checkout svn://svn.code.sf.net/p/swingdocking/code/trunk /Users/kshitijgautam/JAVA/swingdocking/codeswingdocking-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/wordfreak/codewordfreak.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/wordfreak/codewordfreak co -P /Users/kshitijgautam/JAVA/wordfreak/codewordfreak
+git clone git://git.code.sf.net/p/camprocessor/camedit /Users/kshitijgautam/JAVA/camprocessor/git/Cameditcamprocessor-camedit
+git clone git://git.code.sf.net/p/camprocessor/camv /Users/kshitijgautam/JAVA/camprocessor/git/Camvcamprocessor-camv
+git clone git://git.code.sf.net/p/camprocessor/camv-test /Users/kshitijgautam/JAVA/camprocessor/git/Camv-testcamprocessor-camv-test
+git clone git://git.code.sf.net/p/camprocessor/CAM-Base /Users/kshitijgautam/JAVA/camprocessor/git/CAM-Basecamprocessor-CAM-Base
+git clone git://git.code.sf.net/p/camprocessor/CAMEditor /Users/kshitijgautam/JAVA/camprocessor/git/CAMEditorcamprocessor-CAMEditor
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jrevproxy/codejrevproxy.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jrevproxy/codejrevproxy co -P /Users/kshitijgautam/JAVA/jrevproxy/codejrevproxy
+svn checkout svn://svn.code.sf.net/p/zucchini-squash/code/ /Users/kshitijgautam/JAVA/zucchini-squash/codezucchini-squash-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/dragonbreath/codedragonbreath.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/dragonbreath/codedragonbreath co -P /Users/kshitijgautam/JAVA/dragonbreath/codedragonbreath
+svn checkout svn://svn.code.sf.net/p/lanholdempoker/code/trunk /Users/kshitijgautam/JAVA/lanholdempoker/codelanholdempoker-code
+svn checkout svn://svn.code.sf.net/p/clubmanagement/code/trunk /Users/kshitijgautam/JAVA/clubmanagement/codeclubmanagement-code
+svn checkout svn://svn.code.sf.net/p/jdistunit/code/ /Users/kshitijgautam/JAVA/jdistunit/codejdistunit-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/moleicious/codemoleicious.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/moleicious/codemoleicious co -P /Users/kshitijgautam/JAVA/moleicious/codemoleicious
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/relation-finder/coderelation-finder.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/relation-finder/coderelation-finder co -P /Users/kshitijgautam/JAVA/relation-finder/coderelation-finder
+svn checkout svn://svn.code.sf.net/p/byuediftools/code/trunk /Users/kshitijgautam/JAVA/byuediftools/codebyuediftools-code
+svn checkout svn://svn.code.sf.net/p/ceevitoriaadmin/code/ /Users/kshitijgautam/JAVA/ceevitoriaadmin/codeceevitoriaadmin-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ewc/codeewc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ewc/codeewc co -P /Users/kshitijgautam/JAVA/ewc/codeewc
+svn checkout svn://svn.code.sf.net/p/p2pvpn/code/ /Users/kshitijgautam/JAVA/p2pvpn/codep2pvpn-code
+svn checkout svn://svn.code.sf.net/p/suprabrowser/code/trunk /Users/kshitijgautam/JAVA/suprabrowser/codesuprabrowser-code
+svn checkout svn://svn.code.sf.net/p/agenda-bio/code/trunk /Users/kshitijgautam/JAVA/agenda-bio/codeagenda-bio-code
+svn checkout svn://svn.code.sf.net/p/el4ant/code/trunk /Users/kshitijgautam/JAVA/el4ant/codeel4ant-code
+svn checkout svn://svn.code.sf.net/p/evotrader/code/trunk /Users/kshitijgautam/JAVA/evotrader/codeevotrader-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/digiscrap/codedigiscrap.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/digiscrap/codedigiscrap co -P /Users/kshitijgautam/JAVA/digiscrap/codedigiscrap
+svn checkout svn://svn.code.sf.net/p/jwadlib/code/ /Users/kshitijgautam/JAVA/jwadlib/codejwadlib-code
+svn checkout svn://svn.code.sf.net/p/jbeacon/code/trunk /Users/kshitijgautam/JAVA/jbeacon/codejbeacon-code
+svn checkout svn://svn.code.sf.net/p/javabudget/code/ /Users/kshitijgautam/JAVA/javabudget/codejavabudget-code
+svn checkout svn://svn.code.sf.net/p/bodega/code/ /Users/kshitijgautam/JAVA/bodega/codebodega-code
+svn checkout svn://svn.code.sf.net/p/japrosim/code/trunk /Users/kshitijgautam/JAVA/japrosim/svn/Codejaprosim-code
+svn checkout svn://svn.code.sf.net/p/japrosim/source/trunk /Users/kshitijgautam/JAVA/japrosim/svn/Sourcejaprosim-source
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/elaunch/codeelaunch.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/elaunch/codeelaunch co -P /Users/kshitijgautam/JAVA/elaunch/codeelaunch
+svn checkout svn://svn.code.sf.net/p/geoifx/code/ /Users/kshitijgautam/JAVA/geoifx/codegeoifx-code
+svn checkout svn://svn.code.sf.net/p/botspokerroom/code/ /Users/kshitijgautam/JAVA/botspokerroom/codebotspokerroom-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/xbus/codexbus.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/xbus/codexbus co -P /Users/kshitijgautam/JAVA/xbus/codexbus
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/rcpsudoku/codercpsudoku.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/rcpsudoku/codercpsudoku co -P /Users/kshitijgautam/JAVA/rcpsudoku/codercpsudoku
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/derbymyadmin/codederbymyadmin.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/derbymyadmin/codederbymyadmin co -P /Users/kshitijgautam/JAVA/derbymyadmin/codederbymyadmin
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/nusbiopack/codenusbiopack.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/nusbiopack/codenusbiopack co -P /Users/kshitijgautam/JAVA/nusbiopack/codenusbiopack
+svn checkout svn://svn.code.sf.net/p/jvcard/code/trunk /Users/kshitijgautam/JAVA/jvcard/codejvcard-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/nckptsimulator/cvsnckptsimulator.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/nckptsimulator/cvsnckptsimulator co -P /Users/kshitijgautam/JAVA/nckptsimulator/cvsnckptsimulator
+svn checkout svn://svn.code.sf.net/p/nckptsimulator/code/ /Users/kshitijgautam/JAVA/nckptsimulator/codenckptsimulator-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/casinoblue/codecasinoblue.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/casinoblue/codecasinoblue co -P /Users/kshitijgautam/JAVA/casinoblue/codecasinoblue
+hg clone http://hg.code.sf.net/p/graphtk/code /Users/kshitijgautam/JAVA/graphtk/codegraphtk-code
+svn checkout svn://svn.code.sf.net/p/fake-sango/code/ /Users/kshitijgautam/JAVA/fake-sango/codefake-sango-code
+svn checkout svn://svn.code.sf.net/p/shaft/code/ /Users/kshitijgautam/JAVA/shaft/codeshaft-code
+svn checkout svn://svn.code.sf.net/p/xmlnodeparser/code/ /Users/kshitijgautam/JAVA/xmlnodeparser/codexmlnodeparser-code
+svn checkout svn://svn.code.sf.net/p/filenamematcher/code/ /Users/kshitijgautam/JAVA/filenamematcher/codefilenamematcher-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/pyeclipse/codepyeclipse.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/pyeclipse/codepyeclipse co -P /Users/kshitijgautam/JAVA/pyeclipse/codepyeclipse
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/mini-pub/codemini-pub.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/mini-pub/codemini-pub co -P /Users/kshitijgautam/JAVA/mini-pub/codemini-pub
+svn checkout svn://svn.code.sf.net/p/ovanttasks/code/trunk /Users/kshitijgautam/JAVA/ovanttasks/codeovanttasks-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ripplet/coderipplet.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ripplet/coderipplet co -P /Users/kshitijgautam/JAVA/ripplet/coderipplet
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/sokobantux/codesokobantux.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/sokobantux/codesokobantux co -P /Users/kshitijgautam/JAVA/sokobantux/codesokobantux
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jdroids/codejdroids.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jdroids/codejdroids co -P /Users/kshitijgautam/JAVA/jdroids/codejdroids
+svn checkout svn://svn.code.sf.net/p/omdplugin/code/ /Users/kshitijgautam/JAVA/omdplugin/codeomdplugin-code
+svn checkout svn://svn.code.sf.net/p/drakensang/code/trunk /Users/kshitijgautam/JAVA/drakensang/codedrakensang-code
+svn checkout svn://svn.code.sf.net/p/worklock/code/ /Users/kshitijgautam/JAVA/worklock/codeworklock-code
+svn checkout svn://svn.code.sf.net/p/cmdconfig/code/ /Users/kshitijgautam/JAVA/cmdconfig/codecmdconfig-code
+svn checkout svn://svn.code.sf.net/p/jdpapi/code/ /Users/kshitijgautam/JAVA/jdpapi/codejdpapi-code
+svn checkout svn://svn.code.sf.net/p/jabba/code/ /Users/kshitijgautam/JAVA/jabba/codejabba-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jwamenvironment/codejwamenvironment.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jwamenvironment/codejwamenvironment co -P /Users/kshitijgautam/JAVA/jwamenvironment/codejwamenvironment
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/neonzip/codeneonzip.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/neonzip/codeneonzip co -P /Users/kshitijgautam/JAVA/neonzip/codeneonzip
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jpeeps/codejpeeps.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jpeeps/codejpeeps co -P /Users/kshitijgautam/JAVA/jpeeps/codejpeeps
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/xstance/codexstance.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/xstance/codexstance co -P /Users/kshitijgautam/JAVA/xstance/codexstance
+svn checkout svn://svn.code.sf.net/p/ah7/code/trunk /Users/kshitijgautam/JAVA/ah7/codeah7-code
+svn checkout svn://svn.code.sf.net/p/colossus/code/trunk /Users/kshitijgautam/JAVA/colossus/codecolossus-code
+git clone git://git.code.sf.net/p/keepassj2me/keepassj2me-midlet /Users/kshitijgautam/JAVA/keepassj2me/git/keepassj2me-midletkeepassj2me-keepassj2me-midlet
+git clone git://git.code.sf.net/p/keepassj2me/keepassj2me-packer /Users/kshitijgautam/JAVA/keepassj2me/git/keepassj2me-packerkeepassj2me-keepassj2me-packer
+git clone git://git.code.sf.net/p/keepassj2me/keepassj2me.sf.net /Users/kshitijgautam/JAVA/keepassj2me/git/keepassj2me.sf.netkeepassj2me-keepassj2me.sf.net
+svn checkout svn://svn.code.sf.net/p/keepassj2me/svn/ /Users/kshitijgautam/JAVA/keepassj2me/svnkeepassj2me-svn
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/hvs/codehvs.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/hvs/codehvs co -P /Users/kshitijgautam/JAVA/hvs/codehvs
+svn checkout svn://svn.code.sf.net/p/xpressroad/code/ /Users/kshitijgautam/JAVA/xpressroad/codexpressroad-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jchassis/codejchassis.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jchassis/codejchassis co -P /Users/kshitijgautam/JAVA/jchassis/codejchassis
+svn checkout svn://svn.code.sf.net/p/whatzit/code/trunk /Users/kshitijgautam/JAVA/whatzit/codewhatzit-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/semanticwebpipe/codesemanticwebpipe.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/semanticwebpipe/codesemanticwebpipe co -P /Users/kshitijgautam/JAVA/semanticwebpipe/codesemanticwebpipe
+svn checkout svn://svn.code.sf.net/p/texttrix/svn/texttrix/trunk /Users/kshitijgautam/JAVA/texttrix/codetexttrix-svn
+svn checkout svn://svn.code.sf.net/p/crystalstore/code/ /Users/kshitijgautam/JAVA/crystalstore/codecrystalstore-code
+svn checkout svn://svn.code.sf.net/p/jamplugged/code/trunk /Users/kshitijgautam/JAVA/jamplugged/codejamplugged-code
+svn checkout svn://svn.code.sf.net/p/chordman/code/trunk /Users/kshitijgautam/JAVA/chordman/codechordman-code
+svn checkout svn://svn.code.sf.net/p/voltalog/code/trunk /Users/kshitijgautam/JAVA/voltalog/codevoltalog-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/side4u/codeside4u.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/side4u/codeside4u co -P /Users/kshitijgautam/JAVA/side4u/codeside4u
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/dvdc/codedvdc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/dvdc/codedvdc co -P /Users/kshitijgautam/JAVA/dvdc/codedvdc
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/highflyer/codehighflyer.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/highflyer/codehighflyer co -P /Users/kshitijgautam/JAVA/highflyer/codehighflyer
+svn checkout svn://svn.code.sf.net/p/jcloader/code/trunk /Users/kshitijgautam/JAVA/jcloader/codejcloader-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/easycluster/codeeasycluster.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/easycluster/codeeasycluster co -P /Users/kshitijgautam/JAVA/easycluster/codeeasycluster
+svn checkout svn://svn.code.sf.net/p/polycasso/code/trunk /Users/kshitijgautam/JAVA/polycasso/codepolycasso-code
+git clone git://git.code.sf.net/p/coloureyes/code /Users/kshitijgautam/JAVA/coloureyes/codecoloureyes-code
+svn checkout svn://svn.code.sf.net/p/modbuspal/code/ /Users/kshitijgautam/JAVA/modbuspal/codemodbuspal-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/blackdome/codeblackdome.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/blackdome/codeblackdome co -P /Users/kshitijgautam/JAVA/blackdome/codeblackdome
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ini4j/cvsini4j.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ini4j/cvsini4j co -P /Users/kshitijgautam/JAVA/ini4j/cvsini4j
+svn checkout svn://svn.code.sf.net/p/ini4j/code/trunk /Users/kshitijgautam/JAVA/ini4j/codeini4j-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/socker/codesocker.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/socker/codesocker co -P /Users/kshitijgautam/JAVA/socker/codesocker
+svn checkout svn://svn.code.sf.net/p/atevents/code/trunk /Users/kshitijgautam/JAVA/atevents/codeatevents-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jbpm-opencms/codejbpm-opencms.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jbpm-opencms/codejbpm-opencms co -P /Users/kshitijgautam/JAVA/jbpm-opencms/codejbpm-opencms
+svn checkout svn://svn.code.sf.net/p/mirach/code/ /Users/kshitijgautam/JAVA/mirach/codemirach-code
+svn checkout svn://svn.code.sf.net/p/ferrovie/code/ /Users/kshitijgautam/JAVA/ferrovie/codeferrovie-code
+svn checkout svn://svn.code.sf.net/p/shef/code/ /Users/kshitijgautam/JAVA/shef/codeshef-code
+svn checkout svn://svn.code.sf.net/p/mime-util/code/trunk /Users/kshitijgautam/JAVA/mime-util/codemime-util-code
+svn checkout svn://svn.code.sf.net/p/jsquashfs/code/trunk /Users/kshitijgautam/JAVA/jsquashfs/codejsquashfs-code
+svn checkout svn://svn.code.sf.net/p/wikipediabioref/code/ /Users/kshitijgautam/JAVA/wikipediabioref/codewikipediabioref-code
+svn checkout svn://svn.code.sf.net/p/goodbyeworld/code/trunk /Users/kshitijgautam/JAVA/goodbyeworld/codegoodbyeworld-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/nntprss/codenntprss.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/nntprss/codenntprss co -P /Users/kshitijgautam/JAVA/nntprss/codenntprss
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/expensetracker/codeexpensetracker.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/expensetracker/codeexpensetracker co -P /Users/kshitijgautam/JAVA/expensetracker/codeexpensetracker
+svn checkout svn://svn.code.sf.net/p/pigapps/code/ /Users/kshitijgautam/JAVA/pigapps/codepigapps-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/java-readline/codejava-readline.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/java-readline/codejava-readline co -P /Users/kshitijgautam/JAVA/java-readline/codejava-readline
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/motionbased/codemotionbased.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/motionbased/codemotionbased co -P /Users/kshitijgautam/JAVA/motionbased/codemotionbased
+svn checkout svn://svn.code.sf.net/p/trotskytime/code/ /Users/kshitijgautam/JAVA/trotskytime/codetrotskytime-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/strangebrew/codestrangebrew.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/strangebrew/codestrangebrew co -P /Users/kshitijgautam/JAVA/strangebrew/codestrangebrew
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/emailchecker/codeemailchecker.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/emailchecker/codeemailchecker co -P /Users/kshitijgautam/JAVA/emailchecker/codeemailchecker
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/manama/codemanama.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/manama/codemanama co -P /Users/kshitijgautam/JAVA/manama/codemanama
+git clone git://git.code.sf.net/p/svojak/code /Users/kshitijgautam/JAVA/svojak/codesvojak-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/snaax/codesnaax.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/snaax/codesnaax co -P /Users/kshitijgautam/JAVA/snaax/codesnaax
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/deepduke/codedeepduke.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/deepduke/codedeepduke co -P /Users/kshitijgautam/JAVA/deepduke/codedeepduke
+svn checkout svn://svn.code.sf.net/p/bsgraphics/code/trunk /Users/kshitijgautam/JAVA/bsgraphics/codebsgraphics-code
+svn checkout svn://svn.code.sf.net/p/edecanat/code/trunk /Users/kshitijgautam/JAVA/edecanat/codeedecanat-code
+svn checkout svn://svn.code.sf.net/p/simplemms/code/trunk /Users/kshitijgautam/JAVA/simplemms/codesimplemms-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/dimdim/codedimdim.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/dimdim/codedimdim co -P /Users/kshitijgautam/JAVA/dimdim/codedimdim
+svn checkout svn://svn.code.sf.net/p/javageocoder/code/ /Users/kshitijgautam/JAVA/javageocoder/codejavageocoder-code
+svn checkout svn://svn.code.sf.net/p/prest/code/trunk /Users/kshitijgautam/JAVA/prest/codeprest-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/upc/codeupc.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/upc/codeupc co -P /Users/kshitijgautam/JAVA/upc/codeupc
+git clone git://git.code.sf.net/p/umlcreator/code /Users/kshitijgautam/JAVA/umlcreator/codeumlcreator-code
+svn checkout svn://svn.code.sf.net/p/secdata/code/ /Users/kshitijgautam/JAVA/secdata/codesecdata-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/bugkilla/codebugkilla.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/bugkilla/codebugkilla co -P /Users/kshitijgautam/JAVA/bugkilla/codebugkilla
+bzr:///Users/kshitijgautam/JAVA/bzr-nb-plugin/codebzr-nb-plugin.bzr.sourceforge.net/bzrroot//Users/kshitijgautam/JAVA/bzr-nb-plugin/codebzr-nb-plugin (read-only) bzr+ssh://*anonymous@/Users/kshitijgautam/JAVA/bzr-nb-plugin/codebzr-nb-plugin.bzr.sourceforge.net/bzrroot//Users/kshitijgautam/JAVA/bzr-nb-plugin/codebzr-nb-plugin (read/write) /Users/kshitijgautam/JAVA/bzr-nb-plugin/codebzr-nb-plugin
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jemmyfixture/codejemmyfixture.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jemmyfixture/codejemmyfixture co -P /Users/kshitijgautam/JAVA/jemmyfixture/codejemmyfixture
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ripula/coderipula.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ripula/coderipula co -P /Users/kshitijgautam/JAVA/ripula/coderipula
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jstella/codejstella.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jstella/codejstella co -P /Users/kshitijgautam/JAVA/jstella/codejstella
+svn checkout svn://svn.code.sf.net/p/jfcunit-2/code/ /Users/kshitijgautam/JAVA/jfcunit-2/codejfcunit-2-code
+svn checkout svn://svn.code.sf.net/p/aatma/code/ /Users/kshitijgautam/JAVA/aatma/codeaatma-code
+svn checkout svn://svn.code.sf.net/p/expresst6/code/trunk /Users/kshitijgautam/JAVA/expresst6/codeexpresst6-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/replipool/codereplipool.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/replipool/codereplipool co -P /Users/kshitijgautam/JAVA/replipool/codereplipool
+svn checkout svn://svn.code.sf.net/p/dbmigratej/code/trunk /Users/kshitijgautam/JAVA/dbmigratej/codedbmigratej-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/solareclipse/codesolareclipse.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/solareclipse/codesolareclipse co -P /Users/kshitijgautam/JAVA/solareclipse/codesolareclipse
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/ldapeclipse/codeldapeclipse.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/ldapeclipse/codeldapeclipse co -P /Users/kshitijgautam/JAVA/ldapeclipse/codeldapeclipse
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/mosaix/codemosaix.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/mosaix/codemosaix co -P /Users/kshitijgautam/JAVA/mosaix/codemosaix
+svn checkout svn://svn.code.sf.net/p/rmlmediautil/code/ /Users/kshitijgautam/JAVA/rmlmediautil/codermlmediautil-code
+svn checkout svn://svn.code.sf.net/p/flydict/code/ /Users/kshitijgautam/JAVA/flydict/codeflydict-code
+svn checkout svn://svn.code.sf.net/p/sprut-fw/code/ /Users/kshitijgautam/JAVA/sprut-fw/codesprut-fw-code
+svn checkout svn://svn.code.sf.net/p/t-i-c-o/code/trunk /Users/kshitijgautam/JAVA/t-i-c-o/codet-i-c-o-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jmars/codejmars.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jmars/codejmars co -P /Users/kshitijgautam/JAVA/jmars/codejmars
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/webcounters/codewebcounters.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/webcounters/codewebcounters co -P /Users/kshitijgautam/JAVA/webcounters/codewebcounters
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/javadoxml/codejavadoxml.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/javadoxml/codejavadoxml co -P /Users/kshitijgautam/JAVA/javadoxml/codejavadoxml
+svn checkout svn://svn.code.sf.net/p/churchdigital/code/ /Users/kshitijgautam/JAVA/churchdigital/codechurchdigital-code
+svn checkout svn://svn.code.sf.net/p/html5canvas/code/trunk /Users/kshitijgautam/JAVA/html5canvas/codehtml5canvas-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/traceurpascal/codetraceurpascal.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/traceurpascal/codetraceurpascal co -P /Users/kshitijgautam/JAVA/traceurpascal/codetraceurpascal
+svn checkout svn://svn.code.sf.net/p/sistra/code/ /Users/kshitijgautam/JAVA/sistra/codesistra-code
+svn checkout svn://svn.code.sf.net/p/smartchron/code/ /Users/kshitijgautam/JAVA/smartchron/codesmartchron-code
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/beanview/codebeanview.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/beanview/codebeanview co -P /Users/kshitijgautam/JAVA/beanview/codebeanview
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/jdstream/codejdstream.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/jdstream/codejdstream co -P /Users/kshitijgautam/JAVA/jdstream/codejdstream
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/legion/codelegion.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/legion/codelegion co -P /Users/kshitijgautam/JAVA/legion/codelegion
+cvs -z3 -d:pserver:anonymous@/Users/kshitijgautam/JAVA/neudist/codeneudist.cvs.sourceforge.net:/cvsroot//Users/kshitijgautam/JAVA/neudist/codeneudist co -P /Users/kshitijgautam/JAVA/neudist/codeneudist
+svn checkout svn://svn.code.sf.net/p/fitarcp/code/trunk /Users/kshitijgautam/JAVA/fitarcp/codefitarcp-code

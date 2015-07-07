@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/weras/cvsweras.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/weras/cvsweras co -P /Volumes/HDD_Kshitij/JAVA/weras/cvsweras
+svn checkout svn://svn.code.sf.net/p/weras/code/ /Volumes/HDD_Kshitij/JAVA/weras/codeweras-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/vindecoder/codevindecoder.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/vindecoder/codevindecoder co -P /Volumes/HDD_Kshitij/JAVA/vindecoder/codevindecoder
+hg clone http://hg.code.sf.net/p/fordiac/fordiac-ide /Volumes/HDD_Kshitij/JAVA/fordiac/mercurial/4DIAC-IDEfordiac-fordiac-ide
+hg clone http://hg.code.sf.net/p/fordiac/fordiac-lib /Volumes/HDD_Kshitij/JAVA/fordiac/mercurial/4DIAC-LIBfordiac-fordiac-lib
+hg clone http://hg.code.sf.net/p/fordiac/fordiac-systems /Volumes/HDD_Kshitij/JAVA/fordiac/mercurial/4DIAC Systemsfordiac-fordiac-systems
+hg clone http://hg.code.sf.net/p/fordiac/forte /Volumes/HDD_Kshitij/JAVA/fordiac/mercurial/Fortefordiac-forte
+svn checkout svn://svn.code.sf.net/p/eblib/code/ /Volumes/HDD_Kshitij/JAVA/eblib/codeeblib-code
+svn checkout svn://svn.code.sf.net/p/gescecor/code/ /Volumes/HDD_Kshitij/JAVA/gescecor/codegescecor-code
+svn checkout svn://svn.code.sf.net/p/sibilant/code/ /Volumes/HDD_Kshitij/JAVA/sibilant/codesibilant-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/jiuston/codejiuston.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/jiuston/codejiuston co -P /Volumes/HDD_Kshitij/JAVA/jiuston/codejiuston
+svn checkout svn://svn.code.sf.net/p/semwiq/code/ /Volumes/HDD_Kshitij/JAVA/semwiq/codesemwiq-code
+cvs -z3 -d:pserver:anonymous@/Volumes/HDD_Kshitij/JAVA/rkive/coderkive.cvs.sourceforge.net:/cvsroot//Volumes/HDD_Kshitij/JAVA/rkive/coderkive co -P /Volumes/HDD_Kshitij/JAVA/rkive/coderkive

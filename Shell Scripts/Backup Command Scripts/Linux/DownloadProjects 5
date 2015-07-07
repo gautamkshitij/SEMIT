@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cvs -z3 -d:pserver:anonymous@/media/kshitij/HDD_Kshitij/JAVA/vhstrain/codevhstrain.cvs.sourceforge.net:/cvsroot//media/kshitij/HDD_Kshitij/JAVA/vhstrain/codevhstrain co -P /media/kshitij/HDD_Kshitij/JAVA/vhstrain/codevhstrain
+svn checkout svn://svn.code.sf.net/p/gorku/code/ /media/kshitij/HDD_Kshitij/JAVA/gorku/codegorku-code
