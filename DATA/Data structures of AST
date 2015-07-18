@@ -1,0 +1,426 @@
+Possible outputs of Abstract Syntax Tree
+----------------------------------------------------------------------------------------------------------
+1. Parse Tree
+
+(JAVA_SOURCE ANNOTATION_LIST (package tutorial) (class (MODIFIER_LIST public final) HelloWorld (CLASS_TOP_LEVEL_SCOPE (VAR_DECLARATION (MODIFIER_LIST static) (TYPE int) (VAR_DECLARATOR_LIST (VAR_DECLARATOR X))) (VOID_METHOD_DECL (MODIFIER_LIST public static) main (FORMAL_PARAM_LIST (FORMAL_PARAM_STD_DECL LOCAL_MODIFIER_LIST (TYPE (QUALIFIED_TYPE_IDENT String)) (args (ARRAY_DECLARATOR_LIST ARRAY_DECLARATOR)))) (BLOCK_SCOPE (VAR_DECLARATION LOCAL_MODIFIER_LIST (TYPE int) (VAR_DECLARATOR_LIST (VAR_DECLARATOR y (EXPR 10)))) (EXPR (METHOD_CALL (. (. System out) println) (ARGUMENT_LIST (EXPR "Hello")))))))))
+
+----------------------------------------------------------------------------------------------------------
+2. Diagraph
+
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="lightgrey"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="blue"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
+	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label="JAVA_SOURCE"];
+  n1 [label="ANNOTATION_LIST"];
+  n2 [label="package"];
+  n2 [label="package"];
+  n3 [label="tutorial"];
+  n4 [label="class"];
+  n4 [label="class"];
+  n5 [label="MODIFIER_LIST"];
+  n5 [label="MODIFIER_LIST"];
+  n6 [label="public"];
+  n7 [label="final"];
+  n8 [label="HelloWorld"];
+  n9 [label="CLASS_TO...EL_SCOPE"];
+  n9 [label="CLASS_TO...EL_SCOPE"];
+  n10 [label="VAR_DECLARATION"];
+  n10 [label="VAR_DECLARATION"];
+  n11 [label="MODIFIER_LIST"];
+  n11 [label="MODIFIER_LIST"];
+  n12 [label="static"];
+  n13 [label="TYPE"];
+  n13 [label="TYPE"];
+  n14 [label="int"];
+  n15 [label="VAR_DECLARATOR_LIST"];
+  n15 [label="VAR_DECLARATOR_LIST"];
+  n16 [label="VAR_DECLARATOR"];
+  n16 [label="VAR_DECLARATOR"];
+  n17 [label="X"];
+  n18 [label="VOID_METHOD_DECL"];
+  n18 [label="VOID_METHOD_DECL"];
+  n19 [label="MODIFIER_LIST"];
+  n19 [label="MODIFIER_LIST"];
+  n20 [label="public"];
+  n21 [label="static"];
+  n22 [label="main"];
+  n23 [label="FORMAL_PARAM_LIST"];
+  n23 [label="FORMAL_PARAM_LIST"];
+  n24 [label="FORMAL_P...STD_DECL"];
+  n24 [label="FORMAL_P...STD_DECL"];
+  n25 [label="LOCAL_MODIFIER_LIST"];
+  n26 [label="TYPE"];
+  n26 [label="TYPE"];
+  n27 [label="QUALIFIED_TYPE_IDENT"];
+  n27 [label="QUALIFIED_TYPE_IDENT"];
+  n28 [label="String"];
+  n29 [label="args"];
+  n29 [label="args"];
+  n30 [label="ARRAY_DE...TOR_LIST"];
+  n30 [label="ARRAY_DE...TOR_LIST"];
+  n31 [label="ARRAY_DECLARATOR"];
+  n32 [label="BLOCK_SCOPE"];
+  n32 [label="BLOCK_SCOPE"];
+  n33 [label="VAR_DECLARATION"];
+  n33 [label="VAR_DECLARATION"];
+  n34 [label="LOCAL_MODIFIER_LIST"];
+  n35 [label="TYPE"];
+  n35 [label="TYPE"];
+  n36 [label="int"];
+  n37 [label="VAR_DECLARATOR_LIST"];
+  n37 [label="VAR_DECLARATOR_LIST"];
+  n38 [label="VAR_DECLARATOR"];
+  n38 [label="VAR_DECLARATOR"];
+  n39 [label="y"];
+  n40 [label="EXPR"];
+  n40 [label="EXPR"];
+  n41 [label="10"];
+  n42 [label="EXPR"];
+  n42 [label="EXPR"];
+  n43 [label="METHOD_CALL"];
+  n43 [label="METHOD_CALL"];
+  n44 [label="."];
+  n44 [label="."];
+  n45 [label="."];
+  n45 [label="."];
+  n46 [label="System"];
+  n47 [label="out"];
+  n48 [label="println"];
+  n49 [label="ARGUMENT_LIST"];
+  n49 [label="ARGUMENT_LIST"];
+  n50 [label="EXPR"];
+  n50 [label="EXPR"];
+  n51 [label="\"Hello\""];
+
+  n0 -> n1 // "JAVA_SOURCE" -> "ANNOTATION_LIST"
+  n0 -> n2 // "JAVA_SOURCE" -> "package"
+  n2 -> n3 // "package" -> "tutorial"
+  n0 -> n4 // "JAVA_SOURCE" -> "class"
+  n4 -> n5 // "class" -> "MODIFIER_LIST"
+  n5 -> n6 // "MODIFIER_LIST" -> "public"
+  n5 -> n7 // "MODIFIER_LIST" -> "final"
+  n4 -> n8 // "class" -> "HelloWorld"
+  n4 -> n9 // "class" -> "CLASS_TO...EL_SCOPE"
+  n9 -> n10 // "CLASS_TO...EL_SCOPE" -> "VAR_DECLARATION"
+  n10 -> n11 // "VAR_DECLARATION" -> "MODIFIER_LIST"
+  n11 -> n12 // "MODIFIER_LIST" -> "static"
+  n10 -> n13 // "VAR_DECLARATION" -> "TYPE"
+  n13 -> n14 // "TYPE" -> "int"
+  n10 -> n15 // "VAR_DECLARATION" -> "VAR_DECLARATOR_LIST"
+  n15 -> n16 // "VAR_DECLARATOR_LIST" -> "VAR_DECLARATOR"
+  n16 -> n17 // "VAR_DECLARATOR" -> "X"
+  n9 -> n18 // "CLASS_TO...EL_SCOPE" -> "VOID_METHOD_DECL"
+  n18 -> n19 // "VOID_METHOD_DECL" -> "MODIFIER_LIST"
+  n19 -> n20 // "MODIFIER_LIST" -> "public"
+  n19 -> n21 // "MODIFIER_LIST" -> "static"
+  n18 -> n22 // "VOID_METHOD_DECL" -> "main"
+  n18 -> n23 // "VOID_METHOD_DECL" -> "FORMAL_PARAM_LIST"
+  n23 -> n24 // "FORMAL_PARAM_LIST" -> "FORMAL_P...STD_DECL"
+  n24 -> n25 // "FORMAL_P...STD_DECL" -> "LOCAL_MODIFIER_LIST"
+  n24 -> n26 // "FORMAL_P...STD_DECL" -> "TYPE"
+  n26 -> n27 // "TYPE" -> "QUALIFIED_TYPE_IDENT"
+  n27 -> n28 // "QUALIFIED_TYPE_IDENT" -> "String"
+  n24 -> n29 // "FORMAL_P...STD_DECL" -> "args"
+  n29 -> n30 // "args" -> "ARRAY_DE...TOR_LIST"
+  n30 -> n31 // "ARRAY_DE...TOR_LIST" -> "ARRAY_DECLARATOR"
+  n18 -> n32 // "VOID_METHOD_DECL" -> "BLOCK_SCOPE"
+  n32 -> n33 // "BLOCK_SCOPE" -> "VAR_DECLARATION"
+  n33 -> n34 // "VAR_DECLARATION" -> "LOCAL_MODIFIER_LIST"
+  n33 -> n35 // "VAR_DECLARATION" -> "TYPE"
+  n35 -> n36 // "TYPE" -> "int"
+  n33 -> n37 // "VAR_DECLARATION" -> "VAR_DECLARATOR_LIST"
+  n37 -> n38 // "VAR_DECLARATOR_LIST" -> "VAR_DECLARATOR"
+  n38 -> n39 // "VAR_DECLARATOR" -> "y"
+  n38 -> n40 // "VAR_DECLARATOR" -> "EXPR"
+  n40 -> n41 // "EXPR" -> "10"
+  n32 -> n42 // "BLOCK_SCOPE" -> "EXPR"
+  n42 -> n43 // "EXPR" -> "METHOD_CALL"
+  n43 -> n44 // "METHOD_CALL" -> "."
+  n44 -> n45 // "." -> "."
+  n45 -> n46 // "." -> "System"
+  n45 -> n47 // "." -> "out"
+  n44 -> n48 // "." -> "println"
+  n43 -> n49 // "METHOD_CALL" -> "ARGUMENT_LIST"
+  n49 -> n50 // "ARGUMENT_LIST" -> "EXPR"
+  n50 -> n51 // "EXPR" -> "\"Hello\""
+
+}
+
+----------------------------------------------------------------------------------------------------------
+
+3. JSON
+
+
+ {
+ 	"tokenType":143,
+ 	"tokenName":"JAVA_SOURCE",
+ 	"children":[
+ 		{
+ 			"tokenType":108,
+ 			"tokenName":"ANNOTATION_LIST"
+ 		},
+ 		{
+ 			"tokenType":84,
+ 			"tokenName":"package",
+ 			"children":[
+ 				{
+ 					"tokenType":164,
+ 					"tokenName":"tutorial"
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"tokenType":61,
+ 			"tokenName":"class",
+ 			"children":[
+ 				{
+ 					"tokenType":145,
+ 					"tokenName":"MODIFIER_LIST",
+ 					"children":[
+ 						{
+ 							"tokenType":87,
+ 							"tokenName":"public"
+ 						},
+ 						{
+ 							"tokenType":70,
+ 							"tokenName":"final"
+ 						}
+ 					]
+ 				},
+ 				{
+ 					"tokenType":164,
+ 					"tokenName":"HelloWorld"
+ 				},
+ 				{
+ 					"tokenType":123,
+ 					"tokenName":"CLASS_TOP_LEVEL_SCOPE",
+ 					"children":[
+ 						{
+ 							"tokenType":160,
+ 							"tokenName":"VAR_DECLARATION",
+ 							"children":[
+ 								{
+ 									"tokenType":145,
+ 									"tokenName":"MODIFIER_LIST",
+ 									"children":[
+ 										{
+ 											"tokenType":90,
+ 											"tokenName":"static"
+ 										}
+ 									]
+ 								},
+ 								{
+ 									"tokenType":157,
+ 									"tokenName":"TYPE",
+ 									"children":[
+ 										{
+ 											"tokenType":79,
+ 											"tokenName":"int"
+ 										}
+ 									]
+ 								},
+ 								{
+ 									"tokenType":162,
+ 									"tokenName":"VAR_DECLARATOR_LIST",
+ 									"children":[
+ 										{
+ 											"tokenType":161,
+ 											"tokenName":"VAR_DECLARATOR",
+ 											"children":[
+ 												{
+ 													"tokenType":164,
+ 													"tokenName":"X"
+ 												}
+ 											]
+ 										}
+ 									]
+ 								}
+ 							]
+ 						},
+ 						{
+ 							"tokenType":163,
+ 							"tokenName":"VOID_METHOD_DECL",
+ 							"children":[
+ 								{
+ 									"tokenType":145,
+ 									"tokenName":"MODIFIER_LIST",
+ 									"children":[
+ 										{
+ 											"tokenType":87,
+ 											"tokenName":"public"
+ 										},
+ 										{
+ 											"tokenType":90,
+ 											"tokenName":"static"
+ 										}
+ 									]
+ 								},
+ 								{
+ 									"tokenType":164,
+ 									"tokenName":"main"
+ 								},
+ 								{
+ 									"tokenType":133,
+ 									"tokenName":"FORMAL_PARAM_LIST",
+ 									"children":[
+ 										{
+ 											"tokenType":134,
+ 											"tokenName":"FORMAL_PARAM_STD_DECL",
+ 											"children":[
+ 												{
+ 													"tokenType":142,
+ 													"tokenName":"LOCAL_MODIFIER_LIST"
+ 												},
+ 												{
+ 													"tokenType":157,
+ 													"tokenName":"TYPE",
+ 													"children":[
+ 														{
+ 															"tokenType":151,
+ 															"tokenName":"QUALIFIED_TYPE_IDENT",
+ 															"children":[
+ 																{
+ 																	"tokenType":164,
+ 																	"tokenName":"String"
+ 																}
+ 															]
+ 														}
+ 													]
+ 												},
+ 												{
+ 													"tokenType":164,
+ 													"tokenName":"args",
+ 													"children":[
+ 														{
+ 															"tokenType":114,
+ 															"tokenName":"ARRAY_DECLARATOR_LIST",
+ 															"children":[
+ 																{
+ 																	"tokenType":113,
+ 																	"tokenName":"ARRAY_DECLARATOR"
+ 																}
+ 															]
+ 														}
+ 													]
+ 												}
+ 											]
+ 										}
+ 									]
+ 								},
+ 								{
+ 									"tokenType":117,
+ 									"tokenName":"BLOCK_SCOPE",
+ 									"children":[
+ 										{
+ 											"tokenType":160,
+ 											"tokenName":"VAR_DECLARATION",
+ 											"children":[
+ 												{
+ 													"tokenType":142,
+ 													"tokenName":"LOCAL_MODIFIER_LIST"
+ 												},
+ 												{
+ 													"tokenType":157,
+ 													"tokenName":"TYPE",
+ 													"children":[
+ 														{
+ 															"tokenType":79,
+ 															"tokenName":"int"
+ 														}
+ 													]
+ 												},
+ 												{
+ 													"tokenType":162,
+ 													"tokenName":"VAR_DECLARATOR_LIST",
+ 													"children":[
+ 														{
+ 															"tokenType":161,
+ 															"tokenName":"VAR_DECLARATOR",
+ 															"children":[
+ 																{
+ 																	"tokenType":164,
+ 																	"tokenName":"y"
+ 																},
+ 																{
+ 																	"tokenType":126,
+ 																	"tokenName":"EXPR",
+ 																	"children":[
+ 																		{
+ 																			"tokenType":167,
+ 																			"tokenName":"10"
+ 																		}
+ 																	]
+ 																}
+ 															]
+ 														}
+ 													]
+ 												}
+ 											]
+ 										},
+ 										{
+ 											"tokenType":126,
+ 											"tokenName":"EXPR",
+ 											"children":[
+ 												{
+ 													"tokenType":144,
+ 													"tokenName":"METHOD_CALL",
+ 													"children":[
+ 														{
+ 															"tokenType":15,
+ 															"tokenName":".",
+ 															"children":[
+ 																{
+ 																	"tokenType":15,
+ 																	"tokenName":".",
+ 																	"children":[
+ 																		{
+ 																			"tokenType":164,
+ 																			"tokenName":"System"
+ 																		},
+ 																		{
+ 																			"tokenType":164,
+ 																			"tokenName":"out"
+ 																		}
+ 																	]
+ 																},
+ 																{
+ 																	"tokenType":164,
+ 																	"tokenName":"println"
+ 																}
+ 															]
+ 														},
+ 														{
+ 															"tokenType":112,
+ 															"tokenName":"ARGUMENT_LIST",
+ 															"children":[
+ 																{
+ 																	"tokenType":126,
+ 																	"tokenName":"EXPR",
+ 																	"children":[
+ 																		{
+ 																			"tokenType":170,
+ 																			"tokenName":""Hello""
+ 																		}
+ 																	]
+ 																}
+ 															]
+ 														}
+ 													]
+ 												}
+ 											]
+ 										}
+ 									]
+ 								}
+ 							]
+ 						}
+ 					]
+ 				}
+ 			]
+ 		}
+ 	]
+ }
